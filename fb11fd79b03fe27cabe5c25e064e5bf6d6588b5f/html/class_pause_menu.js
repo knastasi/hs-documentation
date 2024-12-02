@@ -1,0 +1,25 @@
+var class_pause_menu =
+[
+    [ "BackToPauseBtn", "class_pause_menu.html#a08f1e689c4729b4ac945e98edf2e511c", null ],
+    [ "ControlsBtn", "class_pause_menu.html#af9289146a9241bed85ceadcbf85dc41c", null ],
+    [ "ExitGame", "class_pause_menu.html#a62320cec5b63c34da27dcbd37cc7c466", null ],
+    [ "Fullscreen", "class_pause_menu.html#aa4ad7b16c950e7067a08e1c4558c04ae", null ],
+    [ "GetResolutuions", "class_pause_menu.html#a6e61a9e5f6a03689e2b76676c161200d", null ],
+    [ "MenuBtn", "class_pause_menu.html#a0b4e12316ffbfcc7b383ffd70b5e5061", null ],
+    [ "OnPause", "class_pause_menu.html#a91c5697a85ff0347a5a5c366bd8a2515", null ],
+    [ "OptionsBtn", "class_pause_menu.html#aa36faf8e1e92324ff6ad67149ac81672", null ],
+    [ "PauseBtn", "class_pause_menu.html#afb1d34564abfc9f5757c062d794ff426", null ],
+    [ "ResumeBtn", "class_pause_menu.html#aca7301a460eb70cbc9412272b19d5e8a", null ],
+    [ "SetQuality", "class_pause_menu.html#ab1a38dd68d5c7a7a845cbbe41b6d01d1", null ],
+    [ "StartBtn", "class_pause_menu.html#a12721fab3e4d0ab4b72720f677229f4a", null ],
+    [ "contBtn", "class_pause_menu.html#a611d829ea80bb8d75bc24a324249968c", null ],
+    [ "controlsPanel", "class_pause_menu.html#a18449d6647c4460c00a8a2e0b897dc9b", null ],
+    [ "dialogCanvas", "class_pause_menu.html#a98274a72715b4d49c4ad52b693a31abd", null ],
+    [ "gr", "class_pause_menu.html#a2b53395fbdd4927e752c550a9e36f6ca", null ],
+    [ "isPaused", "class_pause_menu.html#a3d0a43917cf3e488852b47d1b755b377", null ],
+    [ "mainCanvas", "class_pause_menu.html#a55e80d902bdd7c0d3b5a7f1a978ee96a", null ],
+    [ "optionsPanel", "class_pause_menu.html#a3b79035a602b72710f73ae6df571b7c3", null ],
+    [ "pauseMenu", "class_pause_menu.html#a2a4732fd962c6aa136a867be16b71cc2", null ],
+    [ "pausePanel", "class_pause_menu.html#a5e8cc1ef56ffec88aceb3f1129202892", null ],
+    [ "resDropdown", "class_pause_menu.html#a1f641c244fd3c05ce2478c8a9294722f", null ]
+];

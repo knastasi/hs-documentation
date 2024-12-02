@@ -1,0 +1,4 @@
+var class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony =
+[
+    [ "Awake", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html#a66613848939417c3e80a298a1e01a7e1", null ]
+];

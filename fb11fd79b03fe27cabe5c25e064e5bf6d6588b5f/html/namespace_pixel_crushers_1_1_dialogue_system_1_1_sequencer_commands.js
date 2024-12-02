@@ -1,0 +1,5 @@
+var namespace_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands =
+[
+    [ "SequencerCommandAccuseUpdateState", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state" ],
+    [ "SequencerCommandCollectTestimony", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony" ]
+];
