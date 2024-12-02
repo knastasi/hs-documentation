@@ -1,0 +1,167 @@
+\doxysection{Clue\+Inventory Class Reference}
+\hypertarget{class_clue_inventory}{}\label{class_clue_inventory}\index{ClueInventory@{ClueInventory}}
+
+
+Inheritance diagram for Clue\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_clue_inventory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Clue\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_clue_inventory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_clue_inventory_a5400654eb6d5db3fc9b592115e0df063}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_clue_inventory_ad94ff392f72f98e01df1d68bc98892ff}{Load\+Clue}} ()
+\item 
+void \mbox{\hyperlink{class_clue_inventory_a779775b22fefac04533ade76bee0afba}{Add\+Clue}} (string key, \mbox{\hyperlink{class_clue}{Clue}} data)
+\item 
+bool \mbox{\hyperlink{class_clue_inventory_a2ccc46d9d09cf7cade076e04e28fbebf}{Check\+Clue}} (string key)
+\item 
+void \mbox{\hyperlink{class_clue_inventory_a57c64627adf228b584f840a66e18841d}{Collect\+Clue}} (Game\+Object clicked\+On)
+\item 
+\mbox{\hyperlink{class_clue}{Clue}} \mbox{\hyperlink{class_clue_inventory_a3949daf07ce70400a5cc13338a269a40}{Create\+Clue\+Object}} (Game\+Object clicked\+On)
+\item 
+void \mbox{\hyperlink{class_clue_inventory_a0a9d27bff7a0825fdb852fc7a1689349}{Clue\+Dialogue}} (string clue\+Name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, \mbox{\hyperlink{class_clue}{Clue}} $>$ \mbox{\hyperlink{class_clue_inventory_a21a2cd21ae493ffa3bd302e13c8d0bc1}{inventory}}
+\item 
+Game\+Object \mbox{\hyperlink{class_clue_inventory_a3f08dea131e0caa673c29df5795b611b}{clue\+Prefab}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_clue_inventory_a779775b22fefac04533ade76bee0afba}\index{ClueInventory@{ClueInventory}!AddClue@{AddClue}}
+\index{AddClue@{AddClue}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{AddClue()}{AddClue()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a779775b22fefac04533ade76bee0afba} 
+void Clue\+Inventory.\+Add\+Clue (\begin{DoxyParamCaption}\item[{string}]{key}{, }\item[{\mbox{\hyperlink{class_clue}{Clue}}}]{data}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a779775b22fefac04533ade76bee0afba_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_clue_inventory_a5400654eb6d5db3fc9b592115e0df063}\index{ClueInventory@{ClueInventory}!Awake@{Awake}}
+\index{Awake@{Awake}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a5400654eb6d5db3fc9b592115e0df063} 
+void Clue\+Inventory.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_clue_inventory_a2ccc46d9d09cf7cade076e04e28fbebf}\index{ClueInventory@{ClueInventory}!CheckClue@{CheckClue}}
+\index{CheckClue@{CheckClue}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{CheckClue()}{CheckClue()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a2ccc46d9d09cf7cade076e04e28fbebf} 
+bool Clue\+Inventory.\+Check\+Clue (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a2ccc46d9d09cf7cade076e04e28fbebf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_clue_inventory_a0a9d27bff7a0825fdb852fc7a1689349}\index{ClueInventory@{ClueInventory}!ClueDialogue@{ClueDialogue}}
+\index{ClueDialogue@{ClueDialogue}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{ClueDialogue()}{ClueDialogue()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a0a9d27bff7a0825fdb852fc7a1689349} 
+void Clue\+Inventory.\+Clue\+Dialogue (\begin{DoxyParamCaption}\item[{string}]{clue\+Name}{}\end{DoxyParamCaption})}
+
+Handles triggering the conversation for a clue when it\textquotesingle{}s picked up Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a0a9d27bff7a0825fdb852fc7a1689349_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a0a9d27bff7a0825fdb852fc7a1689349_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_clue_inventory_a57c64627adf228b584f840a66e18841d}\index{ClueInventory@{ClueInventory}!CollectClue@{CollectClue}}
+\index{CollectClue@{CollectClue}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{CollectClue()}{CollectClue()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a57c64627adf228b584f840a66e18841d} 
+void Clue\+Inventory.\+Collect\+Clue (\begin{DoxyParamCaption}\item[{Game\+Object}]{clicked\+On}{}\end{DoxyParamCaption})}
+
+Called from \doxylink{class_ray_cast_select}{Ray\+Cast\+Select} when a clue is clicked, triggers conversation, adds clue to inventory, and triggers clue indicator Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a57c64627adf228b584f840a66e18841d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a57c64627adf228b584f840a66e18841d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_clue_inventory_a3949daf07ce70400a5cc13338a269a40}\index{ClueInventory@{ClueInventory}!CreateClueObject@{CreateClueObject}}
+\index{CreateClueObject@{CreateClueObject}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{CreateClueObject()}{CreateClueObject()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a3949daf07ce70400a5cc13338a269a40} 
+\mbox{\hyperlink{class_clue}{Clue}} Clue\+Inventory.\+Create\+Clue\+Object (\begin{DoxyParamCaption}\item[{Game\+Object}]{clicked\+On}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_clue_inventory_a3949daf07ce70400a5cc13338a269a40_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_clue_inventory_ad94ff392f72f98e01df1d68bc98892ff}\index{ClueInventory@{ClueInventory}!LoadClue@{LoadClue}}
+\index{LoadClue@{LoadClue}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{LoadClue()}{LoadClue()}}
+{\footnotesize\ttfamily \label{class_clue_inventory_ad94ff392f72f98e01df1d68bc98892ff} 
+void Clue\+Inventory.\+Load\+Clue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_clue_inventory_a3f08dea131e0caa673c29df5795b611b}\index{ClueInventory@{ClueInventory}!cluePrefab@{cluePrefab}}
+\index{cluePrefab@{cluePrefab}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{cluePrefab}{cluePrefab}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a3f08dea131e0caa673c29df5795b611b} 
+Game\+Object Clue\+Inventory.\+clue\+Prefab}
+
+\Hypertarget{class_clue_inventory_a21a2cd21ae493ffa3bd302e13c8d0bc1}\index{ClueInventory@{ClueInventory}!inventory@{inventory}}
+\index{inventory@{inventory}!ClueInventory@{ClueInventory}}
+\doxysubsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily \label{class_clue_inventory_a21a2cd21ae493ffa3bd302e13c8d0bc1} 
+Dictionary$<$string, \mbox{\hyperlink{class_clue}{Clue}}$>$ Clue\+Inventory.\+inventory}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Framework/\+Clue Inventory/\mbox{\hyperlink{_clue_inventory_8cs}{Clue\+Inventory.\+cs}}\end{DoxyCompactItemize}

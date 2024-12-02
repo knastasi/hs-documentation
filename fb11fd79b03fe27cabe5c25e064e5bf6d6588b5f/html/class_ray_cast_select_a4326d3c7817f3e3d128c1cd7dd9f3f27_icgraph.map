@@ -1,0 +1,10 @@
+<map id="RayCastSelect.OnDragClickRelease" name="RayCastSelect.OnDragClickRelease">
+<area shape="rect" id="Node000001" title=" " alt="" coords="710,29,900,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="842,16,828,10,805,8,784,10,771,15,765,21,767,28,762,29,760,19,767,10,782,5,805,3,829,5,844,11"/>
+<area shape="rect" id="Node000002" href="$class_ray_cast_select.html#a6267dedb551343cb12d272a87298345f" title=" " alt="" coords="494,37,662,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="695,53,663,53,663,48,695,48"/>
+<area shape="rect" id="Node000003" href="$class_ray_cast_select.html#a6d92e93f5bd583bcf9d2fcf258ab190a" title=" " alt="" coords="231,37,446,64"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="478,53,446,53,446,48,478,48"/>
+<area shape="rect" id="Node000004" href="$class_global_state_runner.html#a1cbea30283ce8c78301ff7ba0911115e" title=" " alt="" coords="5,29,183,72"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="215,53,183,53,183,48,215,48"/>
+</map>

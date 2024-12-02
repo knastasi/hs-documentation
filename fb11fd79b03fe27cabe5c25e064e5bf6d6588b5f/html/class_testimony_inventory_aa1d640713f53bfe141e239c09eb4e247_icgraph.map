@@ -1,0 +1,5 @@
+<map id="TestimonyInventory.CollectTestimony" name="TestimonyInventory.CollectTestimony">
+<area shape="rect" id="Node000001" title=" " alt="" coords="330,13,509,56"/>
+<area shape="rect" id="Node000002" href="$class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html#a66613848939417c3e80a298a1e01a7e1" title=" " alt="" coords="5,5,282,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
+</map>

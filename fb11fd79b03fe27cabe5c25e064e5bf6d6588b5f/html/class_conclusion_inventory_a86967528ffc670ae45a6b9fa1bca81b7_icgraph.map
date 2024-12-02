@@ -1,0 +1,9 @@
+<map id="ConclusionInventory.AddConclusion" name="ConclusionInventory.AddConclusion">
+<area shape="rect" id="Node000001" title=" " alt="" coords="466,31,697,57"/>
+<area shape="rect" id="Node000002" href="$class_conclusion_inventory.html#a8f28b22392c51ccf555719f1e82b1f6e" title=" " alt="" coords="236,23,418,65"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,47,418,47,418,41,450,41"/>
+<area shape="rect" id="Node000003" href="$class_caseboard_engine.html#a3565eb1e6cb6eda1002a4ef37730c477" title=" " alt="" coords="5,5,188,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,35,188,31,189,26,221,30"/>
+<area shape="rect" id="Node000004" href="$class_caseboard_engine.html#a5c3cc41e954872748d84bf0972fb6995" title=" " alt="" coords="5,56,188,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="221,58,189,62,188,57,220,53"/>
+</map>

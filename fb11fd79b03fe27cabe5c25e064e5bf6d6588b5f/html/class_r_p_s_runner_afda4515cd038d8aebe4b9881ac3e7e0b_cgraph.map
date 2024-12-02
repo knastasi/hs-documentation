@@ -1,0 +1,11 @@
+<map id="RPSRunner.OnLWinPress" name="RPSRunner.OnLWinPress">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,181,57"/>
+<area shape="rect" id="Node000002" href="$class_r_p_s_runner.html#aac0dd5fbbb199e53bc33288fa148dc3f" title=" " alt="" coords="235,5,391,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,31,219,27,219,32,181,37"/>
+<area shape="rect" id="Node000003" href="$class_r_p_s_runner.html#aed34ecaae7c4e54f926f192e94d61cfa" title=" " alt="" coords="229,56,397,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,51,213,55,213,61,180,57"/>
+<area shape="rect" id="Node000004" href="$class_r_p_s_runner.html#a0aed6cffe790d8d8547e4e409eeec313" title=" " alt="" coords="445,56,594,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="397,67,430,67,430,72,397,72"/>
+<area shape="rect" id="Node000005" href="$class_game_runner.html#aff50f5caad7dca4c8d9fef21100bc2a1" title=" " alt="" coords="642,56,814,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="595,67,627,67,627,72,595,72"/>
+</map>

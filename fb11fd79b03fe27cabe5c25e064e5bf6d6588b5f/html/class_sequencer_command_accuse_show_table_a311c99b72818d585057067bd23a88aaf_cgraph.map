@@ -1,0 +1,5 @@
+<map id="SequencerCommandAccuseShowTable.Awake" name="SequencerCommandAccuseShowTable.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,226,48"/>
+<area shape="rect" id="Node000002" href="$class_accuse_scene_handler.html#aaa5de772c46cdd989558e6811b1ff7be" title=" " alt="" coords="274,13,489,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,24,258,24,258,29,226,29"/>
+</map>

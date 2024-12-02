@@ -1,0 +1,183 @@
+\doxysection{Testimony\+Inventory Class Reference}
+\hypertarget{class_testimony_inventory}{}\label{class_testimony_inventory}\index{TestimonyInventory@{TestimonyInventory}}
+
+
+Inheritance diagram for Testimony\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_testimony_inventory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Testimony\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_testimony_inventory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_testimony_inventory_ab428a200f1fff2c35926461d2ca2d58f}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_testimony_inventory_a3bb11e16df7eb97961584de5d7db45d0}{Load\+Testimony}} ()
+\item 
+void \mbox{\hyperlink{class_testimony_inventory_a2e9b25303e00faba8156c9c815675d68}{Add\+Testimony}} (string key, \mbox{\hyperlink{class_testimony}{Testimony}} data)
+\item 
+bool \mbox{\hyperlink{class_testimony_inventory_a8ada41d61a321c5c397ab87e18a5655c}{Check\+Testimony}} (string key)
+\item 
+void \mbox{\hyperlink{class_testimony_inventory_aa1d640713f53bfe141e239c09eb4e247}{Collect\+Testimony}} (string key)
+\item 
+\mbox{\hyperlink{class_testimony}{Testimony}} \mbox{\hyperlink{class_testimony_inventory_a0f64f03bd163d66b445d209acbd086e4}{Create\+Testimony\+Object}} (string key)
+\item 
+string \mbox{\hyperlink{class_testimony_inventory_a1bb7d7335bca13d3cf28086cc3f7b66c}{Clean\+Subtitle\+Text}} (string text)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, \mbox{\hyperlink{class_testimony}{Testimony}} $>$ \mbox{\hyperlink{class_testimony_inventory_ae259e3daa62bcdbd606557887f930453}{inventory}}
+\item 
+int \mbox{\hyperlink{class_testimony_inventory_ab71ab974898079da4d3d63229d16c7b9}{test\+Count}}
+\item 
+string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_testimony_inventory_abb9ce123c0f0f3c396145c33d1f56c8d}{inv\+Testimony}}
+\item 
+Game\+Object \mbox{\hyperlink{class_testimony_inventory_a1e70e40ac9661260774015f02b7ff430}{testimony\+Prefab}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_testimony_inventory_a2e9b25303e00faba8156c9c815675d68}\index{TestimonyInventory@{TestimonyInventory}!AddTestimony@{AddTestimony}}
+\index{AddTestimony@{AddTestimony}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{AddTestimony()}{AddTestimony()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a2e9b25303e00faba8156c9c815675d68} 
+void Testimony\+Inventory.\+Add\+Testimony (\begin{DoxyParamCaption}\item[{string}]{key}{, }\item[{\mbox{\hyperlink{class_testimony}{Testimony}}}]{data}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_a2e9b25303e00faba8156c9c815675d68_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_testimony_inventory_ab428a200f1fff2c35926461d2ca2d58f}\index{TestimonyInventory@{TestimonyInventory}!Awake@{Awake}}
+\index{Awake@{Awake}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_ab428a200f1fff2c35926461d2ca2d58f} 
+void Testimony\+Inventory.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_testimony_inventory_a8ada41d61a321c5c397ab87e18a5655c}\index{TestimonyInventory@{TestimonyInventory}!CheckTestimony@{CheckTestimony}}
+\index{CheckTestimony@{CheckTestimony}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{CheckTestimony()}{CheckTestimony()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a8ada41d61a321c5c397ab87e18a5655c} 
+bool Testimony\+Inventory.\+Check\+Testimony (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_a8ada41d61a321c5c397ab87e18a5655c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_testimony_inventory_a1bb7d7335bca13d3cf28086cc3f7b66c}\index{TestimonyInventory@{TestimonyInventory}!CleanSubtitleText@{CleanSubtitleText}}
+\index{CleanSubtitleText@{CleanSubtitleText}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{CleanSubtitleText()}{CleanSubtitleText()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a1bb7d7335bca13d3cf28086cc3f7b66c} 
+string Testimony\+Inventory.\+Clean\+Subtitle\+Text (\begin{DoxyParamCaption}\item[{string}]{text}{}\end{DoxyParamCaption})}
+
+This method takes a raw dialogue line from the dialogue system and removes available emphasis formatting from the string Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_a1bb7d7335bca13d3cf28086cc3f7b66c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_testimony_inventory_aa1d640713f53bfe141e239c09eb4e247}\index{TestimonyInventory@{TestimonyInventory}!CollectTestimony@{CollectTestimony}}
+\index{CollectTestimony@{CollectTestimony}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{CollectTestimony()}{CollectTestimony()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_aa1d640713f53bfe141e239c09eb4e247} 
+void Testimony\+Inventory.\+Collect\+Testimony (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+This method is called from a custom Dialogue\+Manager sequence called Collect\+Testimony; Narrative calls this on a specific dialogue line Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_aa1d640713f53bfe141e239c09eb4e247_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_aa1d640713f53bfe141e239c09eb4e247_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_testimony_inventory_a0f64f03bd163d66b445d209acbd086e4}\index{TestimonyInventory@{TestimonyInventory}!CreateTestimonyObject@{CreateTestimonyObject}}
+\index{CreateTestimonyObject@{CreateTestimonyObject}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{CreateTestimonyObject()}{CreateTestimonyObject()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a0f64f03bd163d66b445d209acbd086e4} 
+\mbox{\hyperlink{class_testimony}{Testimony}} Testimony\+Inventory.\+Create\+Testimony\+Object (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+This method creates the testimony gameobject under Test\+Inventory\+Object and fills in all the needed information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_a0f64f03bd163d66b445d209acbd086e4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_testimony_inventory_a0f64f03bd163d66b445d209acbd086e4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_testimony_inventory_a3bb11e16df7eb97961584de5d7db45d0}\index{TestimonyInventory@{TestimonyInventory}!LoadTestimony@{LoadTestimony}}
+\index{LoadTestimony@{LoadTestimony}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{LoadTestimony()}{LoadTestimony()}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a3bb11e16df7eb97961584de5d7db45d0} 
+void Testimony\+Inventory.\+Load\+Testimony (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_testimony_inventory_ae259e3daa62bcdbd606557887f930453}\index{TestimonyInventory@{TestimonyInventory}!inventory@{inventory}}
+\index{inventory@{inventory}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_ae259e3daa62bcdbd606557887f930453} 
+Dictionary$<$string, \mbox{\hyperlink{class_testimony}{Testimony}}$>$ Testimony\+Inventory.\+inventory}
+
+\Hypertarget{class_testimony_inventory_abb9ce123c0f0f3c396145c33d1f56c8d}\index{TestimonyInventory@{TestimonyInventory}!invTestimony@{invTestimony}}
+\index{invTestimony@{invTestimony}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{invTestimony}{invTestimony}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_abb9ce123c0f0f3c396145c33d1f56c8d} 
+string \mbox{[}$\,$\mbox{]} Testimony\+Inventory.\+inv\+Testimony}
+
+\Hypertarget{class_testimony_inventory_ab71ab974898079da4d3d63229d16c7b9}\index{TestimonyInventory@{TestimonyInventory}!testCount@{testCount}}
+\index{testCount@{testCount}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{testCount}{testCount}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_ab71ab974898079da4d3d63229d16c7b9} 
+int Testimony\+Inventory.\+test\+Count}
+
+\Hypertarget{class_testimony_inventory_a1e70e40ac9661260774015f02b7ff430}\index{TestimonyInventory@{TestimonyInventory}!testimonyPrefab@{testimonyPrefab}}
+\index{testimonyPrefab@{testimonyPrefab}!TestimonyInventory@{TestimonyInventory}}
+\doxysubsubsection{\texorpdfstring{testimonyPrefab}{testimonyPrefab}}
+{\footnotesize\ttfamily \label{class_testimony_inventory_a1e70e40ac9661260774015f02b7ff430} 
+Game\+Object Testimony\+Inventory.\+testimony\+Prefab}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Framework/\+Testimony Inventory/\mbox{\hyperlink{_testimony_inventory_8cs}{Testimony\+Inventory.\+cs}}\end{DoxyCompactItemize}

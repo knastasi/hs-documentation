@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,21,135,48"/>
+<area shape="rect" id="Node000001" href="$class_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority_1_1_client_network_transform.html" title="Used for syncing a transform with client side changes. This includes host. Pure server as owner isn&#39;t..." alt="" coords="183,5,375,64"/>
+<area shape="poly" id="edge63_Node000000_Node000001" title=" " alt="" coords="150,32,182,32,182,37,150,37"/>
+</map>

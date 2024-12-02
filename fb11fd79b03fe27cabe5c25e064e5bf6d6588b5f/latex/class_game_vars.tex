@@ -1,0 +1,105 @@
+\doxysection{Game\+Vars Class Reference}
+\hypertarget{class_game_vars}{}\label{class_game_vars}\index{GameVars@{GameVars}}
+
+
+Inheritance diagram for Game\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_game_vars__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_game_vars__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_game_vars_aa45e1e2e683a188e8196df14106f8bbc}{l\+Player}}
+\item 
+Game\+Object \mbox{\hyperlink{class_game_vars_a3313dc171d9cef09d1c35facba68134a}{r\+Player}}
+\item 
+Game\+Object \mbox{\hyperlink{class_game_vars_a6dc2fd80a1b432ea8d603509256cf08c}{active\+Player\+Object}}
+\item 
+\mbox{\hyperlink{_game_vars_8cs_aca771d9fb131dc58ebb0da000e692126}{Room\+ID}} \mbox{\hyperlink{class_game_vars_a853142eafe614b527998b6de728b9c6f}{Left\+Selection}}
+\item 
+\mbox{\hyperlink{_game_vars_8cs_aca771d9fb131dc58ebb0da000e692126}{Room\+ID}} \mbox{\hyperlink{class_game_vars_abdd2d68fd0bc59896dde2b848fb8228a}{Right\+Selection}}
+\item 
+int \mbox{\hyperlink{class_game_vars_a4c7aa1802506e34a6009a96446889442}{accuse\+Count}}
+\item 
+bool \mbox{\hyperlink{class_game_vars_a6d3a1dccfe959bc799bd151459d11c35}{rps\+Tutorial}} = false
+\item 
+Network\+Variable$<$ \mbox{\hyperlink{_game_vars_8cs_a9c8780378078e51e7c9041cbac392db9}{Player}} $>$ \mbox{\hyperlink{class_game_vars_a49b923abc5dc2687fc5303d1c923a6b0}{active\+Player}}
+\item 
+Network\+Variable$<$ \mbox{\hyperlink{_game_vars_8cs_a9c8780378078e51e7c9041cbac392db9}{Player}} $>$ \mbox{\hyperlink{class_game_vars_ab5232ad3263551a042bdf5a0778da4ea}{first\+Player}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_game_vars_a4c7aa1802506e34a6009a96446889442}\index{GameVars@{GameVars}!accuseCount@{accuseCount}}
+\index{accuseCount@{accuseCount}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{accuseCount}{accuseCount}}
+{\footnotesize\ttfamily \label{class_game_vars_a4c7aa1802506e34a6009a96446889442} 
+int Game\+Vars.\+accuse\+Count}
+
+how many accusation attempts have been made? there is a limit of false accusations. \Hypertarget{class_game_vars_a49b923abc5dc2687fc5303d1c923a6b0}\index{GameVars@{GameVars}!activePlayer@{activePlayer}}
+\index{activePlayer@{activePlayer}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{activePlayer}{activePlayer}}
+{\footnotesize\ttfamily \label{class_game_vars_a49b923abc5dc2687fc5303d1c923a6b0} 
+Network\+Variable$<$\mbox{\hyperlink{_game_vars_8cs_a9c8780378078e51e7c9041cbac392db9}{Player}}$>$ Game\+Vars.\+active\+Player}
+
+\Hypertarget{class_game_vars_a6dc2fd80a1b432ea8d603509256cf08c}\index{GameVars@{GameVars}!activePlayerObject@{activePlayerObject}}
+\index{activePlayerObject@{activePlayerObject}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{activePlayerObject}{activePlayerObject}}
+{\footnotesize\ttfamily \label{class_game_vars_a6dc2fd80a1b432ea8d603509256cf08c} 
+Game\+Object Game\+Vars.\+active\+Player\+Object}
+
+used to store whichever player game object is the active player object \Hypertarget{class_game_vars_ab5232ad3263551a042bdf5a0778da4ea}\index{GameVars@{GameVars}!firstPlayer@{firstPlayer}}
+\index{firstPlayer@{firstPlayer}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{firstPlayer}{firstPlayer}}
+{\footnotesize\ttfamily \label{class_game_vars_ab5232ad3263551a042bdf5a0778da4ea} 
+Network\+Variable$<$\mbox{\hyperlink{_game_vars_8cs_a9c8780378078e51e7c9041cbac392db9}{Player}}$>$ Game\+Vars.\+first\+Player}
+
+which player is first to move in this round? \Hypertarget{class_game_vars_a853142eafe614b527998b6de728b9c6f}\index{GameVars@{GameVars}!LeftSelection@{LeftSelection}}
+\index{LeftSelection@{LeftSelection}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{LeftSelection}{LeftSelection}}
+{\footnotesize\ttfamily \label{class_game_vars_a853142eafe614b527998b6de728b9c6f} 
+\mbox{\hyperlink{_game_vars_8cs_aca771d9fb131dc58ebb0da000e692126}{Room\+ID}} Game\+Vars.\+Left\+Selection}
+
+what room did left player select? used to prevent the second player from visiting the same room. currently not in use. \Hypertarget{class_game_vars_aa45e1e2e683a188e8196df14106f8bbc}\index{GameVars@{GameVars}!lPlayer@{lPlayer}}
+\index{lPlayer@{lPlayer}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{lPlayer}{lPlayer}}
+{\footnotesize\ttfamily \label{class_game_vars_aa45e1e2e683a188e8196df14106f8bbc} 
+Game\+Object Game\+Vars.\+l\+Player}
+
+\Hypertarget{class_game_vars_abdd2d68fd0bc59896dde2b848fb8228a}\index{GameVars@{GameVars}!RightSelection@{RightSelection}}
+\index{RightSelection@{RightSelection}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{RightSelection}{RightSelection}}
+{\footnotesize\ttfamily \label{class_game_vars_abdd2d68fd0bc59896dde2b848fb8228a} 
+\mbox{\hyperlink{_game_vars_8cs_aca771d9fb131dc58ebb0da000e692126}{Room\+ID}} Game\+Vars.\+Right\+Selection}
+
+what room did the right player select? used to prevent the second player from visiting the same room\+: currently not in use \Hypertarget{class_game_vars_a3313dc171d9cef09d1c35facba68134a}\index{GameVars@{GameVars}!rPlayer@{rPlayer}}
+\index{rPlayer@{rPlayer}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{rPlayer}{rPlayer}}
+{\footnotesize\ttfamily \label{class_game_vars_a3313dc171d9cef09d1c35facba68134a} 
+Game\+Object Game\+Vars.\+r\+Player}
+
+\Hypertarget{class_game_vars_a6d3a1dccfe959bc799bd151459d11c35}\index{GameVars@{GameVars}!rpsTutorial@{rpsTutorial}}
+\index{rpsTutorial@{rpsTutorial}!GameVars@{GameVars}}
+\doxysubsubsection{\texorpdfstring{rpsTutorial}{rpsTutorial}}
+{\footnotesize\ttfamily \label{class_game_vars_a6d3a1dccfe959bc799bd151459d11c35} 
+bool Game\+Vars.\+rps\+Tutorial = false}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Seralizable/\mbox{\hyperlink{_game_vars_8cs}{Game\+Vars.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,191 @@
+\doxysection{Line\+Handler Class Reference}
+\hypertarget{class_line_handler}{}\label{class_line_handler}\index{LineHandler@{LineHandler}}
+
+
+Inheritance diagram for Line\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_line_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Line\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_line_handler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_line_handler_a3f0a624f15b8e197e797681660c8d5eb}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_line_handler_a2da90925661526bb96104a20781196c9}{Update\+Line}} (Game\+Object \mbox{\hyperlink{class_line_handler_a8b241c52897fa54a36d6da53d0eb57c6}{start\+Obj}}, Game\+Object \mbox{\hyperlink{class_line_handler_a1c84ced5a2270f14847b257180ea0909}{end\+Obj}})
+\item 
+void \mbox{\hyperlink{class_line_handler_abf9ca2d3c04d07b0b6cf278812be24c3}{Await\+End\+Point}} ()
+\item 
+Vector3\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_line_handler_aeb0d8c96b6252db52d65ac49cc8f8782}{Get\+Positions}} ()
+\item 
+void \mbox{\hyperlink{class_line_handler_ae0564003bff79a90b6ef607fd01f8ee7}{Highlight\+Line}} ()
+\item 
+void \mbox{\hyperlink{class_line_handler_a88c0238d3f9a117dc645cbc4937e267b}{Unhighlight\+Line}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Line\+Renderer \mbox{\hyperlink{class_line_handler_aded72e2644a1b1e95ee639480ca0f5d6}{lr}}
+\item 
+int \mbox{\hyperlink{class_line_handler_a18064e6d6c741f83b7dfd387a3ec3c83}{player\+Id}}
+\item 
+Game\+Object \mbox{\hyperlink{class_line_handler_a8b241c52897fa54a36d6da53d0eb57c6}{start\+Obj}}
+\item 
+Game\+Object \mbox{\hyperlink{class_line_handler_a1c84ced5a2270f14847b257180ea0909}{end\+Obj}}
+\item 
+string \mbox{\hyperlink{class_line_handler_a242fd6e52f10157b9b561576218e757f}{start\+Obj\+Name}}
+\item 
+string \mbox{\hyperlink{class_line_handler_a784750f72fb32f4a95a0aea7ae87ed26}{end\+Obj\+Name}}
+\item 
+Gradient \mbox{\hyperlink{class_line_handler_aa5b262960bb3c77280075452acb55651}{highlight\+Gradient}}
+\item 
+float \mbox{\hyperlink{class_line_handler_a6f28661f7ffcccb5b95925d7143fb24e}{highlight\+Width}}
+\item 
+bool \mbox{\hyperlink{class_line_handler_a0e392f0e675c43e3a5fa3569240fb11b}{highlighted}} = false
+\item 
+new Polygon\+Collider2D \mbox{\hyperlink{class_line_handler_a437beade7d9cb455e33fc6b67fe84c25}{collider}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_line_handler_abf9ca2d3c04d07b0b6cf278812be24c3}\index{LineHandler@{LineHandler}!AwaitEndPoint@{AwaitEndPoint}}
+\index{AwaitEndPoint@{AwaitEndPoint}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{AwaitEndPoint()}{AwaitEndPoint()}}
+{\footnotesize\ttfamily \label{class_line_handler_abf9ca2d3c04d07b0b6cf278812be24c3} 
+void Line\+Handler.\+Await\+End\+Point (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_line_handler_abf9ca2d3c04d07b0b6cf278812be24c3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_line_handler_aeb0d8c96b6252db52d65ac49cc8f8782}\index{LineHandler@{LineHandler}!GetPositions@{GetPositions}}
+\index{GetPositions@{GetPositions}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{GetPositions()}{GetPositions()}}
+{\footnotesize\ttfamily \label{class_line_handler_aeb0d8c96b6252db52d65ac49cc8f8782} 
+Vector3\mbox{[}$\,$\mbox{]} Line\+Handler.\+Get\+Positions (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_line_handler_ae0564003bff79a90b6ef607fd01f8ee7}\index{LineHandler@{LineHandler}!HighlightLine@{HighlightLine}}
+\index{HighlightLine@{HighlightLine}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{HighlightLine()}{HighlightLine()}}
+{\footnotesize\ttfamily \label{class_line_handler_ae0564003bff79a90b6ef607fd01f8ee7} 
+void Line\+Handler.\+Highlight\+Line (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_line_handler_a88c0238d3f9a117dc645cbc4937e267b}\index{LineHandler@{LineHandler}!UnhighlightLine@{UnhighlightLine}}
+\index{UnhighlightLine@{UnhighlightLine}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{UnhighlightLine()}{UnhighlightLine()}}
+{\footnotesize\ttfamily \label{class_line_handler_a88c0238d3f9a117dc645cbc4937e267b} 
+void Line\+Handler.\+Unhighlight\+Line (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_line_handler_a3f0a624f15b8e197e797681660c8d5eb}\index{LineHandler@{LineHandler}!Update@{Update}}
+\index{Update@{Update}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_line_handler_a3f0a624f15b8e197e797681660c8d5eb} 
+void Line\+Handler.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_line_handler_a3f0a624f15b8e197e797681660c8d5eb_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_line_handler_a2da90925661526bb96104a20781196c9}\index{LineHandler@{LineHandler}!UpdateLine@{UpdateLine}}
+\index{UpdateLine@{UpdateLine}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{UpdateLine()}{UpdateLine()}}
+{\footnotesize\ttfamily \label{class_line_handler_a2da90925661526bb96104a20781196c9} 
+void Line\+Handler.\+Update\+Line (\begin{DoxyParamCaption}\item[{Game\+Object}]{start\+Obj}{, }\item[{Game\+Object}]{end\+Obj}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_line_handler_a2da90925661526bb96104a20781196c9_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_line_handler_a437beade7d9cb455e33fc6b67fe84c25}\index{LineHandler@{LineHandler}!collider@{collider}}
+\index{collider@{collider}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{collider}{collider}}
+{\footnotesize\ttfamily \label{class_line_handler_a437beade7d9cb455e33fc6b67fe84c25} 
+new Polygon\+Collider2D Line\+Handler.\+collider}
+
+\Hypertarget{class_line_handler_a1c84ced5a2270f14847b257180ea0909}\index{LineHandler@{LineHandler}!endObj@{endObj}}
+\index{endObj@{endObj}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{endObj}{endObj}}
+{\footnotesize\ttfamily \label{class_line_handler_a1c84ced5a2270f14847b257180ea0909} 
+Game\+Object Line\+Handler.\+end\+Obj}
+
+\Hypertarget{class_line_handler_a784750f72fb32f4a95a0aea7ae87ed26}\index{LineHandler@{LineHandler}!endObjName@{endObjName}}
+\index{endObjName@{endObjName}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{endObjName}{endObjName}}
+{\footnotesize\ttfamily \label{class_line_handler_a784750f72fb32f4a95a0aea7ae87ed26} 
+string Line\+Handler.\+end\+Obj\+Name}
+
+\Hypertarget{class_line_handler_a0e392f0e675c43e3a5fa3569240fb11b}\index{LineHandler@{LineHandler}!highlighted@{highlighted}}
+\index{highlighted@{highlighted}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{highlighted}{highlighted}}
+{\footnotesize\ttfamily \label{class_line_handler_a0e392f0e675c43e3a5fa3569240fb11b} 
+bool Line\+Handler.\+highlighted = false}
+
+\Hypertarget{class_line_handler_aa5b262960bb3c77280075452acb55651}\index{LineHandler@{LineHandler}!highlightGradient@{highlightGradient}}
+\index{highlightGradient@{highlightGradient}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{highlightGradient}{highlightGradient}}
+{\footnotesize\ttfamily \label{class_line_handler_aa5b262960bb3c77280075452acb55651} 
+Gradient Line\+Handler.\+highlight\+Gradient}
+
+\Hypertarget{class_line_handler_a6f28661f7ffcccb5b95925d7143fb24e}\index{LineHandler@{LineHandler}!highlightWidth@{highlightWidth}}
+\index{highlightWidth@{highlightWidth}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{highlightWidth}{highlightWidth}}
+{\footnotesize\ttfamily \label{class_line_handler_a6f28661f7ffcccb5b95925d7143fb24e} 
+float Line\+Handler.\+highlight\+Width}
+
+\Hypertarget{class_line_handler_aded72e2644a1b1e95ee639480ca0f5d6}\index{LineHandler@{LineHandler}!lr@{lr}}
+\index{lr@{lr}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{lr}{lr}}
+{\footnotesize\ttfamily \label{class_line_handler_aded72e2644a1b1e95ee639480ca0f5d6} 
+Line\+Renderer Line\+Handler.\+lr}
+
+\Hypertarget{class_line_handler_a18064e6d6c741f83b7dfd387a3ec3c83}\index{LineHandler@{LineHandler}!playerId@{playerId}}
+\index{playerId@{playerId}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{playerId}{playerId}}
+{\footnotesize\ttfamily \label{class_line_handler_a18064e6d6c741f83b7dfd387a3ec3c83} 
+int Line\+Handler.\+player\+Id}
+
+\Hypertarget{class_line_handler_a8b241c52897fa54a36d6da53d0eb57c6}\index{LineHandler@{LineHandler}!startObj@{startObj}}
+\index{startObj@{startObj}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{startObj}{startObj}}
+{\footnotesize\ttfamily \label{class_line_handler_a8b241c52897fa54a36d6da53d0eb57c6} 
+Game\+Object Line\+Handler.\+start\+Obj}
+
+\Hypertarget{class_line_handler_a242fd6e52f10157b9b561576218e757f}\index{LineHandler@{LineHandler}!startObjName@{startObjName}}
+\index{startObjName@{startObjName}!LineHandler@{LineHandler}}
+\doxysubsubsection{\texorpdfstring{startObjName}{startObjName}}
+{\footnotesize\ttfamily \label{class_line_handler_a242fd6e52f10157b9b561576218e757f} 
+string Line\+Handler.\+start\+Obj\+Name}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Framework/\+Caseboard/\+Lines/\mbox{\hyperlink{_line_handler_8cs}{Line\+Handler.\+cs}}\end{DoxyCompactItemize}

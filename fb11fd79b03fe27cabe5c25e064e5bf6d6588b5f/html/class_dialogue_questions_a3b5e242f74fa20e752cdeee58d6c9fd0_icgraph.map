@@ -1,0 +1,7 @@
+<map id="DialogueQuestions.CloseQuestions" name="DialogueQuestions.CloseQuestions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="247,31,475,57"/>
+<area shape="rect" id="Node000002" href="$class_dialogue_questions.html#aa586fea1045166711b53ea06b8ecc4a6" title=" " alt="" coords="5,5,199,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,34,199,31,199,25,231,29"/>
+<area shape="rect" id="Node000003" href="$class_dialogue_questions.html#a3c1b4bcd367f5d22bcb8c98bcd026155" title=" " alt="" coords="11,56,193,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,59,194,63,193,58,230,54"/>
+</map>

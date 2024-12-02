@@ -1,0 +1,5 @@
+<map id="NPC.NPCExit" name="NPC.NPCExit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="236,5,342,32"/>
+<area shape="rect" id="Node000002" href="$class_dialogue_questions.html#a3c1b4bcd367f5d22bcb8c98bcd026155" title=" " alt="" coords="5,5,188,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,21,188,21,188,16,220,16"/>
+</map>

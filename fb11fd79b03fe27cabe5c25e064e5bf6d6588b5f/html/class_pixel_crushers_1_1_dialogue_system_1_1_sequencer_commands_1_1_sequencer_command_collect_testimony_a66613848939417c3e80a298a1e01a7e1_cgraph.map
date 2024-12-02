@@ -1,0 +1,15 @@
+<map id="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCollectTestimony.Awake" name="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCollectTestimony.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,282,140"/>
+<area shape="rect" id="Node000002" href="$class_testimony_inventory.html#aa1d640713f53bfe141e239c09eb4e247" title=" " alt="" coords="330,89,509,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,108,314,108,314,113,282,113"/>
+<area shape="rect" id="Node000003" href="$class_testimony_inventory.html#a2e9b25303e00faba8156c9c815675d68" title=" " alt="" coords="557,5,778,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="458,86,504,63,556,41,580,34,582,39,558,47,507,68,461,91"/>
+<area shape="rect" id="Node000004" href="$class_testimony_inventory.html#a8ada41d61a321c5c397ab87e18a5655c" title=" " alt="" coords="580,56,756,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="509,96,564,89,564,94,510,101"/>
+<area shape="rect" id="Node000005" href="$class_testimony_inventory.html#a0f64f03bd163d66b445d209acbd086e4" title=" " alt="" coords="579,123,756,165"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="510,120,564,127,563,133,509,125"/>
+<area shape="rect" id="Node000007" href="$class_collect_indicator.html#a25cdd073329772628db694644f3603d8" title=" " alt="" coords="578,189,757,232"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="462,130,558,175,576,181,574,186,556,180,460,135"/>
+<area shape="rect" id="Node000006" href="$class_testimony_inventory.html#a1bb7d7335bca13d3cf28086cc3f7b66c" title=" " alt="" coords="826,123,999,165"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="757,141,811,141,811,147,757,147"/>
+</map>

@@ -1,0 +1,152 @@
+\doxysection{Caseboard\+Vars Class Reference}
+\hypertarget{class_caseboard_vars}{}\label{class_caseboard_vars}\index{CaseboardVars@{CaseboardVars}}
+
+
+Inheritance diagram for Caseboard\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_caseboard_vars__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Caseboard\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_caseboard_vars__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_caseboard_vars_a1996ef761686a12f06a2944b5c218f73}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_caseboard_vars_a1fb7e8cc7761b35f66510b1dd03046ee}{CBSave\+Item}} (string name, \mbox{\hyperlink{class_caseboard_item_vars}{Caseboard\+Item\+Vars}} item\+Vars)
+\item 
+void \mbox{\hyperlink{class_caseboard_vars_abccdbf4fa2882658b3badaf0e6d7bafc}{CBSave\+Label}} (string name, string assigned\+Item)
+\item 
+void \mbox{\hyperlink{class_caseboard_vars_af7bdfd88c8fcfdd81015874864279316}{CBSave\+Line}} (string name, \mbox{\hyperlink{class_line_handler}{Line\+Handler}} line\+Handler)
+\item 
+string \mbox{\hyperlink{class_caseboard_vars_a14c4bc7a45a9033c8e0969df0b1e89bf}{Get\+Label\+Value}} (string key)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_caseboard_vars_aa253eb7c13a21eb51dc066925ccb96e1}{tutorial\+Played}} = true
+\item 
+Dictionary$<$ string, \mbox{\hyperlink{class_caseboard_item_vars}{Caseboard\+Item\+Vars}} $>$ \mbox{\hyperlink{class_caseboard_vars_aa811d453643ee844e3af81172b70c959}{CBSaved\+Items}}
+\item 
+Dictionary$<$ string, string $>$ \mbox{\hyperlink{class_caseboard_vars_a724e29926c4bdfc8b556a0ad4c330e60}{CBSaved\+Labels}}
+\item 
+Dictionary$<$ string, \mbox{\hyperlink{class_line_handler}{Line\+Handler}} $>$ \mbox{\hyperlink{class_caseboard_vars_a1977d65cc909ed837c09a90b3680c0df}{CBSaved\+Lines}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+\+: Julia Grammes, Kathryn Nastasi 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+\+: 2
+\end{DoxyVersion}
+This script lives on a Game\+Object under the Game\+Controller and is persistent between scenes. This script will hold caseboard variables that are needed when rebuilding the caseboard upon returning to the COMPARE scene. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_caseboard_vars_a1fb7e8cc7761b35f66510b1dd03046ee}\index{CaseboardVars@{CaseboardVars}!CBSaveItem@{CBSaveItem}}
+\index{CBSaveItem@{CBSaveItem}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSaveItem()}{CBSaveItem()}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_a1fb7e8cc7761b35f66510b1dd03046ee} 
+void Caseboard\+Vars.\+CBSave\+Item (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{\mbox{\hyperlink{class_caseboard_item_vars}{Caseboard\+Item\+Vars}}}]{item\+Vars}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_caseboard_vars_a1fb7e8cc7761b35f66510b1dd03046ee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_caseboard_vars_abccdbf4fa2882658b3badaf0e6d7bafc}\index{CaseboardVars@{CaseboardVars}!CBSaveLabel@{CBSaveLabel}}
+\index{CBSaveLabel@{CBSaveLabel}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSaveLabel()}{CBSaveLabel()}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_abccdbf4fa2882658b3badaf0e6d7bafc} 
+void Caseboard\+Vars.\+CBSave\+Label (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{assigned\+Item}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_caseboard_vars_abccdbf4fa2882658b3badaf0e6d7bafc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_caseboard_vars_af7bdfd88c8fcfdd81015874864279316}\index{CaseboardVars@{CaseboardVars}!CBSaveLine@{CBSaveLine}}
+\index{CBSaveLine@{CBSaveLine}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSaveLine()}{CBSaveLine()}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_af7bdfd88c8fcfdd81015874864279316} 
+void Caseboard\+Vars.\+CBSave\+Line (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{\mbox{\hyperlink{class_line_handler}{Line\+Handler}}}]{line\+Handler}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_caseboard_vars_af7bdfd88c8fcfdd81015874864279316_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_caseboard_vars_a14c4bc7a45a9033c8e0969df0b1e89bf}\index{CaseboardVars@{CaseboardVars}!GetLabelValue@{GetLabelValue}}
+\index{GetLabelValue@{GetLabelValue}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{GetLabelValue()}{GetLabelValue()}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_a14c4bc7a45a9033c8e0969df0b1e89bf} 
+string Caseboard\+Vars.\+Get\+Label\+Value (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_caseboard_vars_a14c4bc7a45a9033c8e0969df0b1e89bf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_caseboard_vars_a1996ef761686a12f06a2944b5c218f73}\index{CaseboardVars@{CaseboardVars}!Start@{Start}}
+\index{Start@{Start}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_a1996ef761686a12f06a2944b5c218f73} 
+void Caseboard\+Vars.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_caseboard_vars_aa811d453643ee844e3af81172b70c959}\index{CaseboardVars@{CaseboardVars}!CBSavedItems@{CBSavedItems}}
+\index{CBSavedItems@{CBSavedItems}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSavedItems}{CBSavedItems}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_aa811d453643ee844e3af81172b70c959} 
+Dictionary$<$string, \mbox{\hyperlink{class_caseboard_item_vars}{Caseboard\+Item\+Vars}}$>$ Caseboard\+Vars.\+CBSaved\+Items}
+
+\Hypertarget{class_caseboard_vars_a724e29926c4bdfc8b556a0ad4c330e60}\index{CaseboardVars@{CaseboardVars}!CBSavedLabels@{CBSavedLabels}}
+\index{CBSavedLabels@{CBSavedLabels}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSavedLabels}{CBSavedLabels}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_a724e29926c4bdfc8b556a0ad4c330e60} 
+Dictionary$<$string, string$>$ Caseboard\+Vars.\+CBSaved\+Labels}
+
+\Hypertarget{class_caseboard_vars_a1977d65cc909ed837c09a90b3680c0df}\index{CaseboardVars@{CaseboardVars}!CBSavedLines@{CBSavedLines}}
+\index{CBSavedLines@{CBSavedLines}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{CBSavedLines}{CBSavedLines}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_a1977d65cc909ed837c09a90b3680c0df} 
+Dictionary$<$string, \mbox{\hyperlink{class_line_handler}{Line\+Handler}}$>$ Caseboard\+Vars.\+CBSaved\+Lines}
+
+\Hypertarget{class_caseboard_vars_aa253eb7c13a21eb51dc066925ccb96e1}\index{CaseboardVars@{CaseboardVars}!tutorialPlayed@{tutorialPlayed}}
+\index{tutorialPlayed@{tutorialPlayed}!CaseboardVars@{CaseboardVars}}
+\doxysubsubsection{\texorpdfstring{tutorialPlayed}{tutorialPlayed}}
+{\footnotesize\ttfamily \label{class_caseboard_vars_aa253eb7c13a21eb51dc066925ccb96e1} 
+bool Caseboard\+Vars.\+tutorial\+Played = true}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Framework/\+Caseboard/\mbox{\hyperlink{_caseboard_vars_8cs}{Caseboard\+Vars.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="GameRunner.StageBegin" name="GameRunner.StageBegin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="213,5,382,32"/>
+<area shape="rect" id="Node000002" href="$class_game_runner.html#abbe6abdc22cbe48d5608b3c682fca169" title=" " alt="" coords="5,5,165,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,21,165,21,165,16,197,16"/>
+</map>

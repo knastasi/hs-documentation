@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['none_0',['NONE',['../_caseboard_engine_8cs.html#a6ec9222c4ac0ce4a64b146ab3e5552c8ab50339a10e1de285ac99d4c3990b8693',1,'NONE:&#160;CaseboardEngine.cs'],['../_statement_object_8cs.html#a0d66e1c3681a90955cd25b94968562dcab50339a10e1de285ac99d4c3990b8693',1,'NONE:&#160;StatementObject.cs']]],
+  ['none_1',['None',['../_character_select_8cs.html#a257ac8b0589bb46108a561b849304f6aa6adf97f83acf6453d4a6a4b1070f3754',1,'CharacterSelect.cs']]],
+  ['null_2',['NULL',['../class_roulette_runner.html#afdccbf6fa1b8700ef2e07ecdfc43e4dda6c3e226b4d4795d518ab341b0824ec29',1,'RouletteRunner.NULL'],['../class_roulette_runner.html#a942b3ae24fd2bf39138f25cd5296e7dea6c3e226b4d4795d518ab341b0824ec29',1,'RouletteRunner.NULL'],['../class_r_p_s_runner.html#a8ce4636ebca331448029f0020ff25315a6c3e226b4d4795d518ab341b0824ec29',1,'RPSRunner.NULL'],['../_accuse_runner_8cs.html#ae55b0e2dd1b41913d8493415124dbf5fa6c3e226b4d4795d518ab341b0824ec29',1,'NULL:&#160;AccuseRunner.cs'],['../_game_vars_8cs.html#aca771d9fb131dc58ebb0da000e692126a6c3e226b4d4795d518ab341b0824ec29',1,'NULL:&#160;GameVars.cs'],['../_game_vars_8cs.html#a9c8780378078e51e7c9041cbac392db9a6c3e226b4d4795d518ab341b0824ec29',1,'NULL:&#160;GameVars.cs']]]
+];

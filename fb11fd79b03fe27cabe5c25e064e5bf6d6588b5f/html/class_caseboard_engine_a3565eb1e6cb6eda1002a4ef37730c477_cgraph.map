@@ -1,0 +1,13 @@
+<map id="CaseboardEngine.ChooseA" name="CaseboardEngine.ChooseA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,188,95"/>
+<area shape="rect" id="Node000002" href="$class_conclusion_inventory.html#a8f28b22392c51ccf555719f1e82b1f6e" title=" " alt="" coords="245,27,428,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,66,229,60,230,65,189,71"/>
+<area shape="rect" id="Node000006" href="$class_compare_handler.html#a7e1535ca1df4e436fecda6fe6f5d7759" title=" " alt="" coords="236,93,437,136"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="189,91,220,96,220,101,188,97"/>
+<area shape="rect" id="Node000003" href="$class_conclusion_inventory.html#a86967528ffc670ae45a6b9fa1bca81b7" title=" " alt="" coords="485,5,716,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,35,469,31,470,36,428,41"/>
+<area shape="rect" id="Node000004" href="$class_caseboard_engine.html#a5dfecb9ce740f38d254a5f812ac76f39" title=" " alt="" coords="504,56,697,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="428,55,489,62,488,68,428,61"/>
+<area shape="rect" id="Node000005" href="$class_caseboard_conclusions.html#a6abee9da8964f14acd17f3e9a3f47b30" title=" " alt="" coords="764,56,965,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="698,75,749,75,749,80,698,80"/>
+</map>

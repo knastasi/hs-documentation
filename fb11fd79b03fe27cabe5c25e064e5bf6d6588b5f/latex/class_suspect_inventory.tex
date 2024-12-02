@@ -1,0 +1,103 @@
+\doxysection{Suspect\+Inventory Class Reference}
+\hypertarget{class_suspect_inventory}{}\label{class_suspect_inventory}\index{SuspectInventory@{SuspectInventory}}
+
+
+Inheritance diagram for Suspect\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_suspect_inventory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Suspect\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_suspect_inventory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_suspect_inventory_a2648fb59e907de32c267d7c51715b49f}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_suspect_inventory_ab403e510b81f387da09dab8d8ebdb372}{load\+Suspects}} ()
+\item 
+void \mbox{\hyperlink{class_suspect_inventory_a43f70ff4918558a6fdfe15cb1eb53ed4}{add\+Suspect}} (string key)
+\item 
+bool \mbox{\hyperlink{class_suspect_inventory_a7ae3c731c1cac78b1210166a736c2e72}{check\+Suspect}} (string key)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, bool $>$ \mbox{\hyperlink{class_suspect_inventory_a1bbe7b4d5e5b8150ac3f2280977906d1}{inventory}}
+\item 
+int \mbox{\hyperlink{class_suspect_inventory_afb96a232d59f51c6a5e070b3b884cbfb}{sus\+Count}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_suspect_inventory_a43f70ff4918558a6fdfe15cb1eb53ed4}\index{SuspectInventory@{SuspectInventory}!addSuspect@{addSuspect}}
+\index{addSuspect@{addSuspect}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{addSuspect()}{addSuspect()}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_a43f70ff4918558a6fdfe15cb1eb53ed4} 
+void Suspect\+Inventory.\+add\+Suspect (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Called by \doxylink{class_n_p_c}{NPC} script, marks the suspect as discovered if the dictionary contains a key for that \doxylink{class_n_p_c}{NPC} Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_suspect_inventory_a43f70ff4918558a6fdfe15cb1eb53ed4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_suspect_inventory_a2648fb59e907de32c267d7c51715b49f}\index{SuspectInventory@{SuspectInventory}!Awake@{Awake}}
+\index{Awake@{Awake}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_a2648fb59e907de32c267d7c51715b49f} 
+void Suspect\+Inventory.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_suspect_inventory_a7ae3c731c1cac78b1210166a736c2e72}\index{SuspectInventory@{SuspectInventory}!checkSuspect@{checkSuspect}}
+\index{checkSuspect@{checkSuspect}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{checkSuspect()}{checkSuspect()}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_a7ae3c731c1cac78b1210166a736c2e72} 
+bool Suspect\+Inventory.\+check\+Suspect (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Public method for UI menus to see if a character is discovered or not Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_suspect_inventory_a7ae3c731c1cac78b1210166a736c2e72_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_suspect_inventory_ab403e510b81f387da09dab8d8ebdb372}\index{SuspectInventory@{SuspectInventory}!loadSuspects@{loadSuspects}}
+\index{loadSuspects@{loadSuspects}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{loadSuspects()}{loadSuspects()}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_ab403e510b81f387da09dab8d8ebdb372} 
+void Suspect\+Inventory.\+load\+Suspects (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_suspect_inventory_a1bbe7b4d5e5b8150ac3f2280977906d1}\index{SuspectInventory@{SuspectInventory}!inventory@{inventory}}
+\index{inventory@{inventory}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_a1bbe7b4d5e5b8150ac3f2280977906d1} 
+Dictionary$<$string, bool$>$ Suspect\+Inventory.\+inventory}
+
+\Hypertarget{class_suspect_inventory_afb96a232d59f51c6a5e070b3b884cbfb}\index{SuspectInventory@{SuspectInventory}!susCount@{susCount}}
+\index{susCount@{susCount}!SuspectInventory@{SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{susCount}{susCount}}
+{\footnotesize\ttfamily \label{class_suspect_inventory_afb96a232d59f51c6a5e070b3b884cbfb} 
+int Suspect\+Inventory.\+sus\+Count}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scripts/\+Framework/\+Suspect Inventory/\mbox{\hyperlink{_suspect_inventory_8cs}{Suspect\+Inventory.\+cs}}\end{DoxyCompactItemize}

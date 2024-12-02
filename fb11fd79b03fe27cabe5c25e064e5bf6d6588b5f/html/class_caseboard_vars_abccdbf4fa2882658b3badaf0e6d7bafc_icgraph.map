@@ -1,0 +1,17 @@
+<map id="CaseboardVars.CBSaveLabel" name="CaseboardVars.CBSaveLabel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="811,171,1006,197"/>
+<area shape="rect" id="Node000002" href="$class_caseboard_engine.html#af274b7dd002ca47a8c74961d89ab1855" title=" " alt="" coords="542,171,763,197"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="795,187,764,187,764,181,795,181"/>
+<area shape="rect" id="Node000003" href="$class_caseboard_engine.html#ae31f776d254512871834c07d8ba6e375" title=" " alt="" coords="277,96,490,139"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="580,169,472,142,473,137,581,164"/>
+<area shape="rect" id="Node000006" href="$class_caseboard_engine.html#ae4c51e5ce5dfc5f37a8703dba5459cd6" title="called from Accuse button" alt="" coords="282,163,485,205"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="527,187,485,187,485,181,527,181"/>
+<area shape="rect" id="Node000008" href="$class_compare_handler.html#a8a7d45d03c66dec82d08da50aafdb84a" title=" " alt="" coords="273,229,494,256"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="574,204,449,231,448,226,572,199"/>
+<area shape="rect" id="Node000004" href="$class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html#a174b0e126b5020ad806caf023cfb544f" title=" " alt="" coords="5,5,225,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,93,212,67,213,62,298,88"/>
+<area shape="rect" id="Node000005" href="$class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html#a5b78ce1796babf52ea4282976e9247aa" title=" " alt="" coords="5,88,225,147"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="261,120,225,120,225,115,261,115"/>
+<area shape="rect" id="Node000007" href="$class_compare_handler.html#af2669579019d3d9b7f3d35105190112c" title=" " alt="" coords="33,171,197,197"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="266,187,197,187,197,181,266,181"/>
+</map>

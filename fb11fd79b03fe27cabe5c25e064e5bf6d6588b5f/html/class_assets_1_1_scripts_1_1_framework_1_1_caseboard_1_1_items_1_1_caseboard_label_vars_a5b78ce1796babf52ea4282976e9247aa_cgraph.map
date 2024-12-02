@@ -1,0 +1,17 @@
+<map id="Assets.Scripts.Framework.Caseboard.Items.CaseboardLabelVars.Unassign" name="Assets.Scripts.Framework.Caseboard.Items.CaseboardLabelVars.Unassign">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,225,99"/>
+<area shape="rect" id="Node000002" href="$class_caseboard_engine.html#ae31f776d254512871834c07d8ba6e375" title=" " alt="" coords="273,48,485,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,67,257,67,257,72,225,72"/>
+<area shape="rect" id="Node000003" href="$class_compare_handler.html#a7fd5a001aa441a74a65ea5bc54eefbb2" title=" " alt="" coords="538,5,749,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="485,46,554,33,555,38,486,52"/>
+<area shape="rect" id="Node000004" href="$class_compare_handler.html#a6ca4b750a084bff654e80f46128c0d56" title=" " alt="" coords="540,56,747,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="486,67,525,67,525,72,486,72"/>
+<area shape="rect" id="Node000005" href="$class_caseboard_engine.html#af274b7dd002ca47a8c74961d89ab1855" title=" " alt="" coords="533,107,754,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="486,87,555,100,554,106,485,92"/>
+<area shape="rect" id="Node000006" href="$class_caseboard_vars.html#a1fb7e8cc7761b35f66510b1dd03046ee" title=" " alt="" coords="805,56,994,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="714,103,813,84,814,89,715,109"/>
+<area shape="rect" id="Node000007" href="$class_caseboard_vars.html#abccdbf4fa2882658b3badaf0e6d7bafc" title=" " alt="" coords="802,107,997,133"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="755,117,787,117,787,123,755,123"/>
+<area shape="rect" id="Node000008" href="$class_caseboard_vars.html#af7bdfd88c8fcfdd81015874864279316" title=" " alt="" coords="806,157,993,184"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="715,131,814,151,813,156,714,137"/>
+</map>
