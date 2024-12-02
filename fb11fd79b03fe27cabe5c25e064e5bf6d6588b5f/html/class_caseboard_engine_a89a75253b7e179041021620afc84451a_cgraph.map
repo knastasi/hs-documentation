@@ -1,7 +1,0 @@
-<map id="CaseboardEngine.CheckCombination" name="CaseboardEngine.CheckCombination">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,245,40"/>
-<area shape="rect" id="Node000002" href="$class_conclusion_inventory.html#a7cda4c31c317a30dd5afb69c0ecbc10c" title=" " alt="" coords="293,5,472,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,24,277,24,277,29,245,29"/>
-<area shape="rect" id="Node000003" href="$class_caseboard_engine.html#a7c85992281c04aa35753a6fc3ff0d4f1" title=" " alt="" coords="520,13,734,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,24,504,24,504,29,472,29"/>
-</map>

@@ -1,4 +1,4 @@
 var _player_vars_8cs =
 [
-    [ "PlayerVars", "class_player_vars.html", "class_player_vars" ]
+    [ "Headspace.Players.PlayerVars", "class_headspace_1_1_players_1_1_player_vars.html", "class_headspace_1_1_players_1_1_player_vars" ]
 ];

@@ -1,0 +1,7 @@
+<map id="Headspace.GlobalStateRunner.ToggleRayCast" name="Headspace.GlobalStateRunner.ToggleRayCast">
+<area shape="rect" id="Node000001" title=" " alt="" coords="483,5,688,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_player_manager.html#af5de29656f4e6dc6143fdb328845a9df" title=" " alt="" coords="246,5,435,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="467,29,436,29,436,24,467,24"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_game_runner.html#a652d2e6f4ec3752a0f5f8739e0626186" title=" " alt="" coords="5,5,198,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,29,198,29,198,24,230,24"/>
+</map>

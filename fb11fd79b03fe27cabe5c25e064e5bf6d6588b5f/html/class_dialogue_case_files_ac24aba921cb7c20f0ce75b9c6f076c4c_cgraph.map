@@ -1,9 +1,0 @@
-<map id="DialogueCaseFiles.EnterSusDialogue" name="DialogueCaseFiles.EnterSusDialogue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,195,81"/>
-<area shape="rect" id="Node000002" href="$class_dialogue_case_files.html#a696dd39bd00548fa41e75dd42b5b3b82" title=" " alt="" coords="243,5,422,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,44,227,39,227,44,195,49"/>
-<area shape="rect" id="Node000003" href="$class_dialogue_case_files.html#a205071cc78feac4a13b8d898fd7627c4" title=" " alt="" coords="243,72,422,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,71,227,76,227,81,194,76"/>
-<area shape="rect" id="Node000004" href="$class_suspect_inventory.html#a7ae3c731c1cac78b1210166a736c2e72" title=" " alt="" coords="470,80,679,107"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="423,91,454,91,454,96,423,96"/>
-</map>

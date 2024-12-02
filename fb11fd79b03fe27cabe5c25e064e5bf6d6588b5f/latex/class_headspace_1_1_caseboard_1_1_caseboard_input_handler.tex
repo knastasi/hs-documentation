@@ -1,0 +1,231 @@
+\doxysection{Headspace.\+Caseboard.\+Caseboard\+Input\+Handler Class Reference}
+\hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler}{}\label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+
+
+Inheritance diagram for Headspace.\+Caseboard.\+Caseboard\+Input\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Caseboard.\+Caseboard\+Input\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a907b2933e60e408e321a9002fc644d5a}{On\+MoveX}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8e4e45d48d48b89e5f7e266ae9c7be41}{On\+MoveY}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_acaa7fc0e48fcd7b59001dbc31f863eab}{On\+Zoom\+In}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4c0580c49885c0d462c4d1470f487894}{On\+Zoom\+Out}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac71ba562e0902ec84f55947c855af1d6}{P1\+Draw\+Mode}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a42f34a18889463bf2c1effbcceef8a9a}{P2\+Draw\+Mode}} (Input\+Action\+Event\+Data input)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a1dc89c589146536c68fb7ce232ae450d}{Reset\+Draw}} (\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} ray\+Cast)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a23ab6e33ab1e56fe8e48c1b78e36b2b0}{Reset\+Draw\+Mode}} (\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} ray\+Cast)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4fa144ddf08388b7c59bd8afd9e1e8db}{Set\+Draw\+Cursor}} (\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} ray\+Cast)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab6e693d37826ed1c5e2537009d96cc4f}{gc}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_manager}{Player\+Manager}} \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ad9faf0ce864a33afd2e218404018d4c4}{pm}}
+\item 
+Camera \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab01aaedfece25873c5c51d4eafc95770}{cam}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8bb4bad13ece87853e9ab5e97f1596f3}{p1\+Raycast}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a597cc62f54e164f85489118a3060f5fe}{p2\+Raycast}}
+\item 
+float \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a2a43531b1eed1598a0bca59dbcbd8f4e}{move\+Speed}}
+\item 
+float \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a51a1ef87163a634b9a7d17d481520b94}{camera\+Speed}}
+\item 
+float \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4ec5d7afd8f59c3a4f8fffe3439bbcc2}{min\+Size}}
+\item 
+float \mbox{\hyperlink{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac3fd53cfc83df343067670c8c8ca1011}{max\+Size}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a907b2933e60e408e321a9002fc644d5a}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!OnMoveX@{OnMoveX}}
+\index{OnMoveX@{OnMoveX}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{OnMoveX()}{OnMoveX()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a907b2933e60e408e321a9002fc644d5a} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+On\+MoveX (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8e4e45d48d48b89e5f7e266ae9c7be41}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!OnMoveY@{OnMoveY}}
+\index{OnMoveY@{OnMoveY}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{OnMoveY()}{OnMoveY()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8e4e45d48d48b89e5f7e266ae9c7be41} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+On\+MoveY (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_acaa7fc0e48fcd7b59001dbc31f863eab}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!OnZoomIn@{OnZoomIn}}
+\index{OnZoomIn@{OnZoomIn}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{OnZoomIn()}{OnZoomIn()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_acaa7fc0e48fcd7b59001dbc31f863eab} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+On\+Zoom\+In (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4c0580c49885c0d462c4d1470f487894}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!OnZoomOut@{OnZoomOut}}
+\index{OnZoomOut@{OnZoomOut}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{OnZoomOut()}{OnZoomOut()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4c0580c49885c0d462c4d1470f487894} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+On\+Zoom\+Out (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac71ba562e0902ec84f55947c855af1d6}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!P1DrawMode@{P1DrawMode}}
+\index{P1DrawMode@{P1DrawMode}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{P1DrawMode()}{P1DrawMode()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac71ba562e0902ec84f55947c855af1d6} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+P1\+Draw\+Mode (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac71ba562e0902ec84f55947c855af1d6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a42f34a18889463bf2c1effbcceef8a9a}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!P2DrawMode@{P2DrawMode}}
+\index{P2DrawMode@{P2DrawMode}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{P2DrawMode()}{P2DrawMode()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a42f34a18889463bf2c1effbcceef8a9a} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+P2\+Draw\+Mode (\begin{DoxyParamCaption}\item[{Input\+Action\+Event\+Data}]{input}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a42f34a18889463bf2c1effbcceef8a9a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a1dc89c589146536c68fb7ce232ae450d}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!ResetDraw@{ResetDraw}}
+\index{ResetDraw@{ResetDraw}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{ResetDraw()}{ResetDraw()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a1dc89c589146536c68fb7ce232ae450d} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+Reset\+Draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}}}]{ray\+Cast}{}\end{DoxyParamCaption})}
+
+Resets the player\textquotesingle{}s drawing progress and line created without removing them from draw mode Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a1dc89c589146536c68fb7ce232ae450d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a23ab6e33ab1e56fe8e48c1b78e36b2b0}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!ResetDrawMode@{ResetDrawMode}}
+\index{ResetDrawMode@{ResetDrawMode}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{ResetDrawMode()}{ResetDrawMode()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a23ab6e33ab1e56fe8e48c1b78e36b2b0} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+Reset\+Draw\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}}}]{ray\+Cast}{}\end{DoxyParamCaption})}
+
+If the player is in the middle of drawing a line and turns off draw mode, reset our raycast vars and destroy the line Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a23ab6e33ab1e56fe8e48c1b78e36b2b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a23ab6e33ab1e56fe8e48c1b78e36b2b0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4fa144ddf08388b7c59bd8afd9e1e8db}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!SetDrawCursor@{SetDrawCursor}}
+\index{SetDrawCursor@{SetDrawCursor}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{SetDrawCursor()}{SetDrawCursor()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4fa144ddf08388b7c59bd8afd9e1e8db} 
+void Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+Set\+Draw\+Cursor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}}}]{ray\+Cast}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4fa144ddf08388b7c59bd8afd9e1e8db_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab01aaedfece25873c5c51d4eafc95770}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!cam@{cam}}
+\index{cam@{cam}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{cam}{cam}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab01aaedfece25873c5c51d4eafc95770} 
+Camera Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+cam}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a51a1ef87163a634b9a7d17d481520b94}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!cameraSpeed@{cameraSpeed}}
+\index{cameraSpeed@{cameraSpeed}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{cameraSpeed}{cameraSpeed}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a51a1ef87163a634b9a7d17d481520b94} 
+float Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+camera\+Speed}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab6e693d37826ed1c5e2537009d96cc4f}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!gc@{gc}}
+\index{gc@{gc}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{gc}{gc}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ab6e693d37826ed1c5e2537009d96cc4f} 
+Game\+Object Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+gc}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac3fd53cfc83df343067670c8c8ca1011}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!maxSize@{maxSize}}
+\index{maxSize@{maxSize}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{maxSize}{maxSize}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ac3fd53cfc83df343067670c8c8ca1011} 
+float Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+max\+Size}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4ec5d7afd8f59c3a4f8fffe3439bbcc2}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!minSize@{minSize}}
+\index{minSize@{minSize}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{minSize}{minSize}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a4ec5d7afd8f59c3a4f8fffe3439bbcc2} 
+float Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+min\+Size}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a2a43531b1eed1598a0bca59dbcbd8f4e}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!moveSpeed@{moveSpeed}}
+\index{moveSpeed@{moveSpeed}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{moveSpeed}{moveSpeed}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a2a43531b1eed1598a0bca59dbcbd8f4e} 
+float Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+move\+Speed}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8bb4bad13ece87853e9ab5e97f1596f3}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!p1Raycast@{p1Raycast}}
+\index{p1Raycast@{p1Raycast}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{p1Raycast}{p1Raycast}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a8bb4bad13ece87853e9ab5e97f1596f3} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+p1\+Raycast}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a597cc62f54e164f85489118a3060f5fe}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!p2Raycast@{p2Raycast}}
+\index{p2Raycast@{p2Raycast}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{p2Raycast}{p2Raycast}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_a597cc62f54e164f85489118a3060f5fe} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+p2\+Raycast}
+
+\Hypertarget{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ad9faf0ce864a33afd2e218404018d4c4}\index{Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}!pm@{pm}}
+\index{pm@{pm}!Headspace.Caseboard.CaseboardInputHandler@{Headspace.Caseboard.CaseboardInputHandler}}
+\doxysubsubsection{\texorpdfstring{pm}{pm}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_caseboard_1_1_caseboard_input_handler_ad9faf0ce864a33afd2e218404018d4c4} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_manager}{Player\+Manager}} Headspace.\+Caseboard.\+Caseboard\+Input\+Handler.\+pm}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Framework/\+Caseboard/\mbox{\hyperlink{_caseboard_input_handler_8cs}{Caseboard\+Input\+Handler.\+cs}}\end{DoxyCompactItemize}

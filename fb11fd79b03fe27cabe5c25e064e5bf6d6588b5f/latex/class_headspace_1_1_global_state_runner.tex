@@ -1,0 +1,316 @@
+\doxysection{Headspace.\+Global\+State\+Runner Class Reference}
+\hypertarget{class_headspace_1_1_global_state_runner}{}\label{class_headspace_1_1_global_state_runner}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+
+
+Inheritance diagram for Headspace.\+Global\+State\+Runner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_headspace_1_1_global_state_runner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Global\+State\+Runner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_global_state_runner__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} \{ \newline
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea6f9dccd85b2e0786c8d522045365eb48}{TITLE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea71ff71526d15db86eb50fcac245d183b}{UI}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eadff094de00cf223dc8bda16d75e85efc}{CUTSCENE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea3149a7bdef3badaddc79c0378ff3b5df}{CASEBOARD}}
+, \newline
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea29e81418782553d47c3f878045a48d87}{ACCUSE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea030d962d0faa148f02848881a3b4fdb6}{EVENT}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea40dd4314a1de42ea0976b36f859f5de7}{MINIGAME}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea6eadcd76980d5c82a75e5e54fcb24ecb}{OVERWORLD}}
+, \newline
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eae9c11a8fd14ea5eba1ca7b122cc031d5}{OW\+\_\+\+DIALOGUE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eaab40061fe2b4fabc287f41159cf0e8c0}{SUS\+\_\+\+DIALOGUE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eaac404d7ce6ca5862e9b8a2641fbafd90}{COMPUTE}}
+, \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea752ff238e0abf476dd7654ed0fa10393}{ACCUSE\+\_\+\+INTRO}}
+, \newline
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea63f77c1a463bf816f0bc8b3705cef0d9}{BODYMAP}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_ad1c3ae5b5ed07107c838c4a55d47ef6c}{Set\+Load\+State}} (\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} state, bool is\+Local\+State=false)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a948588fc3a1a54c4e4f8848ec6e08798}{Update\+Scene\+Config}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_af1545669a4ab0f596e58de85795d6adc}{Toggle\+Ray\+Cast}} (bool status)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a9e8d08fcd362f6cca08cfc2e76164acb}{Toggle\+Map\+Button}} (bool status)
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_ad8dda90718dbc56fb674ebbf513ca854}{Update\+Raycast\+Delegates}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_global_state_runner_ad89e9ff8378be32abff7771f86748690}{Activate\+Global\+State\+Rpc}} (\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} state)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_af42ced25d5efb4abda823407efe07fd5}{current\+State}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a9528b7246fa840f92ed1d18d32dbd461}{state\+To\+Load}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_utility_1_1_scene_config_1_1_scene_vars}{Scene\+Config.\+Scene\+Vars}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a2f7bcfee26d2e07094187e0bc0f84db5}{active\+Scene\+Vars}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_abbd67251c7c61ea8a10e6d82a6b47c98}{Main\+Continue\+Button}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_acac8c18680bb6da0b431ed82e0bba10a}{Brain\+Indicator}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_abc2892a2f1c6a32d94d04ef1014e7e96}{Time\+Of\+Day\+Indicator}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a78354188c757faf467e9a0c7b8deefb4}{dialog\+UIOverworldT}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a69586e8d2973f5e49b48d72077b3551a}{dialog\+UIOverworldB}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a044dd4fa2d0cf13d9c9b7338f2934e65}{dialog\+UISuspect}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a9598bc35f8cfb7fa3a2702f40d8080f3}{dialog\+UIAccuse\+Intro}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_ae1cf56cd8d0d8876f48846bd545008ee}{P1\+Raycast}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a8d2204e1dd09693f82d2edfd99962284}{P2\+Raycast}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_map_1_1_map_button}{Map\+Button}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_aa9cf9f5d32e41992393dad4fed9b8e3e}{P1\+Map\+Button}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_map_1_1_map_button}{Map\+Button}} \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a2649d753a337fa02887c9b37264b4303}{P2\+Map\+Button}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!GameState@{GameState}}
+\index{GameState@{GameState}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{GameState}{GameState}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+enum \mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Headspace.\+Global\+State\+Runner.\+Game\+State}}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TITLE@{TITLE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!TITLE@{TITLE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea6f9dccd85b2e0786c8d522045365eb48}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+TITLE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UI@{UI}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!UI@{UI}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea71ff71526d15db86eb50fcac245d183b}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+UI&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CUTSCENE@{CUTSCENE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!CUTSCENE@{CUTSCENE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eadff094de00cf223dc8bda16d75e85efc}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+CUTSCENE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CASEBOARD@{CASEBOARD}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!CASEBOARD@{CASEBOARD}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea3149a7bdef3badaddc79c0378ff3b5df}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+CASEBOARD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ACCUSE@{ACCUSE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!ACCUSE@{ACCUSE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea29e81418782553d47c3f878045a48d87}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+ACCUSE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EVENT@{EVENT}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!EVENT@{EVENT}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea030d962d0faa148f02848881a3b4fdb6}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+EVENT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MINIGAME@{MINIGAME}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!MINIGAME@{MINIGAME}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea40dd4314a1de42ea0976b36f859f5de7}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+MINIGAME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OVERWORLD@{OVERWORLD}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!OVERWORLD@{OVERWORLD}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea6eadcd76980d5c82a75e5e54fcb24ecb}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+OVERWORLD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OW\_DIALOGUE@{OW\_DIALOGUE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!OW\_DIALOGUE@{OW\_DIALOGUE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eae9c11a8fd14ea5eba1ca7b122cc031d5}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+OW\+\_\+\+DIALOGUE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SUS\_DIALOGUE@{SUS\_DIALOGUE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!SUS\_DIALOGUE@{SUS\_DIALOGUE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eaab40061fe2b4fabc287f41159cf0e8c0}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+SUS\+\_\+\+DIALOGUE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{COMPUTE@{COMPUTE}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!COMPUTE@{COMPUTE}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78eaac404d7ce6ca5862e9b8a2641fbafd90}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+COMPUTE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ACCUSE\_INTRO@{ACCUSE\_INTRO}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!ACCUSE\_INTRO@{ACCUSE\_INTRO}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea752ff238e0abf476dd7654ed0fa10393}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+ACCUSE\+\_\+\+INTRO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BODYMAP@{BODYMAP}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!BODYMAP@{BODYMAP}}}\Hypertarget{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78ea63f77c1a463bf816f0bc8b3705cef0d9}\label{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e} 
+BODYMAP&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_headspace_1_1_global_state_runner_ad89e9ff8378be32abff7771f86748690}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!ActivateGlobalStateRpc@{ActivateGlobalStateRpc}}
+\index{ActivateGlobalStateRpc@{ActivateGlobalStateRpc}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{ActivateGlobalStateRpc()}{ActivateGlobalStateRpc()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_ad89e9ff8378be32abff7771f86748690} 
+void Headspace.\+Global\+State\+Runner.\+Activate\+Global\+State\+Rpc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}}}]{state}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_ad1c3ae5b5ed07107c838c4a55d47ef6c}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!SetLoadState@{SetLoadState}}
+\index{SetLoadState@{SetLoadState}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{SetLoadState()}{SetLoadState()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_ad1c3ae5b5ed07107c838c4a55d47ef6c} 
+void Headspace.\+Global\+State\+Runner.\+Set\+Load\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}}}]{state}{, }\item[{bool}]{is\+Local\+State}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_global_state_runner_ad1c3ae5b5ed07107c838c4a55d47ef6c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_global_state_runner_a9e8d08fcd362f6cca08cfc2e76164acb}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!ToggleMapButton@{ToggleMapButton}}
+\index{ToggleMapButton@{ToggleMapButton}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{ToggleMapButton()}{ToggleMapButton()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a9e8d08fcd362f6cca08cfc2e76164acb} 
+void Headspace.\+Global\+State\+Runner.\+Toggle\+Map\+Button (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_global_state_runner_a9e8d08fcd362f6cca08cfc2e76164acb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_global_state_runner_af1545669a4ab0f596e58de85795d6adc}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!ToggleRayCast@{ToggleRayCast}}
+\index{ToggleRayCast@{ToggleRayCast}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{ToggleRayCast()}{ToggleRayCast()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_af1545669a4ab0f596e58de85795d6adc} 
+void Headspace.\+Global\+State\+Runner.\+Toggle\+Ray\+Cast (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_global_state_runner_af1545669a4ab0f596e58de85795d6adc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_global_state_runner_ad8dda90718dbc56fb674ebbf513ca854}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!UpdateRaycastDelegates@{UpdateRaycastDelegates}}
+\index{UpdateRaycastDelegates@{UpdateRaycastDelegates}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{UpdateRaycastDelegates()}{UpdateRaycastDelegates()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_ad8dda90718dbc56fb674ebbf513ca854} 
+void Headspace.\+Global\+State\+Runner.\+Update\+Raycast\+Delegates (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_global_state_runner_ad8dda90718dbc56fb674ebbf513ca854_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_global_state_runner_a948588fc3a1a54c4e4f8848ec6e08798}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!UpdateSceneConfig@{UpdateSceneConfig}}
+\index{UpdateSceneConfig@{UpdateSceneConfig}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{UpdateSceneConfig()}{UpdateSceneConfig()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a948588fc3a1a54c4e4f8848ec6e08798} 
+void Headspace.\+Global\+State\+Runner.\+Update\+Scene\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+This is called by Scene\+Config scripts located locally within the scenes to toggle main canvas elements on/off 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_global_state_runner_a2f7bcfee26d2e07094187e0bc0f84db5}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!activeSceneVars@{activeSceneVars}}
+\index{activeSceneVars@{activeSceneVars}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{activeSceneVars}{activeSceneVars}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a2f7bcfee26d2e07094187e0bc0f84db5} 
+\mbox{\hyperlink{class_headspace_1_1_utility_1_1_scene_config_1_1_scene_vars}{Scene\+Config.\+Scene\+Vars}} Headspace.\+Global\+State\+Runner.\+active\+Scene\+Vars}
+
+These are the scene variables that can be configured on/off on scene load \Hypertarget{class_headspace_1_1_global_state_runner_acac8c18680bb6da0b431ed82e0bba10a}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!BrainIndicator@{BrainIndicator}}
+\index{BrainIndicator@{BrainIndicator}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{BrainIndicator}{BrainIndicator}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_acac8c18680bb6da0b431ed82e0bba10a} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+Brain\+Indicator}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_af42ced25d5efb4abda823407efe07fd5}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!currentState@{currentState}}
+\index{currentState@{currentState}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{currentState}{currentState}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_af42ced25d5efb4abda823407efe07fd5} 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} Headspace.\+Global\+State\+Runner.\+current\+State}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a9598bc35f8cfb7fa3a2702f40d8080f3}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!dialogUIAccuseIntro@{dialogUIAccuseIntro}}
+\index{dialogUIAccuseIntro@{dialogUIAccuseIntro}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{dialogUIAccuseIntro}{dialogUIAccuseIntro}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a9598bc35f8cfb7fa3a2702f40d8080f3} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+dialog\+UIAccuse\+Intro}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a69586e8d2973f5e49b48d72077b3551a}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!dialogUIOverworldB@{dialogUIOverworldB}}
+\index{dialogUIOverworldB@{dialogUIOverworldB}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{dialogUIOverworldB}{dialogUIOverworldB}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a69586e8d2973f5e49b48d72077b3551a} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+dialog\+UIOverworldB}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a78354188c757faf467e9a0c7b8deefb4}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!dialogUIOverworldT@{dialogUIOverworldT}}
+\index{dialogUIOverworldT@{dialogUIOverworldT}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{dialogUIOverworldT}{dialogUIOverworldT}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a78354188c757faf467e9a0c7b8deefb4} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+dialog\+UIOverworldT}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a044dd4fa2d0cf13d9c9b7338f2934e65}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!dialogUISuspect@{dialogUISuspect}}
+\index{dialogUISuspect@{dialogUISuspect}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{dialogUISuspect}{dialogUISuspect}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a044dd4fa2d0cf13d9c9b7338f2934e65} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+dialog\+UISuspect}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_abbd67251c7c61ea8a10e6d82a6b47c98}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!MainContinueButton@{MainContinueButton}}
+\index{MainContinueButton@{MainContinueButton}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{MainContinueButton}{MainContinueButton}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_abbd67251c7c61ea8a10e6d82a6b47c98} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+Main\+Continue\+Button}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_aa9cf9f5d32e41992393dad4fed9b8e3e}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!P1MapButton@{P1MapButton}}
+\index{P1MapButton@{P1MapButton}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{P1MapButton}{P1MapButton}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_aa9cf9f5d32e41992393dad4fed9b8e3e} 
+\mbox{\hyperlink{class_headspace_1_1_map_1_1_map_button}{Map\+Button}} Headspace.\+Global\+State\+Runner.\+P1\+Map\+Button}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_ae1cf56cd8d0d8876f48846bd545008ee}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!P1Raycast@{P1Raycast}}
+\index{P1Raycast@{P1Raycast}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{P1Raycast}{P1Raycast}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_ae1cf56cd8d0d8876f48846bd545008ee} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} Headspace.\+Global\+State\+Runner.\+P1\+Raycast}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a2649d753a337fa02887c9b37264b4303}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!P2MapButton@{P2MapButton}}
+\index{P2MapButton@{P2MapButton}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{P2MapButton}{P2MapButton}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a2649d753a337fa02887c9b37264b4303} 
+\mbox{\hyperlink{class_headspace_1_1_map_1_1_map_button}{Map\+Button}} Headspace.\+Global\+State\+Runner.\+P2\+Map\+Button}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a8d2204e1dd09693f82d2edfd99962284}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!P2Raycast@{P2Raycast}}
+\index{P2Raycast@{P2Raycast}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{P2Raycast}{P2Raycast}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a8d2204e1dd09693f82d2edfd99962284} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_ray_cast_select}{Ray\+Cast\+Select}} Headspace.\+Global\+State\+Runner.\+P2\+Raycast}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_a9528b7246fa840f92ed1d18d32dbd461}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!stateToLoad@{stateToLoad}}
+\index{stateToLoad@{stateToLoad}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{stateToLoad}{stateToLoad}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_a9528b7246fa840f92ed1d18d32dbd461} 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner_a666145df09c12d096c097ce8eba9b78e}{Game\+State}} Headspace.\+Global\+State\+Runner.\+state\+To\+Load}
+
+\Hypertarget{class_headspace_1_1_global_state_runner_abc2892a2f1c6a32d94d04ef1014e7e96}\index{Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}!TimeOfDayIndicator@{TimeOfDayIndicator}}
+\index{TimeOfDayIndicator@{TimeOfDayIndicator}!Headspace.GlobalStateRunner@{Headspace.GlobalStateRunner}}
+\doxysubsubsection{\texorpdfstring{TimeOfDayIndicator}{TimeOfDayIndicator}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_global_state_runner_abc2892a2f1c6a32d94d04ef1014e7e96} 
+Game\+Object Headspace.\+Global\+State\+Runner.\+Time\+Of\+Day\+Indicator}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Framework/\mbox{\hyperlink{_global_state_runner_8cs}{Global\+State\+Runner.\+cs}}\end{DoxyCompactItemize}

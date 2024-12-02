@@ -1,4 +1,0 @@
-var class_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority_1_1_client_network_transform =
-[
-    [ "OnIsServerAuthoritative", "class_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority_1_1_client_network_transform.html#aadb8ad5e99cd17904180a439f68c522a", null ]
-];

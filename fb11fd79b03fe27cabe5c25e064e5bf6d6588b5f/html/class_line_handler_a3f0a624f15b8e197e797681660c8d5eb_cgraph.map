@@ -1,7 +1,0 @@
-<map id="LineHandler.Update" name="LineHandler.Update">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,142,57"/>
-<area shape="rect" id="Node000002" href="$class_line_handler.html#abf9ca2d3c04d07b0b6cf278812be24c3" title=" " alt="" coords="190,5,370,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,33,174,29,175,34,142,38"/>
-<area shape="rect" id="Node000003" href="$class_line_handler.html#a2da90925661526bb96104a20781196c9" title=" " alt="" coords="200,56,360,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,50,185,55,184,60,142,55"/>
-</map>

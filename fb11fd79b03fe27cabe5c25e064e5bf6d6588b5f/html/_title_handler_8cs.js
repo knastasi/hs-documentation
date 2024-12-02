@@ -1,4 +1,4 @@
 var _title_handler_8cs =
 [
-    [ "TitleHandler", "class_title_handler.html", "class_title_handler" ]
+    [ "Headspace.Title.TitleHandler", "class_headspace_1_1_title_1_1_title_handler.html", "class_headspace_1_1_title_1_1_title_handler" ]
 ];

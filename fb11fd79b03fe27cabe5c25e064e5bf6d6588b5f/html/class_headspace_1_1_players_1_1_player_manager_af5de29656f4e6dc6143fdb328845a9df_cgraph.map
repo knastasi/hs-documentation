@@ -1,0 +1,7 @@
+<map id="Headspace.Players.PlayerManager.ToggleActiveCursor" name="Headspace.Players.PlayerManager.ToggleActiveCursor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,195,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_global_state_runner.html#a9e8d08fcd362f6cca08cfc2e76164acb" title=" " alt="" coords="243,5,448,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,44,227,40,228,45,196,50"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_global_state_runner.html#af1545669a4ab0f596e58de85795d6adc" title=" " alt="" coords="243,72,448,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,70,228,75,227,80,195,76"/>
+</map>

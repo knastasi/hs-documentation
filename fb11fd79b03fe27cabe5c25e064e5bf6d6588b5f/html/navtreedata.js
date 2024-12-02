@@ -26,7 +26,11 @@ var NAVTREE =
 [
   [ "Headspace", "index.html", [
     [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ]
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -36,16 +40,11 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -53,10 +52,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_accuse_flip_card_8cs.html",
-"class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html#afb4df9247ee60765102b502c8200bf67",
-"class_dialogue_end.html#a302f43e95f91b42fdc382faeb649f2f6",
-"class_r_p_s_runner.html#a20c28473d37fbfaab8d6f39d44b00290",
-"dir_aa344b0cad1db82ad40499c7305528a7.html"
+"class_headspace_1_1_accuse_1_1_accuse_runner.html#afeb1ea61b0d4f15b3d94b8c439d8b0b7",
+"class_headspace_1_1_caseboard_1_1_line_handler.html",
+"class_headspace_1_1_game_runner.html#a9cb97d4ad3d809b75ac2a7bb13199b80",
+"class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner.html#ad9de78c645b6f194140ecf8aaf787a1aab89de3b4b81c4facfac906edf29aec8c",
+"class_headspace_1_1_players_1_1_player_input_handler.html#ad7a6175b6d6aa71383871fc4d11a298d",
+"class_headspace_1_1_title_1_1_title_handler.html#a8888e564b1e850e760a70d18ac8565c1",
+"namespace_headspace.html#a118268e7a1c769ae8b84dfea40771104acc8392a882b2c538c75a726036053aec"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

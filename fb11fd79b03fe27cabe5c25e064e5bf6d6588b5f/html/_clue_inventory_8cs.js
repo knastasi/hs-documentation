@@ -1,4 +1,4 @@
 var _clue_inventory_8cs =
 [
-    [ "ClueInventory", "class_clue_inventory.html", "class_clue_inventory" ]
+    [ "Headspace.ClueCollection.ClueInventory", "class_headspace_1_1_clue_collection_1_1_clue_inventory.html", "class_headspace_1_1_clue_collection_1_1_clue_inventory" ]
 ];

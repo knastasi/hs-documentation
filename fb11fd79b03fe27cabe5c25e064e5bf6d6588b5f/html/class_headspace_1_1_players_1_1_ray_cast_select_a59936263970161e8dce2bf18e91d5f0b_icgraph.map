@@ -1,0 +1,10 @@
+<map id="Headspace.Players.RayCastSelect.OnDragClickRelease" name="Headspace.Players.RayCastSelect.OnDragClickRelease">
+<area shape="rect" id="Node000001" title=" " alt="" coords="737,29,929,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="872,16,857,10,833,8,810,10,796,15,791,21,793,28,788,29,786,19,793,10,809,5,833,3,859,5,874,11"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="498,29,689,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="721,53,690,53,690,48,721,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,29,450,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="482,53,451,53,451,48,482,48"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,29,211,72"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="243,53,211,53,211,48,243,48"/>
+</map>

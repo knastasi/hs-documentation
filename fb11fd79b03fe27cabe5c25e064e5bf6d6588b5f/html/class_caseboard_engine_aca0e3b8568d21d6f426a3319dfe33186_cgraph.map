@@ -1,9 +1,0 @@
-<map id="CaseboardEngine.CheckConnectionTypes" name="CaseboardEngine.CheckConnectionTypes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,238,48"/>
-<area shape="rect" id="Node000002" href="$class_caseboard_engine.html#a89a75253b7e179041021620afc84451a" title=" " alt="" coords="286,13,525,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,24,270,24,270,29,238,29"/>
-<area shape="rect" id="Node000003" href="$class_conclusion_inventory.html#a7cda4c31c317a30dd5afb69c0ecbc10c" title=" " alt="" coords="573,5,752,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="525,24,557,24,557,29,525,29"/>
-<area shape="rect" id="Node000004" href="$class_caseboard_engine.html#a7c85992281c04aa35753a6fc3ff0d4f1" title=" " alt="" coords="800,13,1015,40"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="753,24,785,24,785,29,753,29"/>
-</map>

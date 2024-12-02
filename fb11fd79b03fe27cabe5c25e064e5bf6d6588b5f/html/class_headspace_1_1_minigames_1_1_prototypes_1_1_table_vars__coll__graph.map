@@ -1,0 +1,12 @@
+<map id="Headspace.Minigames.Prototypes.TableVars" name="Headspace.Minigames.Prototypes.TableVars">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,279,231,321"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="41,81,152,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,123,119,278,113,279,97,124"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner.html" title=" " alt="" coords="135,172,360,215"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="130,114,216,169,214,174,128,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,227,145,280,142,276,208,223"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_game_vars.html" title=" " alt="" coords="176,81,329,108"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="254,124,251,172,246,171,248,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="188,5,317,32"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="255,47,255,81,250,81,250,47"/>
+</map>

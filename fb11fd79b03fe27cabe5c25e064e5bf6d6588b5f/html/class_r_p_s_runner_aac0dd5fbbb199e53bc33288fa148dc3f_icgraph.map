@@ -1,9 +1,0 @@
-<map id="RPSRunner.SetStrings" name="RPSRunner.SetStrings">
-<area shape="rect" id="Node000001" title=" " alt="" coords="232,56,388,83"/>
-<area shape="rect" id="Node000002" href="$class_r_p_s_runner.html#afda4515cd038d8aebe4b9881ac3e7e0b" title=" " alt="" coords="7,5,182,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,54,154,35,155,30,236,49"/>
-<area shape="rect" id="Node000003" href="$class_r_p_s_runner.html#abc9addb4e0b6ac8971b641ad685f21b5" title=" " alt="" coords="5,56,184,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,72,184,72,184,67,216,67"/>
-<area shape="rect" id="Node000004" href="$class_r_p_s_runner.html#ac7428c9ae93c32176c77cf9cebd2addf" title=" " alt="" coords="10,107,179,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="236,89,155,109,154,103,234,84"/>
-</map>

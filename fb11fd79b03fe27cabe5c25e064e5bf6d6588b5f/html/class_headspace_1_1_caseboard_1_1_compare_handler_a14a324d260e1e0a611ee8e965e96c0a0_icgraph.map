@@ -1,0 +1,9 @@
+<map id="Headspace.Caseboard.CompareHandler.DisableAccuse" name="Headspace.Caseboard.CompareHandler.DisableAccuse">
+<area shape="rect" id="Node000001" title=" " alt="" coords="544,39,755,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a4561337dc5c73bd93b835e7a26538c87" title=" " alt="" coords="275,39,496,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="528,63,496,63,496,57,528,57"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_label_vars.html#a270137aeb7b1f7f363e62264f4df773e" title=" " alt="" coords="5,5,227,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,47,227,43,227,38,260,42"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_label_vars.html#a013f4657278b0ad9f7239b4a8242d349" title=" " alt="" coords="5,72,227,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="260,78,227,82,227,77,259,73"/>
+</map>

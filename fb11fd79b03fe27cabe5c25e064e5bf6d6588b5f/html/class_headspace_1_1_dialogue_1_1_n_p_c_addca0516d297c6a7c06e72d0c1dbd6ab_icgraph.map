@@ -1,0 +1,11 @@
+<map id="Headspace.Dialogue.NPC.DiscoverCharacter" name="Headspace.Dialogue.NPC.DiscoverCharacter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1038,5,1269,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title=" " alt="" coords="737,13,990,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1022,29,990,29,990,24,1022,24"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="498,5,689,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="722,29,690,29,690,24,722,24"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,5,450,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="482,29,451,29,451,24,482,24"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,5,211,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="243,29,211,29,211,24,243,24"/>
+</map>

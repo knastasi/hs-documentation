@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['openbrief_0',['openBrief',['../class_player_input_handler.html#a5bac4a7c63568edc966bb7bd17706e79',1,'PlayerInputHandler']]],
-  ['optionspanel_1',['optionsPanel',['../class_pause_menu.html#a3b79035a602b72710f73ae6df571b7c3',1,'PauseMenu']]],
-  ['owner_2',['owner',['../class_token_vars.html#a9a5b92f378f54872bb4939bf84e32abb',1,'TokenVars']]]
+  ['openbrief_0',['openBrief',['../class_headspace_1_1_players_1_1_player_input_handler.html#aefa214ba383c1a55955e4c698181b2bb',1,'Headspace::Players::PlayerInputHandler']]],
+  ['optionspanel_1',['optionsPanel',['../class_headspace_1_1_u_i_1_1_pause_menu.html#aff91dc424b9cebdcca27f9a74283be20',1,'Headspace::UI::PauseMenu']]],
+  ['owner_2',['owner',['../class_headspace_1_1_minigames_1_1_prototypes_1_1_token_vars.html#adc34d80930a23f5932230703c31c6f2c',1,'Headspace::Minigames::Prototypes::TokenVars']]]
 ];

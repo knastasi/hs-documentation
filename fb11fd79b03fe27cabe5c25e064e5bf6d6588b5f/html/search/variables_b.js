@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['name_0',['name',['../class_clue_object.html#ac946c3c8a729c8cee8990be840536d68',1,'ClueObject.name'],['../class_conclusion_object.html#af3202776c91d60d6cce827141bc6f96c',1,'ConclusionObject.name'],['../class_sus_object.html#a0d3568411d099a4dfdd117f80415ffef',1,'SusObject.name'],['../class_testimony_object.html#ae4faa84a3423890fe32910f6e9d57be1',1,'TestimonyObject.name']]],
-  ['newscenevars_1',['newSceneVars',['../class_scene_config.html#aca54c2dccbc37e8a600a3ca4a942e264',1,'SceneConfig']]],
-  ['newsprite_2',['newSprite',['../class_round_indicator.html#a8f96a0596cda0c6776f28c8c3af28dc6',1,'RoundIndicator.newSprite'],['../class_turn_indicator.html#adf535586bbce83072a7b461e32d35036',1,'TurnIndicator.newSprite']]],
-  ['next_3',['next',['../class_timeline_object.html#a5466b00fb0e3b8dd3b6d8be649344aac',1,'TimelineObject']]],
-  ['night_4',['Night',['../class_round_indicator.html#a9b456a1009bc4a33b2014ed94e195246',1,'RoundIndicator']]],
-  ['note_5',['note',['../class_event_object.html#a482167799dcf5397248ce9386e8d0faa',1,'EventObject']]],
-  ['npc_6',['npc',['../class_dialogue_questions.html#a8a3c75e9aa6cfdf7c078f0ff86294ad7',1,'DialogueQuestions.npc'],['../class_ray_cast_select.html#a5499d2972ac87ca157e36abba231a2a9',1,'RayCastSelect.npc'],['../class_event_object.html#ac5769b3d9930064b9fadc20cb0e4f513',1,'EventObject.npc']]],
-  ['npcclicked_7',['npcClicked',['../class_ray_cast_select.html#a092f2028983e8ba4d6d7400d38509f9d',1,'RayCastSelect']]],
-  ['npcname_8',['npcName',['../class_n_p_c.html#a84d139bb89edf645ef1183eab1b11d6b',1,'NPC']]],
-  ['npcnametext_9',['npcNameText',['../class_n_p_c.html#a9a530b0660f4ccfe596ea6c76bdca797',1,'NPC']]],
-  ['npcscript_10',['npcScript',['../class_dialogue_questions.html#a90b069436181142e69e1da2e85ac8728',1,'DialogueQuestions']]],
-  ['numthrow_11',['numThrow',['../class_r_p_s_runner.html#a2c83b9a357171f3d26b1434661c8798b',1,'RPSRunner']]]
+  ['name_0',['name',['../class_headspace_1_1_clue_object.html#a8a79c4f40391018c797fc33f237625a4',1,'Headspace.ClueObject.name'],['../class_headspace_1_1_conclusion_object.html#a1f175c1af23ad76ea8dcbe38a83248a6',1,'Headspace.ConclusionObject.name'],['../class_headspace_1_1_sus_object.html#a1b22b83638b84dc09094b43a587f2ee2',1,'Headspace.SusObject.name'],['../class_headspace_1_1_testimony_object.html#abe56cd4f3dd83e5b512abbfea8505622',1,'Headspace.TestimonyObject.name']]],
+  ['newscenevars_1',['newSceneVars',['../class_headspace_1_1_utility_1_1_scene_config.html#ab5994c6c3e17e0c827b51db5273a36cd',1,'Headspace::Utility::SceneConfig']]],
+  ['newsprite_2',['newSprite',['../class_headspace_1_1_u_i_1_1_round_indicator.html#a84e094c6a7d071702d8b59d6cbb3b034',1,'Headspace.UI.RoundIndicator.newSprite'],['../class_headspace_1_1_u_i_1_1_turn_indicator.html#ae25e6cfd0b18005f40d234d235e8186f',1,'Headspace.UI.TurnIndicator.newSprite']]],
+  ['night_3',['Night',['../class_headspace_1_1_u_i_1_1_round_indicator.html#ad06b09617ce3e2dc62e48615f391ce25',1,'Headspace::UI::RoundIndicator']]],
+  ['npc_4',['npc',['../class_headspace_1_1_dialogue_1_1_dialogue_questions.html#a8e97f6d4e676f2329f3b1ec7ebc69fd3',1,'Headspace.Dialogue.DialogueQuestions.npc'],['../class_headspace_1_1_players_1_1_ray_cast_select.html#a6ff96c26fd3191c322844dd662aba250',1,'Headspace.Players.RayCastSelect.npc']]],
+  ['npcclicked_5',['npcClicked',['../class_headspace_1_1_players_1_1_ray_cast_select.html#a0a058fffc85a9a0513c3a36ce2dac831',1,'Headspace::Players::RayCastSelect']]],
+  ['npcname_6',['npcName',['../class_headspace_1_1_dialogue_1_1_n_p_c.html#a0d1b32bb977c8dd547bdbb78f9197da3',1,'Headspace::Dialogue::NPC']]],
+  ['npcnametext_7',['npcNameText',['../class_headspace_1_1_dialogue_1_1_n_p_c.html#ad8967ca20caba06dee91b2abb151bb0e',1,'Headspace::Dialogue::NPC']]],
+  ['npcscript_8',['npcScript',['../class_headspace_1_1_dialogue_1_1_dialogue_questions.html#ae2303772cfbddafba72090c9e609a66b',1,'Headspace::Dialogue::DialogueQuestions']]],
+  ['numthrow_9',['numThrow',['../class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a5b6c8d6d2cbdb320e4fb8b70517ce7be',1,'Headspace::Minigames::RPS::RPSRunner']]]
 ];

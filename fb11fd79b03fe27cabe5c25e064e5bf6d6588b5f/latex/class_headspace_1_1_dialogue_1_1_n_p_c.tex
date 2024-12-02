@@ -1,0 +1,159 @@
+\doxysection{Headspace.\+Dialogue.\+NPC Class Reference}
+\hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c}{}\label{class_headspace_1_1_dialogue_1_1_n_p_c}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+
+
+Inheritance diagram for Headspace.\+Dialogue.\+NPC\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{class_headspace_1_1_dialogue_1_1_n_p_c__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Dialogue.\+NPC\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_a600a0bfa203179ec4d4ff0a18414e5f9}{NPCClicked}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_a19dec13a55a1d81d93a940819f2ac2e6}{NPCExit}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_addca0516d297c6a7c06e72d0c1dbd6ab}{Discover\+Character}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory}{Suspect\+Inventory}} \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_a2ced849dab7d89f08cb6b9d72a323fce}{sus\+Inventory}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_dialogue_case_files}{Dialogue\+Case\+Files}} \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_a62655db1dd26b66bc63b2c9123bf4b81}{case\+Files}}
+\item 
+string \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_ab0c31e3d66e36a8c6e5c832b07b8c53b}{convo\+Name}}
+\item 
+string \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_a0d1b32bb977c8dd547bdbb78f9197da3}{npc\+Name}}
+\item 
+string \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_ad8967ca20caba06dee91b2abb151bb0e}{npc\+Name\+Text}}
+\item 
+string \mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_n_p_c_aa8ca1bdcfac7ed053cc92b7194e3e81c}{act\+Play}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_addca0516d297c6a7c06e72d0c1dbd6ab}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!DiscoverCharacter@{DiscoverCharacter}}
+\index{DiscoverCharacter@{DiscoverCharacter}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{DiscoverCharacter()}{DiscoverCharacter()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_addca0516d297c6a7c06e72d0c1dbd6ab} 
+void Headspace.\+Dialogue.\+NPC.\+Discover\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Checks if the character has been marked as discovered in the Suspect\+Inventory, if no, marks them as discovered Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_addca0516d297c6a7c06e72d0c1dbd6ab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_addca0516d297c6a7c06e72d0c1dbd6ab_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_a600a0bfa203179ec4d4ff0a18414e5f9}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!NPCClicked@{NPCClicked}}
+\index{NPCClicked@{NPCClicked}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{NPCClicked()}{NPCClicked()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_a600a0bfa203179ec4d4ff0a18414e5f9} 
+void Headspace.\+Dialogue.\+NPC.\+NPCClicked (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+After \doxylink{class_headspace_1_1_dialogue_1_1_n_p_c}{NPC} is clicked, deactivates \doxylink{class_headspace_1_1_dialogue_1_1_n_p_c}{NPC} sprite and continue button then gets the sprite npc name to load correct sprite and npc name for questions panel. then sets clickability to false and updates the casefile states. \texorpdfstring{$\ast$}{*} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_a600a0bfa203179ec4d4ff0a18414e5f9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_a600a0bfa203179ec4d4ff0a18414e5f9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_a19dec13a55a1d81d93a940819f2ac2e6}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!NPCExit@{NPCExit}}
+\index{NPCExit@{NPCExit}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{NPCExit()}{NPCExit()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_a19dec13a55a1d81d93a940819f2ac2e6} 
+void Headspace.\+Dialogue.\+NPC.\+NPCExit (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Called when exiting conversation with \doxylink{class_headspace_1_1_dialogue_1_1_n_p_c}{NPC}. Sets clickability to true and brings back cont button. Updates the casefile states again. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_a19dec13a55a1d81d93a940819f2ac2e6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_dialogue_1_1_n_p_c_a19dec13a55a1d81d93a940819f2ac2e6_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_aa8ca1bdcfac7ed053cc92b7194e3e81c}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!actPlay@{actPlay}}
+\index{actPlay@{actPlay}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{actPlay}{actPlay}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_aa8ca1bdcfac7ed053cc92b7194e3e81c} 
+string Headspace.\+Dialogue.\+NPC.\+act\+Play}
+
+Holds a string representing the active player \Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_a62655db1dd26b66bc63b2c9123bf4b81}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!caseFiles@{caseFiles}}
+\index{caseFiles@{caseFiles}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{caseFiles}{caseFiles}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_a62655db1dd26b66bc63b2c9123bf4b81} 
+\mbox{\hyperlink{class_headspace_1_1_dialogue_1_1_dialogue_case_files}{Dialogue\+Case\+Files}} Headspace.\+Dialogue.\+NPC.\+case\+Files}
+
+\Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_ab0c31e3d66e36a8c6e5c832b07b8c53b}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!convoName@{convoName}}
+\index{convoName@{convoName}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{convoName}{convoName}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_ab0c31e3d66e36a8c6e5c832b07b8c53b} 
+string Headspace.\+Dialogue.\+NPC.\+convo\+Name}
+
+name of the conversation to fire on click -\/-\/\texorpdfstring{$>$}{>} is this being used? \Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_a0d1b32bb977c8dd547bdbb78f9197da3}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!npcName@{npcName}}
+\index{npcName@{npcName}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{npcName}{npcName}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_a0d1b32bb977c8dd547bdbb78f9197da3} 
+string Headspace.\+Dialogue.\+NPC.\+npc\+Name}
+
+the name of the npc. MUST be set and configured in inspector on room creation. is the name of THE ORGAN \Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_ad8967ca20caba06dee91b2abb151bb0e}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!npcNameText@{npcNameText}}
+\index{npcNameText@{npcNameText}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{npcNameText}{npcNameText}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_ad8967ca20caba06dee91b2abb151bb0e} 
+string Headspace.\+Dialogue.\+NPC.\+npc\+Name\+Text}
+
+the display name of the npc from the dialogue database \Hypertarget{class_headspace_1_1_dialogue_1_1_n_p_c_a2ced849dab7d89f08cb6b9d72a323fce}\index{Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}!susInventory@{susInventory}}
+\index{susInventory@{susInventory}!Headspace.Dialogue.NPC@{Headspace.Dialogue.NPC}}
+\doxysubsubsection{\texorpdfstring{susInventory}{susInventory}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_dialogue_1_1_n_p_c_a2ced849dab7d89f08cb6b9d72a323fce} 
+\mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory}{Suspect\+Inventory}} Headspace.\+Dialogue.\+NPC.\+sus\+Inventory}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Framework/\+Dialogue/\mbox{\hyperlink{_n_p_c_8cs}{NPC.\+cs}}\end{DoxyCompactItemize}

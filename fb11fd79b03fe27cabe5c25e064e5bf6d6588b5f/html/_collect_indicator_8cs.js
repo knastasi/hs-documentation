@@ -1,4 +1,4 @@
 var _collect_indicator_8cs =
 [
-    [ "CollectIndicator", "class_collect_indicator.html", "class_collect_indicator" ]
+    [ "Headspace.UI.CollectIndicator", "class_headspace_1_1_u_i_1_1_collect_indicator.html", "class_headspace_1_1_u_i_1_1_collect_indicator" ]
 ];

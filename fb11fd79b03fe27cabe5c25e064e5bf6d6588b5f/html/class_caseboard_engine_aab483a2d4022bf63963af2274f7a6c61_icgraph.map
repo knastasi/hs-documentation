@@ -1,9 +1,0 @@
-<map id="CaseboardEngine.EndLine" name="CaseboardEngine.EndLine">
-<area shape="rect" id="Node000001" title=" " alt="" coords="736,13,912,40"/>
-<area shape="rect" id="Node000002" href="$class_ray_cast_select.html#aa0ce44be9479ded64dec98b375f97a56" title=" " alt="" coords="494,13,688,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,29,689,29,689,24,721,24"/>
-<area shape="rect" id="Node000003" href="$class_ray_cast_select.html#a6d92e93f5bd583bcf9d2fcf258ab190a" title=" " alt="" coords="231,13,446,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,29,446,29,446,24,478,24"/>
-<area shape="rect" id="Node000004" href="$class_global_state_runner.html#a1cbea30283ce8c78301ff7ba0911115e" title=" " alt="" coords="5,5,183,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,29,183,29,183,24,215,24"/>
-</map>

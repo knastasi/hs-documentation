@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['enableaccuse_0',['EnableAccuse',['../class_compare_handler.html#a6ca4b750a084bff654e80f46128c0d56',1,'CompareHandler']]],
-  ['endline_1',['EndLine',['../class_caseboard_engine.html#aab483a2d4022bf63963af2274f7a6c61',1,'CaseboardEngine']]],
-  ['enteraccuseintro_2',['EnterAccuseIntro',['../class_caseboard_engine.html#ae4c51e5ce5dfc5f37a8703dba5459cd6',1,'CaseboardEngine']]],
-  ['entercaseboard_3',['EnterCaseboard',['../class_compare_handler.html#ab6f4f3f287c839b4d771f677a472ce81',1,'CompareHandler']]],
-  ['entersusdialogue_4',['EnterSusDialogue',['../class_dialogue_case_files.html#ac24aba921cb7c20f0ce75b9c6f076c4c',1,'DialogueCaseFiles']]],
-  ['enterversionchoice_5',['EnterVersionChoice',['../class_compare_handler.html#ab706eb55f08f5d5d8e92d5c3808ee47e',1,'CompareHandler']]],
-  ['equals_6',['Equals',['../class_clue_object.html#a4ef67b32b5de6274722cfbdc168cbbbf',1,'ClueObject.Equals()'],['../class_event_object.html#a51dc18f3bb8de82d3e028cdde353b956',1,'EventObject.Equals()'],['../class_testimony_object.html#afa9ebd105ddc1ac077b575ca5d359165',1,'TestimonyObject.Equals()']]],
-  ['exitgame_7',['ExitGame',['../class_pause_menu.html#a62320cec5b63c34da27dcbd37cc7c466',1,'PauseMenu']]]
+  ['enableaccuse_0',['EnableAccuse',['../class_headspace_1_1_caseboard_1_1_compare_handler.html#a31182cd513b14a47e50801f4b3b52f56',1,'Headspace::Caseboard::CompareHandler']]],
+  ['endline_1',['EndLine',['../class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a4ccc8275f27d4e8e1cba7d1ce0d11a19',1,'Headspace::Caseboard::CaseboardEngine']]],
+  ['enteraccuseintro_2',['EnterAccuseIntro',['../class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a7cc595d868e9b8842f06ca0407db1c6b',1,'Headspace::Caseboard::CaseboardEngine']]],
+  ['entercaseboard_3',['EnterCaseboard',['../class_headspace_1_1_caseboard_1_1_compare_handler.html#ae9394ff5f81638c34949eb669789d429',1,'Headspace::Caseboard::CompareHandler']]],
+  ['entersusdialogue_4',['EnterSusDialogue',['../class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390',1,'Headspace::Dialogue::DialogueCaseFiles']]],
+  ['enterversionchoice_5',['EnterVersionChoice',['../class_headspace_1_1_caseboard_1_1_compare_handler.html#a056aa04842ecba8f92f2cbe36330cfef',1,'Headspace::Caseboard::CompareHandler']]],
+  ['equals_6',['Equals',['../class_headspace_1_1_clue_object.html#acf9a072bbeae6a6595828e2bdeab8de6',1,'Headspace.ClueObject.Equals()'],['../class_headspace_1_1_testimony_object.html#a58de3ccf074a98dbf59247ef8bd62553',1,'Headspace.TestimonyObject.Equals()']]],
+  ['exitgame_7',['ExitGame',['../class_headspace_1_1_u_i_1_1_pause_menu.html#a19e7e5b176a39c41c0b94a67eae73861',1,'Headspace::UI::PauseMenu']]]
 ];

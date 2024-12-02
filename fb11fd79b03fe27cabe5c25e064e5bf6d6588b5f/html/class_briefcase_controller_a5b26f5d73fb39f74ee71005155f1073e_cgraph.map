@@ -1,9 +1,0 @@
-<map id="BriefcaseController.UpdateBriefcase" name="BriefcaseController.UpdateBriefcase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,184,81"/>
-<area shape="rect" id="Node000002" href="$class_briefcase_clues.html#a417da481b6b20d56c1d9fe3c705ac0d9" title=" " alt="" coords="232,5,415,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,44,216,40,216,45,184,50"/>
-<area shape="rect" id="Node000003" href="$class_briefcase_suspects.html#ac12d3e4ad32f3abc3a9105d88eef5ce8" title=" " alt="" coords="235,72,412,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,70,220,76,219,81,184,76"/>
-<area shape="rect" id="Node000004" href="$class_suspect_inventory.html#a7ae3c731c1cac78b1210166a736c2e72" title=" " alt="" coords="463,80,672,107"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,91,447,91,447,96,413,96"/>
-</map>

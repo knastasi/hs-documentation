@@ -1,4 +1,4 @@
 var _caseboard_clues_8cs =
 [
-    [ "CaseboardClues", "class_caseboard_clues.html", "class_caseboard_clues" ]
+    [ "Headspace.Caseboard.CaseboardClues", "class_headspace_1_1_caseboard_1_1_caseboard_clues.html", "class_headspace_1_1_caseboard_1_1_caseboard_clues" ]
 ];

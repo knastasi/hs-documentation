@@ -1,0 +1,9 @@
+<map id="Headspace.Dialogue.DialogueSlotManager.FireConversation" name="Headspace.Dialogue.DialogueSlotManager.FireConversation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,203,115"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#afb87cc24ee41c92cc1ca07197c17ccc0" title=" " alt="" coords="251,5,459,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,69,257,50,258,55,188,74"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a13c124a5da1145627754713e5a4c0a33" title=" " alt="" coords="256,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,91,241,91,241,96,203,96"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ad069fd3071f75ca3c10e86fdc34f22c6" title=" " alt="" coords="256,139,454,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,113,258,132,257,137,186,118"/>
+</map>

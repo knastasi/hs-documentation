@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['UI',['../class_global_state_runner.html#a3a2b4ed1489c4c63365c0fd058111a05a71ff71526d15db86eb50fcac245d183b',1,'GlobalStateRunner.UI'],['../_input_map_handler_8cs.html#aaaf9ea965b3b32108399d9b2b8d3312ba71ff71526d15db86eb50fcac245d183b',1,'UI:&#160;InputMapHandler.cs']]]
+  ['ui_0',['UI',['../class_headspace_1_1_global_state_runner.html#a666145df09c12d096c097ce8eba9b78ea71ff71526d15db86eb50fcac245d183b',1,'Headspace.GlobalStateRunner.UI'],['../namespace_headspace_1_1_players.html#ac31efbaeb2d0c96c2499e2b2180d56e7a71ff71526d15db86eb50fcac245d183b',1,'Headspace.Players.UI']]]
 ];

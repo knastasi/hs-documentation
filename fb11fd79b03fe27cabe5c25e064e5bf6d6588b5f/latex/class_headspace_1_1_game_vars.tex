@@ -1,0 +1,105 @@
+\doxysection{Headspace.\+Game\+Vars Class Reference}
+\hypertarget{class_headspace_1_1_game_vars}{}\label{class_headspace_1_1_game_vars}\index{Headspace.GameVars@{Headspace.GameVars}}
+
+
+Inheritance diagram for Headspace.\+Game\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_headspace_1_1_game_vars__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Game\+Vars\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_headspace_1_1_game_vars__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_vars_ab3f3c985fded45973227abd279486671}{l\+Player}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_vars_a84a50fb89bbd894715e17bd22c6a175b}{r\+Player}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_vars_ad5038aa94846b2bcf9bc5b88ed3d2eca}{active\+Player\+Object}}
+\item 
+\mbox{\hyperlink{namespace_headspace_acd113d3765ab08bd7fec5374d3a4d028}{Room\+ID}} \mbox{\hyperlink{class_headspace_1_1_game_vars_ad52240ce9b35ecbdae0ad75dc06fe5e5}{Left\+Selection}}
+\item 
+\mbox{\hyperlink{namespace_headspace_acd113d3765ab08bd7fec5374d3a4d028}{Room\+ID}} \mbox{\hyperlink{class_headspace_1_1_game_vars_aa8895eeeab0d3c82348a73d92471dae7}{Right\+Selection}}
+\item 
+int \mbox{\hyperlink{class_headspace_1_1_game_vars_a38ea45b633e30317849c841d82ba3aa0}{accuse\+Count}}
+\item 
+bool \mbox{\hyperlink{class_headspace_1_1_game_vars_a483f5cd6df1f7f7c3bb1ec21825df191}{rps\+Tutorial}} = false
+\item 
+Network\+Variable$<$ \mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}} $>$ \mbox{\hyperlink{class_headspace_1_1_game_vars_a65a260bc22c982d0dda3bf45f4361146}{active\+Player}}
+\item 
+Network\+Variable$<$ \mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}} $>$ \mbox{\hyperlink{class_headspace_1_1_game_vars_a0fcfbdeb60fbab82d6395d40942b72da}{first\+Player}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_game_vars_a38ea45b633e30317849c841d82ba3aa0}\index{Headspace.GameVars@{Headspace.GameVars}!accuseCount@{accuseCount}}
+\index{accuseCount@{accuseCount}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{accuseCount}{accuseCount}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_a38ea45b633e30317849c841d82ba3aa0} 
+int Headspace.\+Game\+Vars.\+accuse\+Count}
+
+how many accusation attempts have been made? there is a limit of false accusations. \Hypertarget{class_headspace_1_1_game_vars_a65a260bc22c982d0dda3bf45f4361146}\index{Headspace.GameVars@{Headspace.GameVars}!activePlayer@{activePlayer}}
+\index{activePlayer@{activePlayer}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{activePlayer}{activePlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_a65a260bc22c982d0dda3bf45f4361146} 
+Network\+Variable$<$\mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}}$>$ Headspace.\+Game\+Vars.\+active\+Player}
+
+\Hypertarget{class_headspace_1_1_game_vars_ad5038aa94846b2bcf9bc5b88ed3d2eca}\index{Headspace.GameVars@{Headspace.GameVars}!activePlayerObject@{activePlayerObject}}
+\index{activePlayerObject@{activePlayerObject}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{activePlayerObject}{activePlayerObject}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_ad5038aa94846b2bcf9bc5b88ed3d2eca} 
+Game\+Object Headspace.\+Game\+Vars.\+active\+Player\+Object}
+
+used to store whichever player game object is the active player object \Hypertarget{class_headspace_1_1_game_vars_a0fcfbdeb60fbab82d6395d40942b72da}\index{Headspace.GameVars@{Headspace.GameVars}!firstPlayer@{firstPlayer}}
+\index{firstPlayer@{firstPlayer}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{firstPlayer}{firstPlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_a0fcfbdeb60fbab82d6395d40942b72da} 
+Network\+Variable$<$\mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}}$>$ Headspace.\+Game\+Vars.\+first\+Player}
+
+which player is first to move in this round? \Hypertarget{class_headspace_1_1_game_vars_ad52240ce9b35ecbdae0ad75dc06fe5e5}\index{Headspace.GameVars@{Headspace.GameVars}!LeftSelection@{LeftSelection}}
+\index{LeftSelection@{LeftSelection}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{LeftSelection}{LeftSelection}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_ad52240ce9b35ecbdae0ad75dc06fe5e5} 
+\mbox{\hyperlink{namespace_headspace_acd113d3765ab08bd7fec5374d3a4d028}{Room\+ID}} Headspace.\+Game\+Vars.\+Left\+Selection}
+
+what room did left player select? used to prevent the second player from visiting the same room. currently not in use. \Hypertarget{class_headspace_1_1_game_vars_ab3f3c985fded45973227abd279486671}\index{Headspace.GameVars@{Headspace.GameVars}!lPlayer@{lPlayer}}
+\index{lPlayer@{lPlayer}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{lPlayer}{lPlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_ab3f3c985fded45973227abd279486671} 
+Game\+Object Headspace.\+Game\+Vars.\+l\+Player}
+
+\Hypertarget{class_headspace_1_1_game_vars_aa8895eeeab0d3c82348a73d92471dae7}\index{Headspace.GameVars@{Headspace.GameVars}!RightSelection@{RightSelection}}
+\index{RightSelection@{RightSelection}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{RightSelection}{RightSelection}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_aa8895eeeab0d3c82348a73d92471dae7} 
+\mbox{\hyperlink{namespace_headspace_acd113d3765ab08bd7fec5374d3a4d028}{Room\+ID}} Headspace.\+Game\+Vars.\+Right\+Selection}
+
+what room did the right player select? used to prevent the second player from visiting the same room\+: currently not in use \Hypertarget{class_headspace_1_1_game_vars_a84a50fb89bbd894715e17bd22c6a175b}\index{Headspace.GameVars@{Headspace.GameVars}!rPlayer@{rPlayer}}
+\index{rPlayer@{rPlayer}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{rPlayer}{rPlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_a84a50fb89bbd894715e17bd22c6a175b} 
+Game\+Object Headspace.\+Game\+Vars.\+r\+Player}
+
+\Hypertarget{class_headspace_1_1_game_vars_a483f5cd6df1f7f7c3bb1ec21825df191}\index{Headspace.GameVars@{Headspace.GameVars}!rpsTutorial@{rpsTutorial}}
+\index{rpsTutorial@{rpsTutorial}!Headspace.GameVars@{Headspace.GameVars}}
+\doxysubsubsection{\texorpdfstring{rpsTutorial}{rpsTutorial}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_vars_a483f5cd6df1f7f7c3bb1ec21825df191} 
+bool Headspace.\+Game\+Vars.\+rps\+Tutorial = false}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Seralizable/\mbox{\hyperlink{_game_vars_8cs}{Game\+Vars.\+cs}}\end{DoxyCompactItemize}

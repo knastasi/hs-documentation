@@ -1,5 +1,5 @@
 <map id="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseShowTable.Awake" name="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseShowTable.Awake">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,282,64"/>
-<area shape="rect" id="Node000002" href="$class_accuse_scene_handler.html#aaa5de772c46cdd989558e6811b1ff7be" title=" " alt="" coords="330,21,545,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_accuse_1_1_accuse_scene_handler.html#a5cde76564a02a35a69a5d1bb2e11f88e" title=" " alt="" coords="330,13,550,56"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,32,314,32,314,37,282,37"/>
 </map>

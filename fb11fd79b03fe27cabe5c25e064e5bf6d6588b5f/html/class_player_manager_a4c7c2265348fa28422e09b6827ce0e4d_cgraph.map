@@ -1,7 +1,0 @@
-<map id="PlayerManager.ToggleActiveCursor" name="PlayerManager.ToggleActiveCursor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,193,81"/>
-<area shape="rect" id="Node000002" href="$class_global_state_runner.html#a99570866b2724c0274cdbae12f21c7ef" title=" " alt="" coords="241,5,414,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,44,225,39,226,44,193,49"/>
-<area shape="rect" id="Node000003" href="$class_global_state_runner.html#a13ce74be72a8fd2116c41f290c13fc58" title=" " alt="" coords="241,72,414,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,71,226,76,225,81,192,76"/>
-</map>

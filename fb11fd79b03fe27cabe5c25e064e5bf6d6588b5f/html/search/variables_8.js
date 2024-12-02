@@ -1,19 +1,17 @@
 var searchData=
 [
-  ['id_0',['id',['../class_attack_object.html#ac437ef660412b1159e84bdc150fdf071',1,'AttackObject']]],
-  ['index_1',['index',['../class_timeline_object.html#a0cbf2b91bf52ecd1aec745620d25a892',1,'TimelineObject']]],
-  ['inquestions_2',['inQuestions',['../class_dialogue_questions.html#ad619f8bb6680accdfe9a273b729f7028',1,'DialogueQuestions']]],
-  ['invdesc_3',['invDesc',['../class_briefcase_clues.html#a368a689540ede35921b5be6e8e36faf0',1,'BriefcaseClues']]],
-  ['inventory_4',['inventory',['../class_clue_inventory.html#a21a2cd21ae493ffa3bd302e13c8d0bc1',1,'ClueInventory.inventory'],['../class_conclusion_inventory.html#acaed369d69e52d89f1091facdf282e4f',1,'ConclusionInventory.inventory'],['../class_suspect_inventory.html#a1bbe7b4d5e5b8150ac3f2280977906d1',1,'SuspectInventory.inventory'],['../class_testimony_inventory.html#ae259e3daa62bcdbd606557887f930453',1,'TestimonyInventory.inventory'],['../class_player_var_object.html#a19b46a85c6cd4cf136e77f38835c69a8',1,'PlayerVarObject.inventory']]],
-  ['inventoryobject_5',['inventoryObject',['../class_briefcase_suspects.html#a7ce181bddb3831a21a95f681867894a7',1,'BriefcaseSuspects']]],
-  ['invname_6',['invName',['../class_briefcase_clues.html#a0234fa0884923f0ba4b0f918ee3abf39',1,'BriefcaseClues']]],
-  ['invnote_7',['invNote',['../class_briefcase_clues.html#a102505839457bb74b603a442c3b63078',1,'BriefcaseClues']]],
-  ['invsprites_8',['invSprites',['../class_dialogue_case_files.html#a97c1efe93e77756c0ef1e8930312dc7c',1,'DialogueCaseFiles']]],
-  ['invtestimony_9',['invTestimony',['../class_testimony_inventory.html#abb9ce123c0f0f3c396145c33d1f56c8d',1,'TestimonyInventory']]],
-  ['iscampan_10',['isCamPan',['../class_ray_cast_select.html#a6de1fccec7682935f5ada62f36ad36ac',1,'RayCastSelect']]],
-  ['isdragging_11',['isDragging',['../class_ray_cast_select.html#a95aabc4b5c8a355f4c402b90d5ff0b5f',1,'RayCastSelect']]],
-  ['isdrawing_12',['isDrawing',['../class_ray_cast_select.html#ae2ee499bdc13aff61c4868686b8b17ae',1,'RayCastSelect']]],
-  ['isdrawmode_13',['isDrawMode',['../class_ray_cast_select.html#aa51652c94d721740a60fb2ec09f30424',1,'RayCastSelect']]],
-  ['isonlinegame_14',['isOnlineGame',['../class_game_runner.html#aacd72af99984ad41cc2553ce401723b8',1,'GameRunner']]],
-  ['ispaused_15',['isPaused',['../class_pause_menu.html#a3d0a43917cf3e488852b47d1b755b377',1,'PauseMenu']]]
+  ['inquestions_0',['inQuestions',['../class_headspace_1_1_dialogue_1_1_dialogue_questions.html#a829b5377ca7d87cb41a08ed467397721',1,'Headspace::Dialogue::DialogueQuestions']]],
+  ['invdesc_1',['invDesc',['../class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html#ae385339d615b97ca38a4f78a5a2b9370',1,'Headspace::PlayerBriefcase::BriefcaseClues']]],
+  ['inventory_2',['inventory',['../class_headspace_1_1_clue_collection_1_1_clue_inventory.html#aa59fdd38c0be29a4feef0752b3c2293a',1,'Headspace.ClueCollection.ClueInventory.inventory'],['../class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html#aa3bc8c22204b8ab17a7bb77420204355',1,'Headspace.ConclusionCollection.ConclusionInventory.inventory'],['../class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a8a7e320273c9896e3d479905777d71f3',1,'Headspace.SuspectDiscovery.SuspectInventory.inventory'],['../class_headspace_1_1_testimony_collection_1_1_testimony_inventory.html#a2b6e3363430fbdbf1ada6817db9504db',1,'Headspace.TestimonyCollection.TestimonyInventory.inventory'],['../class_headspace_1_1_player_var_object.html#ab93ced739745036f684be9b61a10a080',1,'Headspace.PlayerVarObject.inventory']]],
+  ['inventoryobject_3',['inventoryObject',['../class_headspace_1_1_player_briefcase_1_1_briefcase_suspects.html#a37dc75fa989498f3c83b5b052a51d181',1,'Headspace::PlayerBriefcase::BriefcaseSuspects']]],
+  ['invname_4',['invName',['../class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html#ada8e94f0663957870b9a5f76adada682',1,'Headspace::PlayerBriefcase::BriefcaseClues']]],
+  ['invnote_5',['invNote',['../class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html#ac297d1354331cb0496ceb44f0ba17907',1,'Headspace::PlayerBriefcase::BriefcaseClues']]],
+  ['invsprites_6',['invSprites',['../class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#aea8f3923f2e29e3d26a2561ba507a477',1,'Headspace::Dialogue::DialogueCaseFiles']]],
+  ['invtestimony_7',['invTestimony',['../class_headspace_1_1_testimony_collection_1_1_testimony_inventory.html#a23092f66ae2c99d6d3c41bda35845db9',1,'Headspace::TestimonyCollection::TestimonyInventory']]],
+  ['iscampan_8',['isCamPan',['../class_headspace_1_1_players_1_1_ray_cast_select.html#a195b7fdf0a01ec3f59b2ba3dadc8ef60',1,'Headspace::Players::RayCastSelect']]],
+  ['isdragging_9',['isDragging',['../class_headspace_1_1_players_1_1_ray_cast_select.html#a154a6346f6dadc23eb8114735aa5b86b',1,'Headspace::Players::RayCastSelect']]],
+  ['isdrawing_10',['isDrawing',['../class_headspace_1_1_players_1_1_ray_cast_select.html#a88d09ade8b7c12c4091b6374531a8114',1,'Headspace::Players::RayCastSelect']]],
+  ['isdrawmode_11',['isDrawMode',['../class_headspace_1_1_players_1_1_ray_cast_select.html#ad84f2eb83f4b2de629149d8dd66f447e',1,'Headspace::Players::RayCastSelect']]],
+  ['isonlinegame_12',['isOnlineGame',['../class_headspace_1_1_game_runner.html#a7988cfc5fc790a8931690f56602d6f85',1,'Headspace::GameRunner']]],
+  ['ispaused_13',['isPaused',['../class_headspace_1_1_u_i_1_1_pause_menu.html#a30ec77774edc777b332c8bb16f9b930c',1,'Headspace::UI::PauseMenu']]]
 ];

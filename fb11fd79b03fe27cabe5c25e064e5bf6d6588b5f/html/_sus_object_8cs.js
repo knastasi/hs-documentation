@@ -1,4 +1,4 @@
 var _sus_object_8cs =
 [
-    [ "SusObject", "class_sus_object.html", "class_sus_object" ]
+    [ "Headspace.SusObject", "class_headspace_1_1_sus_object.html", "class_headspace_1_1_sus_object" ]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['win_0',['WIN',['../_accuse_runner_8cs.html#ae55b0e2dd1b41913d8493415124dbf5fa92e56d8195a9dd45a9b90aacf82886b1',1,'WIN:&#160;AccuseRunner.cs'],['../_game_vars_8cs.html#aca8133200c1122e29b87b314d82604eba92e56d8195a9dd45a9b90aacf82886b1',1,'WIN:&#160;GameVars.cs']]],
-  ['winner_1',['winner',['../class_roulette_runner.html#a33986bb95f2b7298009757bf351ef454',1,'RouletteRunner']]]
+  ['win_0',['WIN',['../namespace_headspace_1_1_accuse.html#ab7f31d58a2f1a90b18859f0b08e73f9ea92e56d8195a9dd45a9b90aacf82886b1',1,'Headspace.Accuse.WIN'],['../namespace_headspace.html#a118268e7a1c769ae8b84dfea40771104a92e56d8195a9dd45a9b90aacf82886b1',1,'Headspace.WIN']]],
+  ['winner_1',['winner',['../class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner.html#aabc4f60da68de338b618be1807c32a8f',1,'Headspace::Minigames::Prototypes::RouletteRunner']]]
 ];

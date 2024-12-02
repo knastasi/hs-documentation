@@ -1,0 +1,5 @@
+<map id="Headspace.Title.ConnectHandler.P1Connect" name="Headspace.Title.ConnectHandler.P1Connect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="281,5,499,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_network_1_1_mouse_spawn.html#a8d4a3d3d7d698d206022dcc18444d6d5" title=" " alt="" coords="5,5,233,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,29,233,29,233,24,265,24"/>
+</map>

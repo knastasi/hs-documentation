@@ -1,0 +1,7 @@
+<map id="Headspace.Caseboard.LineHandler.Update" name="Headspace.Caseboard.LineHandler.Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,188,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_line_handler.html#aed3b84ab22282024fff88ffc115b2bac" title=" " alt="" coords="236,5,418,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,44,220,39,220,45,188,49"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_line_handler.html#a04f9ea253bebd990ac09b0d13385c71b" title=" " alt="" coords="236,72,418,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,71,220,75,220,81,187,76"/>
+</map>

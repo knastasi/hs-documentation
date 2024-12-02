@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['magclue_0',['magClue',['../class_briefcase_clues.html#a48d4a4ab861a4d674ae901c14eba6d4a',1,'BriefcaseClues']]],
-  ['magglass_1',['magGlass',['../class_briefcase_clues.html#a7a34928f13e7d79a356c68d6352fe358',1,'BriefcaseClues']]],
-  ['maincanvas_2',['mainCanvas',['../class_pause_menu.html#a55e80d902bdd7c0d3b5a7f1a978ee96a',1,'PauseMenu']]],
-  ['maincontinuebutton_3',['MainContinueButton',['../class_global_state_runner.html#a2173a8dcb9a3df709ffc07591e86f2b5',1,'GlobalStateRunner']]],
-  ['maphandler_4',['mapHandler',['../class_game_runner.html#a54904405e53602304cc9bed6d8a668dd',1,'GameRunner']]],
-  ['maxsize_5',['maxSize',['../class_caseboard_input_handler.html#a3025b0b84f6880dcd8ef368be3abc9df',1,'CaseboardInputHandler']]],
-  ['minsize_6',['minSize',['../class_caseboard_input_handler.html#a31d3f6cb8c64c6bc37eab78ff099c65a',1,'CaseboardInputHandler']]],
-  ['modetext_7',['ModeText',['../class_network_runner.html#ac3ac164382ab03c9f35a0783a5154e0e',1,'NetworkRunner']]],
-  ['motive_8',['Motive',['../class_accuse_runner.html#a0296f4db9f775d41a4631a1e37c08b3e',1,'AccuseRunner']]],
-  ['movespeed_9',['moveSpeed',['../class_caseboard_input_handler.html#a201301670c0ccb7091c38d47c863a68e',1,'CaseboardInputHandler']]],
-  ['mytype_10',['myType',['../class_dialogue_slot_manager.html#a86425c011201b9fd86b75671158334ed',1,'DialogueSlotManager']]]
+  ['magclue_0',['magClue',['../class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html#ae82f1f33730ef2b59d55dccae8b80d94',1,'Headspace::PlayerBriefcase::BriefcaseClues']]],
+  ['magglass_1',['magGlass',['../class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html#a58fec15c6c6b1e22f4caf6bb63bd47cf',1,'Headspace::PlayerBriefcase::BriefcaseClues']]],
+  ['maincanvas_2',['mainCanvas',['../class_headspace_1_1_u_i_1_1_pause_menu.html#a0798ea4a1333ac593f2b5a0fcfdccc0a',1,'Headspace::UI::PauseMenu']]],
+  ['maincontinuebutton_3',['MainContinueButton',['../class_headspace_1_1_global_state_runner.html#abbd67251c7c61ea8a10e6d82a6b47c98',1,'Headspace::GlobalStateRunner']]],
+  ['maphandler_4',['mapHandler',['../class_headspace_1_1_game_runner.html#a3bcbb4e7697e93288d9dd3f11e311caf',1,'Headspace::GameRunner']]],
+  ['maxsize_5',['maxSize',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#ac3fd53cfc83df343067670c8c8ca1011',1,'Headspace::Caseboard::CaseboardInputHandler']]],
+  ['minsize_6',['minSize',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a4ec5d7afd8f59c3a4f8fffe3439bbcc2',1,'Headspace::Caseboard::CaseboardInputHandler']]],
+  ['modetext_7',['ModeText',['../class_headspace_1_1_network_1_1_network_runner.html#a82c50d4036528e879a23441e2df8f9df',1,'Headspace::Network::NetworkRunner']]],
+  ['motive_8',['Motive',['../class_headspace_1_1_accuse_1_1_accuse_runner.html#aaf965322c04e3f2a54080191c18cf665',1,'Headspace::Accuse::AccuseRunner']]],
+  ['movespeed_9',['moveSpeed',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a2a43531b1eed1598a0bca59dbcbd8f4e',1,'Headspace::Caseboard::CaseboardInputHandler']]],
+  ['mytype_10',['myType',['../class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a4f96156c4e38735e0fb2cf584d567601',1,'Headspace::Dialogue::DialogueSlotManager']]]
 ];

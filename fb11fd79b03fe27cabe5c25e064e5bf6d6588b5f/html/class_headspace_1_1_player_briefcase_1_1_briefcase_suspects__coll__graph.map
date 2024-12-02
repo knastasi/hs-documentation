@@ -1,0 +1,8 @@
+<map id="Headspace.PlayerBriefcase.BriefcaseSuspects" name="Headspace.PlayerBriefcase.BriefcaseSuspects">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,188,193,231"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,5,149,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,47,101,188,96,188,92,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html" title=" " alt="" coords="116,81,317,124"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="126,38,187,79,184,83,123,43"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,137,124,189,120,186,180,133"/>
+</map>

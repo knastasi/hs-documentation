@@ -1,4 +1,4 @@
 var _compare_handler_8cs =
 [
-    [ "CompareHandler", "class_compare_handler.html", "class_compare_handler" ]
+    [ "Headspace.Caseboard.CompareHandler", "class_headspace_1_1_caseboard_1_1_compare_handler.html", "class_headspace_1_1_caseboard_1_1_compare_handler" ]
 ];

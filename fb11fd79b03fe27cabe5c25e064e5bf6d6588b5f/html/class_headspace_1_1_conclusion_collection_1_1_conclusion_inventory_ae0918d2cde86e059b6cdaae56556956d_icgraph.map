@@ -1,0 +1,9 @@
+<map id="Headspace.ConclusionCollection.ConclusionInventory.AddConclusion" name="Headspace.ConclusionCollection.ConclusionInventory.AddConclusion">
+<area shape="rect" id="Node000001" title=" " alt="" coords="570,39,801,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html#af958d31ef86cd917615cc1323fe79b7e" title=" " alt="" coords="275,39,522,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="554,63,523,63,523,57,554,57"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a083b9f0a6ce80e266fc926155276dffb" title=" " alt="" coords="5,5,227,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,46,227,42,227,37,259,41"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a48c780e9030677e9aa793bd62209b3f9" title=" " alt="" coords="5,72,227,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="259,79,227,83,227,78,259,74"/>
+</map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['questionmenu_0',['questionMenu',['../class_dialogue_end.html#af2955787470b92264b37d1c0bfa3325d',1,'DialogueEnd.questionMenu'],['../class_dialogue_questions.html#a54a1fc5dc2f577b8fb88f8db082fe66c',1,'DialogueQuestions.questionMenu'],['../class_dialogue_slot_manager.html#a705918b440538714992d7e3d77bd38ea',1,'DialogueSlotManager.questionMenu']]],
-  ['questionpanel_1',['questionPanel',['../class_dialogue_end.html#afdcbcde06d9c893d6c8accf654e80aa0',1,'DialogueEnd.questionPanel'],['../class_dialogue_questions.html#a58fc6ef19e16a23594de97166072e358',1,'DialogueQuestions.questionPanel']]]
+  ['questionmenu_0',['questionMenu',['../class_headspace_1_1_dialogue_1_1_dialogue_end.html#a54417655a6a77519b9c5d9b622b00644',1,'Headspace.Dialogue.DialogueEnd.questionMenu'],['../class_headspace_1_1_dialogue_1_1_dialogue_questions.html#a3df42fd906fea68472f8bd0d4cb24689',1,'Headspace.Dialogue.DialogueQuestions.questionMenu'],['../class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a82b901cb916324f10ce2e7122b493251',1,'Headspace.Dialogue.DialogueSlotManager.questionMenu']]],
+  ['questionpanel_1',['questionPanel',['../class_headspace_1_1_dialogue_1_1_dialogue_end.html#aeeb905c5895cc14a5be4c6888d586424',1,'Headspace.Dialogue.DialogueEnd.questionPanel'],['../class_headspace_1_1_dialogue_1_1_dialogue_questions.html#a178cfb86ada0f51603a42239c63e2642',1,'Headspace.Dialogue.DialogueQuestions.questionPanel']]]
 ];

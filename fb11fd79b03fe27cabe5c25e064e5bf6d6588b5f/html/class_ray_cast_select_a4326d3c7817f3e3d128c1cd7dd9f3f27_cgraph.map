@@ -1,8 +1,0 @@
-<map id="RayCastSelect.OnDragClickRelease" name="RayCastSelect.OnDragClickRelease">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,195,72"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="54,29,52,19,60,10,76,5,100,3,126,5,142,11,140,16,125,10,100,8,77,10,63,15,57,21,59,28"/>
-<area shape="rect" id="Node000002" href="$class_ray_cast_select.html#aab4197e6fdbc9bde3070e661d815c21c" title=" " alt="" coords="249,12,438,39"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="195,38,233,34,234,39,195,43"/>
-<area shape="rect" id="Node000003" href="$class_ray_cast_select.html#a103c5ae029e3297ba70c76edefc62c9b" title=" " alt="" coords="243,63,444,89"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="195,58,227,61,227,67,195,63"/>
-</map>

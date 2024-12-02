@@ -1,4 +1,4 @@
 var _conclusion_8cs =
 [
-    [ "Conclusion", "class_conclusion.html", "class_conclusion" ]
+    [ "Headspace.ConclusionCollection.Conclusion", "class_headspace_1_1_conclusion_collection_1_1_conclusion.html", "class_headspace_1_1_conclusion_collection_1_1_conclusion" ]
 ];

@@ -1,0 +1,13 @@
+<map id="Headspace.Dialogue.DialogueCaseFiles.SusClose" name="Headspace.Dialogue.DialogueCaseFiles.SusClose">
+<area shape="rect" id="Node000001" title=" " alt="" coords="530,101,727,144"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#afb02d6ee330bdc18ca36d34f4af65d76" title=" " alt="" coords="268,5,465,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="566,97,481,63,447,51,448,46,483,57,568,92"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a48cb2f435708ba0b98dce4ca89acfec5" title=" " alt="" coords="268,72,465,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="514,113,465,107,466,102,515,107"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a19dec13a55a1d81d93a940819f2ac2e6" title=" " alt="" coords="251,139,482,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="515,138,483,142,482,136,514,133"/>
+<area shape="rect" id="Node000006" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a1d4a601446b5ef2bf06239098c833405" title=" " alt="" coords="268,189,465,232"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="559,152,483,180,447,191,445,186,481,175,557,147"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#af390c339a2e631f167d576f5a6f3b347" title=" " alt="" coords="5,131,203,173"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,155,203,155,203,149,235,149"/>
+</map>

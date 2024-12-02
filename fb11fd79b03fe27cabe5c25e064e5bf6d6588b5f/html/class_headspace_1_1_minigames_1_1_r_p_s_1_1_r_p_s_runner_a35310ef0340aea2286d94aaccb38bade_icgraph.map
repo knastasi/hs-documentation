@@ -1,0 +1,9 @@
+<map id="Headspace.Minigames.RPS.RPSRunner.UpdateState" name="Headspace.Minigames.RPS.RPSRunner.UpdateState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="244,72,434,115"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a0eefcad087a75e619310318ed9540592" title=" " alt="" coords="5,5,196,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,70,179,51,180,46,247,65"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05eb4bdcc9ea797501317c72ab9cf08f" title=" " alt="" coords="5,72,196,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,96,196,96,196,91,228,91"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05826ac283b0ebe4d43a2cd790c1a237" title=" " alt="" coords="5,139,196,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,122,180,141,179,135,245,117"/>
+</map>

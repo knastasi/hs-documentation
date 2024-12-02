@@ -1,9 +1,0 @@
-<map id="CompareHandler.DisableAccuse" name="CompareHandler.DisableAccuse">
-<area shape="rect" id="Node000001" title=" " alt="" coords="533,63,744,89"/>
-<area shape="rect" id="Node000002" href="$class_caseboard_engine.html#ae31f776d254512871834c07d8ba6e375" title=" " alt="" coords="273,55,485,97"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,79,486,79,486,73,517,73"/>
-<area shape="rect" id="Node000003" href="$class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html#a174b0e126b5020ad806caf023cfb544f" title=" " alt="" coords="5,5,225,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,60,225,55,226,49,257,54"/>
-<area shape="rect" id="Node000004" href="$class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html#a5b78ce1796babf52ea4282976e9247aa" title=" " alt="" coords="5,88,225,147"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="257,98,226,103,225,97,257,92"/>
-</map>

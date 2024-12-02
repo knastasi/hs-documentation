@@ -1,0 +1,5 @@
+<map id="Headspace.Dialogue.DialogueCaseFiles.DisplaySusInventory" name="Headspace.Dialogue.DialogueCaseFiles.DisplaySusInventory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,211,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title=" " alt="" coords="259,5,468,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,24,243,24,243,29,211,29"/>
+</map>

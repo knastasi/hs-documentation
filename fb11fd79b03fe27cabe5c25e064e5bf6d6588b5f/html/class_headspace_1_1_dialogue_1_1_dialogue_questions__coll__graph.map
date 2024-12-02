@@ -1,0 +1,14 @@
+<map id="Headspace.Dialogue.DialogueQuestions" name="Headspace.Dialogue.DialogueQuestions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,279,203,321"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="94,5,205,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,48,144,56,109,279,104,278,139,56,140,47"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html" title=" " alt="" coords="152,188,328,215"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="149,47,151,85,161,123,173,142,189,159,221,185,218,190,185,163,169,145,156,125,145,85,144,48"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html" title=" " alt="" coords="171,81,373,124"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="182,38,243,79,240,83,179,43"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html" title=" " alt="" coords="397,81,595,124"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="218,33,409,78,407,83,217,39"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,226,135,280,132,276,208,222"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="263,139,247,188,242,187,258,138"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="431,133,342,167,277,190,275,185,340,161,429,128"/>
+</map>

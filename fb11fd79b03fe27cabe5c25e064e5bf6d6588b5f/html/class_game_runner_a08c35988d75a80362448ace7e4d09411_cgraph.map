@@ -1,9 +1,0 @@
-<map id="GameRunner.SetActiveCursorsRPC" name="GameRunner.SetActiveCursorsRPC">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,240,73"/>
-<area shape="rect" id="Node000002" href="$class_player_manager.html#a4c7c2265348fa28422e09b6827ce0e4d" title=" " alt="" coords="288,39,475,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,57,272,57,272,63,240,63"/>
-<area shape="rect" id="Node000003" href="$class_global_state_runner.html#a99570866b2724c0274cdbae12f21c7ef" title=" " alt="" coords="523,5,696,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="475,44,507,39,508,44,475,49"/>
-<area shape="rect" id="Node000004" href="$class_global_state_runner.html#a13ce74be72a8fd2116c41f290c13fc58" title=" " alt="" coords="523,72,696,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="475,71,508,76,507,81,475,76"/>
-</map>

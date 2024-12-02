@@ -1,0 +1,215 @@
+\doxysection{Headspace.\+Game\+Runner Class Reference}
+\hypertarget{class_headspace_1_1_game_runner}{}\label{class_headspace_1_1_game_runner}\index{Headspace.GameRunner@{Headspace.GameRunner}}
+
+
+Inheritance diagram for Headspace.\+Game\+Runner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{class_headspace_1_1_game_runner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Game\+Runner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_game_runner__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_add9e47358cc00387e726d737d11b8e38}{On\+Network\+Start}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1}{On\+Continue}} (string s="{}"{})
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c}{Stage\+End}} (string s="{}"{})
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7}{Stage\+Begin}} (string s="{}"{})
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_aa077554655305239548afe44703f780f}{Update\+Player}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_game_runner_a652d2e6f4ec3752a0f5f8739e0626186}{Set\+Active\+Cursors\+RPC}} (\mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}} active\+Player)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_headspace_1_1_game_runner_a7988cfc5fc790a8931690f56602d6f85}{is\+Online\+Game}} = false
+\item 
+bool \mbox{\hyperlink{class_headspace_1_1_game_runner_a6392b152e31428f2be47e2f7882e5f5c}{loading}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_game_vars}{Game\+Vars}} \mbox{\hyperlink{class_headspace_1_1_game_runner_a75bd80d985a12a60689732f6f897dd0b}{game\+Var}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_runner_a20e407a5d0c25e60d2de94c4474e2810}{l\+Player}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_runner_ab92f29756481854965c52550d3446acf}{r\+Player}}
+\item 
+Network\+Variable$<$ \mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}} $>$ \mbox{\hyperlink{class_headspace_1_1_game_runner_a513f316e0efb6f98b88362b38d46760f}{round\+Select\+Winner}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner}{Global\+State\+Runner}} \mbox{\hyperlink{class_headspace_1_1_game_runner_a9cb97d4ad3d809b75ac2a7bb13199b80}{global\+State\+Runner}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_manager}{Player\+Manager}} \mbox{\hyperlink{class_headspace_1_1_game_runner_ad3117ec218933ed64f20fe5c172e344a}{player\+Manager}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_input_handler}{Player\+Input\+Handler}} \mbox{\hyperlink{class_headspace_1_1_game_runner_ad046bf92859ca31cdfa08ac386cf3abf}{player\+Input\+Handler}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_runner_affaabda24e4ea04f39e7742b6a9ce947}{persistant\+Elements}}
+\item 
+Game\+Object \mbox{\hyperlink{class_headspace_1_1_game_runner_a07c125d81fd55ebca49e7b9aa7c6624f}{dialogue\+Manager}}
+\item 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_input_map_handler}{Input\+Map\+Handler}} \mbox{\hyperlink{class_headspace_1_1_game_runner_a3bcbb4e7697e93288d9dd3f11e311caf}{map\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1}\index{Headspace.GameRunner@{Headspace.GameRunner}!OnContinue@{OnContinue}}
+\index{OnContinue@{OnContinue}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{OnContinue()}{OnContinue()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1} 
+void Headspace.\+Game\+Runner.\+On\+Continue (\begin{DoxyParamCaption}\item[{string}]{s}{ = {\ttfamily "{}"{}}}\end{DoxyParamCaption})}
+
+This is called by the continue buttons and can be called directly from gamerunner Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_game_runner_add9e47358cc00387e726d737d11b8e38}\index{Headspace.GameRunner@{Headspace.GameRunner}!OnNetworkStart@{OnNetworkStart}}
+\index{OnNetworkStart@{OnNetworkStart}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{OnNetworkStart()}{OnNetworkStart()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_add9e47358cc00387e726d737d11b8e38} 
+void Headspace.\+Game\+Runner.\+On\+Network\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_game_runner_a652d2e6f4ec3752a0f5f8739e0626186}\index{Headspace.GameRunner@{Headspace.GameRunner}!SetActiveCursorsRPC@{SetActiveCursorsRPC}}
+\index{SetActiveCursorsRPC@{SetActiveCursorsRPC}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{SetActiveCursorsRPC()}{SetActiveCursorsRPC()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a652d2e6f4ec3752a0f5f8739e0626186} 
+void Headspace.\+Game\+Runner.\+Set\+Active\+Cursors\+RPC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}}}]{active\+Player}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_game_runner_a652d2e6f4ec3752a0f5f8739e0626186_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7}\index{Headspace.GameRunner@{Headspace.GameRunner}!StageBegin@{StageBegin}}
+\index{StageBegin@{StageBegin}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{StageBegin()}{StageBegin()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7} 
+void Headspace.\+Game\+Runner.\+Stage\+Begin (\begin{DoxyParamCaption}\item[{string}]{s}{ = {\ttfamily "{}"{}}}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c}\index{Headspace.GameRunner@{Headspace.GameRunner}!StageEnd@{StageEnd}}
+\index{StageEnd@{StageEnd}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{StageEnd()}{StageEnd()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c} 
+void Headspace.\+Game\+Runner.\+Stage\+End (\begin{DoxyParamCaption}\item[{string}]{s}{ = {\ttfamily "{}"{}}}\end{DoxyParamCaption})}
+
+This is the method that kicks off the game\textquotesingle{}s state machine to advance scenes Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_game_runner_aa077554655305239548afe44703f780f}\index{Headspace.GameRunner@{Headspace.GameRunner}!UpdatePlayer@{UpdatePlayer}}
+\index{UpdatePlayer@{UpdatePlayer}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{UpdatePlayer()}{UpdatePlayer()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_aa077554655305239548afe44703f780f} 
+void Headspace.\+Game\+Runner.\+Update\+Player (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Updates players following a roundselect mini game 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_game_runner_a07c125d81fd55ebca49e7b9aa7c6624f}\index{Headspace.GameRunner@{Headspace.GameRunner}!dialogueManager@{dialogueManager}}
+\index{dialogueManager@{dialogueManager}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{dialogueManager}{dialogueManager}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a07c125d81fd55ebca49e7b9aa7c6624f} 
+Game\+Object Headspace.\+Game\+Runner.\+dialogue\+Manager}
+
+\Hypertarget{class_headspace_1_1_game_runner_a75bd80d985a12a60689732f6f897dd0b}\index{Headspace.GameRunner@{Headspace.GameRunner}!gameVar@{gameVar}}
+\index{gameVar@{gameVar}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{gameVar}{gameVar}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a75bd80d985a12a60689732f6f897dd0b} 
+\mbox{\hyperlink{class_headspace_1_1_game_vars}{Game\+Vars}} Headspace.\+Game\+Runner.\+game\+Var}
+
+the game variables that hold the game state \Hypertarget{class_headspace_1_1_game_runner_a9cb97d4ad3d809b75ac2a7bb13199b80}\index{Headspace.GameRunner@{Headspace.GameRunner}!globalStateRunner@{globalStateRunner}}
+\index{globalStateRunner@{globalStateRunner}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{globalStateRunner}{globalStateRunner}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a9cb97d4ad3d809b75ac2a7bb13199b80} 
+\mbox{\hyperlink{class_headspace_1_1_global_state_runner}{Global\+State\+Runner}} Headspace.\+Game\+Runner.\+global\+State\+Runner}
+
+\Hypertarget{class_headspace_1_1_game_runner_a7988cfc5fc790a8931690f56602d6f85}\index{Headspace.GameRunner@{Headspace.GameRunner}!isOnlineGame@{isOnlineGame}}
+\index{isOnlineGame@{isOnlineGame}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{isOnlineGame}{isOnlineGame}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a7988cfc5fc790a8931690f56602d6f85} 
+bool Headspace.\+Game\+Runner.\+is\+Online\+Game = false}
+
+\Hypertarget{class_headspace_1_1_game_runner_a6392b152e31428f2be47e2f7882e5f5c}\index{Headspace.GameRunner@{Headspace.GameRunner}!loading@{loading}}
+\index{loading@{loading}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{loading}{loading}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a6392b152e31428f2be47e2f7882e5f5c} 
+bool Headspace.\+Game\+Runner.\+loading}
+
+\Hypertarget{class_headspace_1_1_game_runner_a20e407a5d0c25e60d2de94c4474e2810}\index{Headspace.GameRunner@{Headspace.GameRunner}!lPlayer@{lPlayer}}
+\index{lPlayer@{lPlayer}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{lPlayer}{lPlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a20e407a5d0c25e60d2de94c4474e2810} 
+Game\+Object Headspace.\+Game\+Runner.\+l\+Player}
+
+these will be used to hand off the player objects to the game vars object \Hypertarget{class_headspace_1_1_game_runner_a3bcbb4e7697e93288d9dd3f11e311caf}\index{Headspace.GameRunner@{Headspace.GameRunner}!mapHandler@{mapHandler}}
+\index{mapHandler@{mapHandler}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{mapHandler}{mapHandler}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a3bcbb4e7697e93288d9dd3f11e311caf} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_input_map_handler}{Input\+Map\+Handler}} Headspace.\+Game\+Runner.\+map\+Handler}
+
+\Hypertarget{class_headspace_1_1_game_runner_affaabda24e4ea04f39e7742b6a9ce947}\index{Headspace.GameRunner@{Headspace.GameRunner}!persistantElements@{persistantElements}}
+\index{persistantElements@{persistantElements}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{persistantElements}{persistantElements}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_affaabda24e4ea04f39e7742b6a9ce947} 
+Game\+Object Headspace.\+Game\+Runner.\+persistant\+Elements}
+
+\Hypertarget{class_headspace_1_1_game_runner_ad046bf92859ca31cdfa08ac386cf3abf}\index{Headspace.GameRunner@{Headspace.GameRunner}!playerInputHandler@{playerInputHandler}}
+\index{playerInputHandler@{playerInputHandler}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{playerInputHandler}{playerInputHandler}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_ad046bf92859ca31cdfa08ac386cf3abf} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_input_handler}{Player\+Input\+Handler}} Headspace.\+Game\+Runner.\+player\+Input\+Handler}
+
+player input handler object reference \Hypertarget{class_headspace_1_1_game_runner_ad3117ec218933ed64f20fe5c172e344a}\index{Headspace.GameRunner@{Headspace.GameRunner}!playerManager@{playerManager}}
+\index{playerManager@{playerManager}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{playerManager}{playerManager}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_ad3117ec218933ed64f20fe5c172e344a} 
+\mbox{\hyperlink{class_headspace_1_1_players_1_1_player_manager}{Player\+Manager}} Headspace.\+Game\+Runner.\+player\+Manager}
+
+used for getting player character selections \Hypertarget{class_headspace_1_1_game_runner_a513f316e0efb6f98b88362b38d46760f}\index{Headspace.GameRunner@{Headspace.GameRunner}!roundSelectWinner@{roundSelectWinner}}
+\index{roundSelectWinner@{roundSelectWinner}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{roundSelectWinner}{roundSelectWinner}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_a513f316e0efb6f98b88362b38d46760f} 
+Network\+Variable$<$\mbox{\hyperlink{namespace_headspace_a80cb794755f7526caed237119bfbffc6}{Player}}$>$ Headspace.\+Game\+Runner.\+round\+Select\+Winner}
+
+which player won the last round selection faceoff \Hypertarget{class_headspace_1_1_game_runner_ab92f29756481854965c52550d3446acf}\index{Headspace.GameRunner@{Headspace.GameRunner}!rPlayer@{rPlayer}}
+\index{rPlayer@{rPlayer}!Headspace.GameRunner@{Headspace.GameRunner}}
+\doxysubsubsection{\texorpdfstring{rPlayer}{rPlayer}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_game_runner_ab92f29756481854965c52550d3446acf} 
+Game\+Object Headspace.\+Game\+Runner.\+r\+Player}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Framework/\mbox{\hyperlink{_game_runner_8cs}{Game\+Runner.\+cs}}\end{DoxyCompactItemize}

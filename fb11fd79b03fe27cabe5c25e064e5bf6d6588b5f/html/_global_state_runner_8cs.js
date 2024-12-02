@@ -1,4 +1,4 @@
 var _global_state_runner_8cs =
 [
-    [ "GlobalStateRunner", "class_global_state_runner.html", "class_global_state_runner" ]
+    [ "Headspace.GlobalStateRunner", "class_headspace_1_1_global_state_runner.html", "class_headspace_1_1_global_state_runner" ]
 ];

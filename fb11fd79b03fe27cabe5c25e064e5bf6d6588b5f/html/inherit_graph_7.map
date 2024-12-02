@@ -1,3 +1,21 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_player_var_object.html" title=" " alt="" coords="5,5,121,32"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,224,134,251"/>
+<area shape="rect" id="Node000001" href="$class_headspace_1_1_game_runner.html" title=" " alt="" coords="209,5,378,32"/>
+<area shape="poly" id="edge53_Node000000_Node000001" title=" " alt="" coords="76,208,90,170,112,125,142,80,180,42,207,28,210,32,183,46,146,83,117,128,95,172,81,210"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_game_vars.html" title=" " alt="" coords="217,56,370,83"/>
+<area shape="poly" id="edge54_Node000000_Node000002" title=" " alt="" coords="82,209,121,149,148,118,180,92,216,77,218,82,183,97,152,122,125,153,87,211"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_global_state_runner.html" title=" " alt="" coords="193,107,394,133"/>
+<area shape="poly" id="edge55_Node000000_Node000003" title=" " alt="" coords="92,211,131,175,180,143,210,132,212,136,183,148,134,180,95,215"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html" title=" " alt="" coords="198,157,388,200"/>
+<area shape="poly" id="edge56_Node000000_Node000004" title=" " alt="" coords="137,217,209,198,210,203,138,222"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_network_1_1_mouse_spawn.html" title=" " alt="" coords="182,224,405,251"/>
+<area shape="poly" id="edge57_Node000000_Node000005" title=" " alt="" coords="150,235,181,235,181,240,150,240"/>
+<area shape="rect" id="Node000006" href="$class_headspace_1_1_network_1_1_player_spawn.html" title=" " alt="" coords="203,275,384,317"/>
+<area shape="poly" id="edge58_Node000000_Node000006" title=" " alt="" coords="138,252,210,271,209,277,137,258"/>
+<area shape="rect" id="Node000007" href="$class_headspace_1_1_players_1_1_input_map_handler.html" title=" " alt="" coords="197,341,390,384"/>
+<area shape="poly" id="edge59_Node000000_Node000007" title=" " alt="" coords="96,260,135,294,183,327,208,338,206,343,180,332,132,299,93,264"/>
+<area shape="rect" id="Node000008" href="$class_headspace_1_1_players_1_1_player_manager.html" title=" " alt="" coords="205,408,382,451"/>
+<area shape="poly" id="edge60_Node000000_Node000008" title=" " alt="" coords="85,264,123,329,151,364,183,394,206,407,204,412,180,398,147,368,119,332,81,266"/>
+<area shape="rect" id="Node000009" href="$class_headspace_1_1_title_1_1_character_select.html" title=" " alt="" coords="205,475,382,517"/>
+<area shape="poly" id="edge61_Node000000_Node000009" title=" " alt="" coords="79,265,92,308,113,361,143,415,162,439,183,461,206,475,203,479,180,465,158,443,138,418,108,363,87,310,74,266"/>
 </map>

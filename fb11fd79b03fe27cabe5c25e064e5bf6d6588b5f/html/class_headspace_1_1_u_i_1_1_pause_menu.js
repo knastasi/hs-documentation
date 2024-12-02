@@ -1,0 +1,25 @@
+var class_headspace_1_1_u_i_1_1_pause_menu =
+[
+    [ "BackToPauseBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a25fb7ef403a5512a7c10fea5bafacb7e", null ],
+    [ "ControlsBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a55fec167265e55b0e7a5ea53ed3f9a7a", null ],
+    [ "ExitGame", "class_headspace_1_1_u_i_1_1_pause_menu.html#a19e7e5b176a39c41c0b94a67eae73861", null ],
+    [ "Fullscreen", "class_headspace_1_1_u_i_1_1_pause_menu.html#a94078322fdd19be56855ef1fb42730c5", null ],
+    [ "GetResolutuions", "class_headspace_1_1_u_i_1_1_pause_menu.html#a8927f086fee661406a27767f882e226f", null ],
+    [ "MenuBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a960bcb7ebcf969e5bd39c2c0a53df4ae", null ],
+    [ "OnPause", "class_headspace_1_1_u_i_1_1_pause_menu.html#a4c1914052719cec6ecb4ab6e63e5b561", null ],
+    [ "OptionsBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#adaaa42881ff0093506c4aff305075100", null ],
+    [ "PauseBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a4a32547fe024385bb7cbf3789f729a5d", null ],
+    [ "ResumeBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a5c0bf6464dd91428b4e8036c0c74745a", null ],
+    [ "SetQuality", "class_headspace_1_1_u_i_1_1_pause_menu.html#adafb4cd86ff4b5706627effa98413b00", null ],
+    [ "StartBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#a7890e4b8108e669a4243455f056b4ee8", null ],
+    [ "contBtn", "class_headspace_1_1_u_i_1_1_pause_menu.html#abd12c1efd1a55485ba4e4e36181a2cc6", null ],
+    [ "controlsPanel", "class_headspace_1_1_u_i_1_1_pause_menu.html#aea9cefdd674e9e153b30af1db3fb3760", null ],
+    [ "dialogCanvas", "class_headspace_1_1_u_i_1_1_pause_menu.html#a6be4563d998b71f5e37914c0561408ce", null ],
+    [ "gr", "class_headspace_1_1_u_i_1_1_pause_menu.html#a98f1a0f487b2708909aa1a5df47cccdf", null ],
+    [ "isPaused", "class_headspace_1_1_u_i_1_1_pause_menu.html#a30ec77774edc777b332c8bb16f9b930c", null ],
+    [ "mainCanvas", "class_headspace_1_1_u_i_1_1_pause_menu.html#a0798ea4a1333ac593f2b5a0fcfdccc0a", null ],
+    [ "optionsPanel", "class_headspace_1_1_u_i_1_1_pause_menu.html#aff91dc424b9cebdcca27f9a74283be20", null ],
+    [ "pauseMenu", "class_headspace_1_1_u_i_1_1_pause_menu.html#a6cf3d0340a9629439bee4c40f18d7343", null ],
+    [ "pausePanel", "class_headspace_1_1_u_i_1_1_pause_menu.html#accc258fd2af0e71c6c457b573d3629ba", null ],
+    [ "resDropdown", "class_headspace_1_1_u_i_1_1_pause_menu.html#a918f6b15ac7c25555b7f5d0d7ad0068a", null ]
+];

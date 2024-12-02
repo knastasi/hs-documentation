@@ -1,0 +1,7 @@
+<map id="Headspace.Network.MouseSpawn.Start" name="Headspace.Network.MouseSpawn.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,233,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_title_1_1_connect_handler.html#a05ab46bbc22341dd6e34f8f6d28c6938" title=" " alt="" coords="281,5,499,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,43,265,39,266,45,234,49"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_title_1_1_connect_handler.html#a31d94d8a3f55c74b78026476851fdf66" title=" " alt="" coords="281,72,499,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,71,266,75,265,81,233,77"/>
+</map>

@@ -1,15 +1,111 @@
 var annotated_dup =
 [
-    [ "Assets", "namespace_assets.html", [
-      [ "Scripts", "namespace_assets_1_1_scripts.html", [
-        [ "Framework", "namespace_assets_1_1_scripts_1_1_framework.html", [
-          [ "Caseboard", "namespace_assets_1_1_scripts_1_1_framework_1_1_caseboard.html", [
-            [ "Items", "namespace_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items.html", [
-              [ "CaseboardLabelVars", "class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars.html", "class_assets_1_1_scripts_1_1_framework_1_1_caseboard_1_1_items_1_1_caseboard_label_vars" ]
-            ] ]
-          ] ]
+    [ "Headspace", "namespace_headspace.html", [
+      [ "Accuse", "namespace_headspace_1_1_accuse.html", [
+        [ "AccuseIntro", "class_headspace_1_1_accuse_1_1_accuse_intro.html", null ],
+        [ "AccuseRunner", "class_headspace_1_1_accuse_1_1_accuse_runner.html", "class_headspace_1_1_accuse_1_1_accuse_runner" ],
+        [ "AccuseSceneHandler", "class_headspace_1_1_accuse_1_1_accuse_scene_handler.html", "class_headspace_1_1_accuse_1_1_accuse_scene_handler" ]
+      ] ],
+      [ "Caseboard", "namespace_headspace_1_1_caseboard.html", [
+        [ "CaseboardClues", "class_headspace_1_1_caseboard_1_1_caseboard_clues.html", "class_headspace_1_1_caseboard_1_1_caseboard_clues" ],
+        [ "CaseboardConclusions", "class_headspace_1_1_caseboard_1_1_caseboard_conclusions.html", "class_headspace_1_1_caseboard_1_1_caseboard_conclusions" ],
+        [ "CaseboardEngine", "class_headspace_1_1_caseboard_1_1_caseboard_engine.html", "class_headspace_1_1_caseboard_1_1_caseboard_engine" ],
+        [ "CaseboardInputHandler", "class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html", "class_headspace_1_1_caseboard_1_1_caseboard_input_handler" ],
+        [ "CaseboardItemVars", "class_headspace_1_1_caseboard_1_1_caseboard_item_vars.html", "class_headspace_1_1_caseboard_1_1_caseboard_item_vars" ],
+        [ "CaseboardLabelVars", "class_headspace_1_1_caseboard_1_1_caseboard_label_vars.html", "class_headspace_1_1_caseboard_1_1_caseboard_label_vars" ],
+        [ "CaseboardSuspects", "class_headspace_1_1_caseboard_1_1_caseboard_suspects.html", "class_headspace_1_1_caseboard_1_1_caseboard_suspects" ],
+        [ "CaseboardTestimony", "class_headspace_1_1_caseboard_1_1_caseboard_testimony.html", "class_headspace_1_1_caseboard_1_1_caseboard_testimony" ],
+        [ "CaseboardVars", "class_headspace_1_1_caseboard_1_1_caseboard_vars.html", "class_headspace_1_1_caseboard_1_1_caseboard_vars" ],
+        [ "CompareHandler", "class_headspace_1_1_caseboard_1_1_compare_handler.html", "class_headspace_1_1_caseboard_1_1_compare_handler" ],
+        [ "LineHandler", "class_headspace_1_1_caseboard_1_1_line_handler.html", "class_headspace_1_1_caseboard_1_1_line_handler" ]
+      ] ],
+      [ "ClueCollection", "namespace_headspace_1_1_clue_collection.html", [
+        [ "Clue", "class_headspace_1_1_clue_collection_1_1_clue.html", "class_headspace_1_1_clue_collection_1_1_clue" ],
+        [ "ClueInventory", "class_headspace_1_1_clue_collection_1_1_clue_inventory.html", "class_headspace_1_1_clue_collection_1_1_clue_inventory" ]
+      ] ],
+      [ "ConclusionCollection", "namespace_headspace_1_1_conclusion_collection.html", [
+        [ "Conclusion", "class_headspace_1_1_conclusion_collection_1_1_conclusion.html", "class_headspace_1_1_conclusion_collection_1_1_conclusion" ],
+        [ "ConclusionInventory", "class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html", "class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory" ]
+      ] ],
+      [ "Dialogue", "namespace_headspace_1_1_dialogue.html", [
+        [ "DialogueCaseFiles", "class_headspace_1_1_dialogue_1_1_dialogue_case_files.html", "class_headspace_1_1_dialogue_1_1_dialogue_case_files" ],
+        [ "DialogueEnd", "class_headspace_1_1_dialogue_1_1_dialogue_end.html", "class_headspace_1_1_dialogue_1_1_dialogue_end" ],
+        [ "DialogueQuestions", "class_headspace_1_1_dialogue_1_1_dialogue_questions.html", "class_headspace_1_1_dialogue_1_1_dialogue_questions" ],
+        [ "DialogueSlotManager", "class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html", "class_headspace_1_1_dialogue_1_1_dialogue_slot_manager" ],
+        [ "NPC", "class_headspace_1_1_dialogue_1_1_n_p_c.html", "class_headspace_1_1_dialogue_1_1_n_p_c" ]
+      ] ],
+      [ "Map", "namespace_headspace_1_1_map.html", [
+        [ "MapButton", "class_headspace_1_1_map_1_1_map_button.html", "class_headspace_1_1_map_1_1_map_button" ]
+      ] ],
+      [ "Minigames", "namespace_headspace_1_1_minigames.html", [
+        [ "Prototypes", "namespace_headspace_1_1_minigames_1_1_prototypes.html", [
+          [ "Ball", "class_headspace_1_1_minigames_1_1_prototypes_1_1_ball.html", "class_headspace_1_1_minigames_1_1_prototypes_1_1_ball" ],
+          [ "MiniGame", "class_headspace_1_1_minigames_1_1_prototypes_1_1_mini_game.html", null ],
+          [ "P1Paddle", "class_headspace_1_1_minigames_1_1_prototypes_1_1_p1_paddle.html", null ],
+          [ "P2Paddle", "class_headspace_1_1_minigames_1_1_prototypes_1_1_p2_paddle.html", null ],
+          [ "RouletteRunner", "class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner.html", "class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner" ],
+          [ "TableVars", "class_headspace_1_1_minigames_1_1_prototypes_1_1_table_vars.html", "class_headspace_1_1_minigames_1_1_prototypes_1_1_table_vars" ],
+          [ "TokenVars", "class_headspace_1_1_minigames_1_1_prototypes_1_1_token_vars.html", "class_headspace_1_1_minigames_1_1_prototypes_1_1_token_vars" ]
+        ] ],
+        [ "RPS", "namespace_headspace_1_1_minigames_1_1_r_p_s.html", [
+          [ "RPSRunner", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner" ]
         ] ]
-      ] ]
+      ] ],
+      [ "Network", "namespace_headspace_1_1_network.html", [
+        [ "Utility", "namespace_headspace_1_1_network_1_1_utility.html", [
+          [ "ClientNetworkTransform", "class_headspace_1_1_network_1_1_utility_1_1_client_network_transform.html", "class_headspace_1_1_network_1_1_utility_1_1_client_network_transform" ]
+        ] ],
+        [ "MouseSpawn", "class_headspace_1_1_network_1_1_mouse_spawn.html", "class_headspace_1_1_network_1_1_mouse_spawn" ],
+        [ "NetworkRunner", "class_headspace_1_1_network_1_1_network_runner.html", "class_headspace_1_1_network_1_1_network_runner" ],
+        [ "PlayerSpawn", "class_headspace_1_1_network_1_1_player_spawn.html", "class_headspace_1_1_network_1_1_player_spawn" ]
+      ] ],
+      [ "PlayerBriefcase", "namespace_headspace_1_1_player_briefcase.html", [
+        [ "BriefcaseClues", "class_headspace_1_1_player_briefcase_1_1_briefcase_clues.html", "class_headspace_1_1_player_briefcase_1_1_briefcase_clues" ],
+        [ "BriefcaseController", "class_headspace_1_1_player_briefcase_1_1_briefcase_controller.html", "class_headspace_1_1_player_briefcase_1_1_briefcase_controller" ],
+        [ "BriefcaseSuspects", "class_headspace_1_1_player_briefcase_1_1_briefcase_suspects.html", "class_headspace_1_1_player_briefcase_1_1_briefcase_suspects" ]
+      ] ],
+      [ "Players", "namespace_headspace_1_1_players.html", [
+        [ "CursorCanvasControl", "class_headspace_1_1_players_1_1_cursor_canvas_control.html", null ],
+        [ "InputMapHandler", "class_headspace_1_1_players_1_1_input_map_handler.html", "class_headspace_1_1_players_1_1_input_map_handler" ],
+        [ "PlayerInputHandler", "class_headspace_1_1_players_1_1_player_input_handler.html", "class_headspace_1_1_players_1_1_player_input_handler" ],
+        [ "PlayerManager", "class_headspace_1_1_players_1_1_player_manager.html", "class_headspace_1_1_players_1_1_player_manager" ],
+        [ "PlayerVars", "class_headspace_1_1_players_1_1_player_vars.html", "class_headspace_1_1_players_1_1_player_vars" ],
+        [ "RayCastSelect", "class_headspace_1_1_players_1_1_ray_cast_select.html", "class_headspace_1_1_players_1_1_ray_cast_select" ]
+      ] ],
+      [ "Sound", "namespace_headspace_1_1_sound.html", [
+        [ "MusicController", "class_headspace_1_1_sound_1_1_music_controller.html", "class_headspace_1_1_sound_1_1_music_controller" ],
+        [ "VolumeController", "class_headspace_1_1_sound_1_1_volume_controller.html", null ]
+      ] ],
+      [ "SuspectDiscovery", "namespace_headspace_1_1_suspect_discovery.html", [
+        [ "SuspectInventory", "class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html", "class_headspace_1_1_suspect_discovery_1_1_suspect_inventory" ]
+      ] ],
+      [ "TestimonyCollection", "namespace_headspace_1_1_testimony_collection.html", [
+        [ "Testimony", "class_headspace_1_1_testimony_collection_1_1_testimony.html", "class_headspace_1_1_testimony_collection_1_1_testimony" ],
+        [ "TestimonyInventory", "class_headspace_1_1_testimony_collection_1_1_testimony_inventory.html", "class_headspace_1_1_testimony_collection_1_1_testimony_inventory" ]
+      ] ],
+      [ "Title", "namespace_headspace_1_1_title.html", [
+        [ "CharacterSelect", "class_headspace_1_1_title_1_1_character_select.html", "class_headspace_1_1_title_1_1_character_select" ],
+        [ "ConnectHandler", "class_headspace_1_1_title_1_1_connect_handler.html", "class_headspace_1_1_title_1_1_connect_handler" ],
+        [ "TitleHandler", "class_headspace_1_1_title_1_1_title_handler.html", "class_headspace_1_1_title_1_1_title_handler" ]
+      ] ],
+      [ "UI", "namespace_headspace_1_1_u_i.html", [
+        [ "CollectIndicator", "class_headspace_1_1_u_i_1_1_collect_indicator.html", "class_headspace_1_1_u_i_1_1_collect_indicator" ],
+        [ "PauseMenu", "class_headspace_1_1_u_i_1_1_pause_menu.html", "class_headspace_1_1_u_i_1_1_pause_menu" ],
+        [ "RoundIndicator", "class_headspace_1_1_u_i_1_1_round_indicator.html", "class_headspace_1_1_u_i_1_1_round_indicator" ],
+        [ "TurnIndicator", "class_headspace_1_1_u_i_1_1_turn_indicator.html", "class_headspace_1_1_u_i_1_1_turn_indicator" ]
+      ] ],
+      [ "Utility", "namespace_headspace_1_1_utility.html", [
+        [ "RemoveClone", "class_headspace_1_1_utility_1_1_remove_clone.html", null ],
+        [ "SceneConfig", "class_headspace_1_1_utility_1_1_scene_config.html", "class_headspace_1_1_utility_1_1_scene_config" ]
+      ] ],
+      [ "ClueObject", "class_headspace_1_1_clue_object.html", "class_headspace_1_1_clue_object" ],
+      [ "ConclusionObject", "class_headspace_1_1_conclusion_object.html", "class_headspace_1_1_conclusion_object" ],
+      [ "GameRunner", "class_headspace_1_1_game_runner.html", "class_headspace_1_1_game_runner" ],
+      [ "GameVars", "class_headspace_1_1_game_vars.html", "class_headspace_1_1_game_vars" ],
+      [ "GlobalStateRunner", "class_headspace_1_1_global_state_runner.html", "class_headspace_1_1_global_state_runner" ],
+      [ "PlayerVarObject", "class_headspace_1_1_player_var_object.html", "class_headspace_1_1_player_var_object" ],
+      [ "SusObject", "class_headspace_1_1_sus_object.html", "class_headspace_1_1_sus_object" ],
+      [ "TestimonyObject", "class_headspace_1_1_testimony_object.html", "class_headspace_1_1_testimony_object" ]
     ] ],
     [ "PixelCrushers", "namespace_pixel_crushers.html", [
       [ "DialogueSystem", "namespace_pixel_crushers_1_1_dialogue_system.html", [
@@ -23,86 +119,5 @@ var annotated_dup =
           [ "SequencerCommandCollectTestimony", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony" ]
         ] ]
       ] ]
-    ] ],
-    [ "Unity", "namespace_unity.html", [
-      [ "Multiplayer", "namespace_unity_1_1_multiplayer.html", [
-        [ "Samples", "namespace_unity_1_1_multiplayer_1_1_samples.html", [
-          [ "Utilities", "namespace_unity_1_1_multiplayer_1_1_samples_1_1_utilities.html", [
-            [ "ClientAuthority", "namespace_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority.html", [
-              [ "ClientNetworkTransform", "class_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority_1_1_client_network_transform.html", "class_unity_1_1_multiplayer_1_1_samples_1_1_utilities_1_1_client_authority_1_1_client_network_transform" ]
-            ] ]
-          ] ]
-        ] ]
-      ] ]
-    ] ],
-    [ "AccuseIntro", "class_accuse_intro.html", null ],
-    [ "AccuseObjectConnector", "class_accuse_object_connector.html", "class_accuse_object_connector" ],
-    [ "AccuseRunner", "class_accuse_runner.html", "class_accuse_runner" ],
-    [ "AccuseSceneHandler", "class_accuse_scene_handler.html", "class_accuse_scene_handler" ],
-    [ "AttackObject", "class_attack_object.html", "class_attack_object" ],
-    [ "Ball", "class_ball.html", "class_ball" ],
-    [ "BriefcaseClues", "class_briefcase_clues.html", "class_briefcase_clues" ],
-    [ "BriefcaseController", "class_briefcase_controller.html", "class_briefcase_controller" ],
-    [ "BriefcaseSuspects", "class_briefcase_suspects.html", "class_briefcase_suspects" ],
-    [ "CaseboardClues", "class_caseboard_clues.html", "class_caseboard_clues" ],
-    [ "CaseboardConclusions", "class_caseboard_conclusions.html", "class_caseboard_conclusions" ],
-    [ "CaseboardEngine", "class_caseboard_engine.html", "class_caseboard_engine" ],
-    [ "CaseboardInputHandler", "class_caseboard_input_handler.html", "class_caseboard_input_handler" ],
-    [ "CaseboardItemVars", "class_caseboard_item_vars.html", "class_caseboard_item_vars" ],
-    [ "CaseboardSuspects", "class_caseboard_suspects.html", "class_caseboard_suspects" ],
-    [ "CaseboardTestimony", "class_caseboard_testimony.html", "class_caseboard_testimony" ],
-    [ "CaseboardVars", "class_caseboard_vars.html", "class_caseboard_vars" ],
-    [ "CharacterSelect", "class_character_select.html", "class_character_select" ],
-    [ "Clue", "class_clue.html", "class_clue" ],
-    [ "ClueInventory", "class_clue_inventory.html", "class_clue_inventory" ],
-    [ "ClueObject", "class_clue_object.html", "class_clue_object" ],
-    [ "CollectIndicator", "class_collect_indicator.html", "class_collect_indicator" ],
-    [ "CompareHandler", "class_compare_handler.html", "class_compare_handler" ],
-    [ "Conclusion", "class_conclusion.html", "class_conclusion" ],
-    [ "ConclusionInventory", "class_conclusion_inventory.html", "class_conclusion_inventory" ],
-    [ "ConclusionObject", "class_conclusion_object.html", "class_conclusion_object" ],
-    [ "ConnectHandler", "class_connect_handler.html", "class_connect_handler" ],
-    [ "CursorCanvasControl", "class_cursor_canvas_control.html", null ],
-    [ "DialogueCaseFiles", "class_dialogue_case_files.html", "class_dialogue_case_files" ],
-    [ "DialogueEnd", "class_dialogue_end.html", "class_dialogue_end" ],
-    [ "DialogueQuestions", "class_dialogue_questions.html", "class_dialogue_questions" ],
-    [ "DialogueSlotManager", "class_dialogue_slot_manager.html", "class_dialogue_slot_manager" ],
-    [ "EventObject", "class_event_object.html", "class_event_object" ],
-    [ "GameRunner", "class_game_runner.html", "class_game_runner" ],
-    [ "GameVars", "class_game_vars.html", "class_game_vars" ],
-    [ "GlobalStateRunner", "class_global_state_runner.html", "class_global_state_runner" ],
-    [ "InputMapHandler", "class_input_map_handler.html", "class_input_map_handler" ],
-    [ "LineHandler", "class_line_handler.html", "class_line_handler" ],
-    [ "MapButton", "class_map_button.html", "class_map_button" ],
-    [ "MiniGame", "class_mini_game.html", null ],
-    [ "MouseSpawn", "class_mouse_spawn.html", "class_mouse_spawn" ],
-    [ "MusicController", "class_music_controller.html", "class_music_controller" ],
-    [ "NetworkRunner", "class_network_runner.html", "class_network_runner" ],
-    [ "NPC", "class_n_p_c.html", "class_n_p_c" ],
-    [ "P1Paddle", "class_p1_paddle.html", null ],
-    [ "P2Paddle", "class_p2_paddle.html", null ],
-    [ "PauseMenu", "class_pause_menu.html", "class_pause_menu" ],
-    [ "PlayerInputHandler", "class_player_input_handler.html", "class_player_input_handler" ],
-    [ "PlayerManager", "class_player_manager.html", "class_player_manager" ],
-    [ "PlayerSpawn", "class_player_spawn.html", "class_player_spawn" ],
-    [ "PlayerVarObject", "class_player_var_object.html", "class_player_var_object" ],
-    [ "PlayerVars", "class_player_vars.html", "class_player_vars" ],
-    [ "RayCastSelect", "class_ray_cast_select.html", "class_ray_cast_select" ],
-    [ "RemoveClone", "class_remove_clone.html", null ],
-    [ "RouletteRunner", "class_roulette_runner.html", "class_roulette_runner" ],
-    [ "RoundIndicator", "class_round_indicator.html", "class_round_indicator" ],
-    [ "RPSRunner", "class_r_p_s_runner.html", "class_r_p_s_runner" ],
-    [ "SceneConfig", "class_scene_config.html", "class_scene_config" ],
-    [ "StatementObject", "class_statement_object.html", "class_statement_object" ],
-    [ "SusObject", "class_sus_object.html", "class_sus_object" ],
-    [ "SuspectInventory", "class_suspect_inventory.html", "class_suspect_inventory" ],
-    [ "TableVars", "class_table_vars.html", "class_table_vars" ],
-    [ "Testimony", "class_testimony.html", "class_testimony" ],
-    [ "TestimonyInventory", "class_testimony_inventory.html", "class_testimony_inventory" ],
-    [ "TestimonyObject", "class_testimony_object.html", "class_testimony_object" ],
-    [ "TimelineObject", "class_timeline_object.html", "class_timeline_object" ],
-    [ "TitleHandler", "class_title_handler.html", "class_title_handler" ],
-    [ "TokenVars", "class_token_vars.html", "class_token_vars" ],
-    [ "TurnIndicator", "class_turn_indicator.html", "class_turn_indicator" ],
-    [ "VolumeController", "class_volume_controller.html", null ]
+    ] ]
 ];

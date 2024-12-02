@@ -1,0 +1,9 @@
+<map id="Headspace.TestimonyCollection.TestimonyInventory.CleanSubtitleText" name="Headspace.TestimonyCollection.TestimonyInventory.CleanSubtitleText">
+<area shape="rect" id="Node000001" title=" " alt="" coords="902,13,1144,56"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_testimony_collection_1_1_testimony_inventory.html#a213e74a3f05a24c16798d18d942fb830" title=" " alt="" coords="617,5,854,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="886,37,855,37,855,32,886,32"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_testimony_collection_1_1_testimony_inventory.html#a227e3df4e6f6b651a8157e44f77fb3c4" title=" " alt="" coords="330,13,569,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="601,37,570,37,570,32,601,32"/>
+<area shape="rect" id="Node000004" href="$class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html#a66613848939417c3e80a298a1e01a7e1" title=" " alt="" coords="5,5,282,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
+</map>

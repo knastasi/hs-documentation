@@ -1,0 +1,103 @@
+\doxysection{Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory Class Reference}
+\hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory}{}\label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+
+
+Inheritance diagram for Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a94ff07598ae37381f59bd355b069db7f}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a9ded3c1229ec70a09cf0ae932d60b333}{load\+Suspects}} ()
+\item 
+void \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5}{add\+Suspect}} (string key)
+\item 
+bool \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac}{check\+Suspect}} (string key)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, bool $>$ \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a8a7e320273c9896e3d479905777d71f3}{inventory}}
+\item 
+int \mbox{\hyperlink{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_afc49a5772f03fbaf36aa3ada4fa2b814}{sus\+Count}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!addSuspect@{addSuspect}}
+\index{addSuspect@{addSuspect}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{addSuspect()}{addSuspect()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5} 
+void Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+add\+Suspect (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a94ff07598ae37381f59bd355b069db7f}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!Awake@{Awake}}
+\index{Awake@{Awake}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a94ff07598ae37381f59bd355b069db7f} 
+void Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!checkSuspect@{checkSuspect}}
+\index{checkSuspect@{checkSuspect}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{checkSuspect()}{checkSuspect()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac} 
+bool Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+check\+Suspect (\begin{DoxyParamCaption}\item[{string}]{key}{}\end{DoxyParamCaption})}
+
+Public method for \doxylink{namespace_headspace_1_1_u_i}{UI} menus to see if a character is discovered or not Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a9ded3c1229ec70a09cf0ae932d60b333}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!loadSuspects@{loadSuspects}}
+\index{loadSuspects@{loadSuspects}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{loadSuspects()}{loadSuspects()}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a9ded3c1229ec70a09cf0ae932d60b333} 
+void Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+load\+Suspects (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a8a7e320273c9896e3d479905777d71f3}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!inventory@{inventory}}
+\index{inventory@{inventory}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a8a7e320273c9896e3d479905777d71f3} 
+Dictionary$<$string, bool$>$ Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+inventory}
+
+\Hypertarget{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_afc49a5772f03fbaf36aa3ada4fa2b814}\index{Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}!susCount@{susCount}}
+\index{susCount@{susCount}!Headspace.SuspectDiscovery.SuspectInventory@{Headspace.SuspectDiscovery.SuspectInventory}}
+\doxysubsubsection{\texorpdfstring{susCount}{susCount}}
+{\footnotesize\ttfamily \label{class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_afc49a5772f03fbaf36aa3ada4fa2b814} 
+int Headspace.\+Suspect\+Discovery.\+Suspect\+Inventory.\+sus\+Count}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Avi Nastasi/\+Documents/\+Headspace\+Prototype/\+Assets/\+Scripts/\+Framework/\+Suspect\+Discovery/\mbox{\hyperlink{_suspect_inventory_8cs}{Suspect\+Inventory.\+cs}}\end{DoxyCompactItemize}

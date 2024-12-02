@@ -1,4 +1,4 @@
 var _testimony_8cs =
 [
-    [ "Testimony", "class_testimony.html", "class_testimony" ]
+    [ "Headspace.TestimonyCollection.Testimony", "class_headspace_1_1_testimony_collection_1_1_testimony.html", "class_headspace_1_1_testimony_collection_1_1_testimony" ]
 ];

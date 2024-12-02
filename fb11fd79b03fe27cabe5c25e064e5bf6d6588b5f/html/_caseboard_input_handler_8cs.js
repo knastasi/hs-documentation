@@ -1,4 +1,4 @@
 var _caseboard_input_handler_8cs =
 [
-    [ "CaseboardInputHandler", "class_caseboard_input_handler.html", "class_caseboard_input_handler" ]
+    [ "Headspace.Caseboard.CaseboardInputHandler", "class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html", "class_headspace_1_1_caseboard_1_1_caseboard_input_handler" ]
 ];

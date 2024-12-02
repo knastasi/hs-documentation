@@ -1,0 +1,7 @@
+<map id="Headspace.Caseboard.CaseboardVars.GetLabelValue" name="Headspace.Caseboard.CaseboardVars.GetLabelValue">
+<area shape="rect" id="Node000001" title=" " alt="" coords="534,5,755,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a7cc595d868e9b8842f06ca0407db1c6b" title="called from Accuse button" alt="" coords="265,5,486,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="519,29,486,29,486,24,519,24"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_compare_handler.html#a600dc71ab0002e7363dc9e59badea4ae" title=" " alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,29,217,29,217,24,249,24"/>
+</map>

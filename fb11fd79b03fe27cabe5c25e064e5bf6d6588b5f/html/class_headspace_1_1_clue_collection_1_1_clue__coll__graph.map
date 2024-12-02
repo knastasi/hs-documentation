@@ -1,0 +1,7 @@
+<map id="Headspace.ClueCollection.Clue" name="Headspace.ClueCollection.Clue">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,96,243,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,42,130,94,126,97,80,45"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_clue_object.html" title=" " alt="" coords="140,5,296,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,45,153,97,149,94,195,42"/>
+</map>

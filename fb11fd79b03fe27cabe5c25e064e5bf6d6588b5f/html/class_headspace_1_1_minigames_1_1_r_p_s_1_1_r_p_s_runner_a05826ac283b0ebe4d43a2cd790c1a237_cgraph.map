@@ -1,0 +1,11 @@
+<map id="Headspace.Minigames.RPS.RPSRunner.OnWinPress" name="Headspace.Minigames.RPS.RPSRunner.OnWinPress">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,196,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#aea71f98139b1127ab158a8044b9f391c" title=" " alt="" coords="244,5,434,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,44,228,39,229,45,197,49"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade" title=" " alt="" coords="244,72,434,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,71,229,75,228,81,196,76"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#ada7e95839a577bb21a96d59b80eed608" title=" " alt="" coords="482,72,672,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="435,91,467,91,467,96,435,96"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title=" " alt="" coords="720,80,962,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="673,91,705,91,705,96,673,96"/>
+</map>

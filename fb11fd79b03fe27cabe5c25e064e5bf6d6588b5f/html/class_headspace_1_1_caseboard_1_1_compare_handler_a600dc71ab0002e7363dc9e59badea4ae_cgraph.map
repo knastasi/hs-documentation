@@ -1,0 +1,17 @@
+<map id="Headspace.Caseboard.CompareHandler.Awake" name="Headspace.Caseboard.CompareHandler.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,217,107"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a7cc595d868e9b8842f06ca0407db1c6b" title="called from Accuse button" alt="" coords="265,64,486,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,83,249,83,249,88,217,88"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_vars.html#aeb9d8f3a912a161eef76f9f9abcaab7e" title=" " alt="" coords="544,5,765,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,61,534,49,536,54,481,66"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title=" " alt="" coords="534,72,775,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="486,83,519,83,519,88,486,88"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ae6d30c4c3de89bdee0f859bee1268d60" title=" " alt="" coords="544,123,765,165"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="481,105,536,116,534,122,480,110"/>
+<area shape="rect" id="Node000006" href="$class_headspace_1_1_caseboard_1_1_caseboard_vars.html#a07a55da02f4bd646c79c75af4be858da" title=" " alt="" coords="823,56,1045,99"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="746,119,826,100,827,105,748,125"/>
+<area shape="rect" id="Node000007" href="$class_headspace_1_1_caseboard_1_1_caseboard_vars.html#a51020df60a1fd191e43c935c35a74c91" title=" " alt="" coords="823,123,1045,165"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="766,141,808,141,808,147,766,147"/>
+<area shape="rect" id="Node000008" href="$class_headspace_1_1_caseboard_1_1_caseboard_vars.html#a2d2821a535c27bb41783fdf38a6bd541" title=" " alt="" coords="823,189,1045,232"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="748,163,827,183,826,188,746,169"/>
+</map>

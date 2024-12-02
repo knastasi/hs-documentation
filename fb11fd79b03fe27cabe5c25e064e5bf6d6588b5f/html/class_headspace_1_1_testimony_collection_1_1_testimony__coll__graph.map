@@ -1,0 +1,7 @@
+<map id="Headspace.TestimonyCollection.Testimony" name="Headspace.TestimonyCollection.Testimony">
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,96,254,139"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,42,131,94,127,97,80,45"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_testimony_object.html" title=" " alt="" coords="141,5,330,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,45,169,97,165,94,212,42"/>
+</map>

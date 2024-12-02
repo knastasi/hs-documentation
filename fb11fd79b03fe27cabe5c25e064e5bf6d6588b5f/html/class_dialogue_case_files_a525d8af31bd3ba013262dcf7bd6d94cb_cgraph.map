@@ -1,7 +1,0 @@
-<map id="DialogueCaseFiles.CluesOpen" name="DialogueCaseFiles.CluesOpen">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,206,57"/>
-<area shape="rect" id="Node000002" href="$class_dialogue_case_files.html#a86da181feaea7712b5d404a86a02272f" title=" " alt="" coords="254,5,457,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,31,238,28,238,33,207,36"/>
-<area shape="rect" id="Node000003" href="$class_dialogue_case_files.html#a95c31011c54ed4f690c4be6a44ea67c2" title=" " alt="" coords="259,56,452,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,52,244,55,243,61,206,57"/>
-</map>

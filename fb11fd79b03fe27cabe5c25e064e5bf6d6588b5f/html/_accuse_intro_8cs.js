@@ -1,4 +1,4 @@
 var _accuse_intro_8cs =
 [
-    [ "AccuseIntro", "class_accuse_intro.html", null ]
+    [ "Headspace.Accuse.AccuseIntro", "class_headspace_1_1_accuse_1_1_accuse_intro.html", null ]
 ];

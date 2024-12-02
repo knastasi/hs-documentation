@@ -1,0 +1,7 @@
+<map id="Headspace.Utility.SceneConfig" name="Headspace.Utility.SceneConfig">
+<area shape="rect" id="Node000001" title=" " alt="" coords="51,112,255,139"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,49,143,110,139,114,81,53"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_utility_1_1_scene_config_1_1_scene_vars.html" title=" " alt="" coords="141,5,349,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,61,167,113,163,110,213,58"/>
+</map>

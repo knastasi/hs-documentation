@@ -1,4 +1,4 @@
 var _mouse_spawn_8cs =
 [
-    [ "MouseSpawn", "class_mouse_spawn.html", "class_mouse_spawn" ]
+    [ "Headspace.Network.MouseSpawn", "class_headspace_1_1_network_1_1_mouse_spawn.html", "class_headspace_1_1_network_1_1_mouse_spawn" ]
 ];

@@ -1,4 +1,4 @@
 var _pause_menu_8cs =
 [
-    [ "PauseMenu", "class_pause_menu.html", "class_pause_menu" ]
+    [ "Headspace.UI.PauseMenu", "class_headspace_1_1_u_i_1_1_pause_menu.html", "class_headspace_1_1_u_i_1_1_pause_menu" ]
 ];

@@ -1,0 +1,7 @@
+<map id="Headspace.PlayerVarObject" name="Headspace.PlayerVarObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,188,191,215"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html" title=" " alt="" coords="8,81,188,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,140,101,188,95,188,95,140"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="42,5,154,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,48,101,81,95,81,95,48"/>
+</map>

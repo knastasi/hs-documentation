@@ -1,7 +1,0 @@
-<map id="NPC.DiscoverCharacter" name="NPC.DiscoverCharacter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,169,57"/>
-<area shape="rect" id="Node000002" href="$class_suspect_inventory.html#a43f70ff4918558a6fdfe15cb1eb53ed4" title=" " alt="" coords="224,5,419,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,33,208,28,208,34,169,38"/>
-<area shape="rect" id="Node000003" href="$class_suspect_inventory.html#a7ae3c731c1cac78b1210166a736c2e72" title=" " alt="" coords="217,56,426,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,50,201,54,201,59,168,55"/>
-</map>

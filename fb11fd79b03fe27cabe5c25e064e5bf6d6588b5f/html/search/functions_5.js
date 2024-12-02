@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fireconversation_0',['FireConversation',['../class_dialogue_slot_manager.html#a7486544cd79763f1470a632a584f5651',1,'DialogueSlotManager']]],
-  ['flipdefensecard_1',['FlipDefenseCard',['../class_accuse_runner.html#accc46e80cd3b79108e54be6a8e618f47',1,'AccuseRunner']]],
-  ['fullscreen_2',['Fullscreen',['../class_pause_menu.html#aa4ad7b16c950e7067a08e1c4558c04ae',1,'PauseMenu']]]
+  ['fireconversation_0',['FireConversation',['../class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a48cb2f435708ba0b98dce4ca89acfec5',1,'Headspace::Dialogue::DialogueSlotManager']]],
+  ['flipdefensecard_1',['FlipDefenseCard',['../class_headspace_1_1_accuse_1_1_accuse_runner.html#aa719511dc007808d4f8c9bf9e10ec691',1,'Headspace::Accuse::AccuseRunner']]],
+  ['fullscreen_2',['Fullscreen',['../class_headspace_1_1_u_i_1_1_pause_menu.html#a94078322fdd19be56855ef1fb42730c5',1,'Headspace::UI::PauseMenu']]]
 ];
