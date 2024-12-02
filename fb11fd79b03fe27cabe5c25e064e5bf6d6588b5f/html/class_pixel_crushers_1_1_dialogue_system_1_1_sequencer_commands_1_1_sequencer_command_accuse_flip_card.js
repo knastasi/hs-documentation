@@ -1,0 +1,4 @@
+var class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card =
+[
+    [ "Awake", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card.html#a177db4fd86f2df00c948115125507187", null ]
+];

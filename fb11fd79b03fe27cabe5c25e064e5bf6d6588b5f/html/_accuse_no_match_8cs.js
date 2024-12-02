@@ -1,4 +1,4 @@
 var _accuse_no_match_8cs =
 [
-    [ "SequencerCommandAccuseNoMatch", "class_sequencer_command_accuse_no_match.html", "class_sequencer_command_accuse_no_match" ]
+    [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseNoMatch", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match" ]
 ];

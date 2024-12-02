@@ -1,5 +1,5 @@
 <map id="AccuseSceneHandler.ShowTable" name="AccuseSceneHandler.ShowTable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="274,13,489,40"/>
-<area shape="rect" id="Node000002" href="$class_sequencer_command_accuse_show_table.html#a311c99b72818d585057067bd23a88aaf" title=" " alt="" coords="5,5,226,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,29,226,29,226,24,258,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="330,21,545,48"/>
+<area shape="rect" id="Node000002" href="$class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_table.html#a68f0e3427a10694bcdd7538730fc29d2" title=" " alt="" coords="5,5,282,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
 </map>

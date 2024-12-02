@@ -76,13 +76,13 @@ var hierarchy =
     [ "PlayerVarObject", "class_player_var_object.html", null ],
     [ "SceneConfig.SceneVars", "class_scene_config_1_1_scene_vars.html", null ],
     [ "SequencerCommand", null, [
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card.html", null ],
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseNoMatch", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html", null ],
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseShowCharacter", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character.html", null ],
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseShowTable", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_table.html", null ],
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseSusDefense", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_sus_defense.html", null ],
       [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseUpdateState", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state.html", null ],
-      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCollectTestimony", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html", null ],
-      [ "SequencerCommandAccuseFlipCard", "class_sequencer_command_accuse_flip_card.html", null ],
-      [ "SequencerCommandAccuseNoMatch", "class_sequencer_command_accuse_no_match.html", null ],
-      [ "SequencerCommandAccuseShowCharacter", "class_sequencer_command_accuse_show_character.html", null ],
-      [ "SequencerCommandAccuseShowTable", "class_sequencer_command_accuse_show_table.html", null ],
-      [ "SequencerCommandAccuseSusDefense", "class_sequencer_command_accuse_sus_defense.html", null ]
+      [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCollectTestimony", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html", null ]
     ] ],
     [ "StatementObject.Statement", "class_statement_object_1_1_statement.html", null ],
     [ "StatementObject", "class_statement_object.html", null ],

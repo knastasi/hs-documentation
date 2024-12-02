@@ -1,4 +1,4 @@
 var _accuse_show_character_8cs =
 [
-    [ "SequencerCommandAccuseShowCharacter", "class_sequencer_command_accuse_show_character.html", "class_sequencer_command_accuse_show_character" ]
+    [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseShowCharacter", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character" ]
 ];

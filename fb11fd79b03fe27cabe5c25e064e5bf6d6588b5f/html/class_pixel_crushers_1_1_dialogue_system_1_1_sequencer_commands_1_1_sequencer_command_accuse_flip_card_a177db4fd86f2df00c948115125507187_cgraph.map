@@ -1,0 +1,5 @@
+<map id="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard.Awake" name="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,282,64"/>
+<area shape="rect" id="Node000002" href="$class_accuse_runner.html#accc46e80cd3b79108e54be6a8e618f47" title=" " alt="" coords="330,21,539,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,32,314,32,314,37,282,37"/>
+</map>

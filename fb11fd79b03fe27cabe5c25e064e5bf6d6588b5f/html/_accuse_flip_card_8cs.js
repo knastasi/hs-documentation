@@ -1,4 +1,4 @@
 var _accuse_flip_card_8cs =
 [
-    [ "SequencerCommandAccuseFlipCard", "class_sequencer_command_accuse_flip_card.html", "class_sequencer_command_accuse_flip_card" ]
+    [ "PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card" ]
 ];

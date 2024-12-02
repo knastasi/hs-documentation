@@ -1,0 +1,4 @@
+var class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character =
+[
+    [ "Awake", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character.html#aee61ac528c077ba03927884aa4475f0c", null ]
+];

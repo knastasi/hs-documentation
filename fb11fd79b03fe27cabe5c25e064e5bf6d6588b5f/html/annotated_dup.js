@@ -14,6 +14,11 @@ var annotated_dup =
     [ "PixelCrushers", "namespace_pixel_crushers.html", [
       [ "DialogueSystem", "namespace_pixel_crushers_1_1_dialogue_system.html", [
         [ "SequencerCommands", "namespace_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands.html", [
+          [ "SequencerCommandAccuseFlipCard", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card" ],
+          [ "SequencerCommandAccuseNoMatch", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match" ],
+          [ "SequencerCommandAccuseShowCharacter", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_character" ],
+          [ "SequencerCommandAccuseShowTable", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_table.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_table" ],
+          [ "SequencerCommandAccuseSusDefense", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_sus_defense.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_sus_defense" ],
           [ "SequencerCommandAccuseUpdateState", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state" ],
           [ "SequencerCommandCollectTestimony", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony.html", "class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_collect_testimony" ]
         ] ]
@@ -88,11 +93,6 @@ var annotated_dup =
     [ "RoundIndicator", "class_round_indicator.html", "class_round_indicator" ],
     [ "RPSRunner", "class_r_p_s_runner.html", "class_r_p_s_runner" ],
     [ "SceneConfig", "class_scene_config.html", "class_scene_config" ],
-    [ "SequencerCommandAccuseFlipCard", "class_sequencer_command_accuse_flip_card.html", "class_sequencer_command_accuse_flip_card" ],
-    [ "SequencerCommandAccuseNoMatch", "class_sequencer_command_accuse_no_match.html", "class_sequencer_command_accuse_no_match" ],
-    [ "SequencerCommandAccuseShowCharacter", "class_sequencer_command_accuse_show_character.html", "class_sequencer_command_accuse_show_character" ],
-    [ "SequencerCommandAccuseShowTable", "class_sequencer_command_accuse_show_table.html", "class_sequencer_command_accuse_show_table" ],
-    [ "SequencerCommandAccuseSusDefense", "class_sequencer_command_accuse_sus_defense.html", "class_sequencer_command_accuse_sus_defense" ],
     [ "StatementObject", "class_statement_object.html", "class_statement_object" ],
     [ "SusObject", "class_sus_object.html", "class_sus_object" ],
     [ "SuspectInventory", "class_suspect_inventory.html", "class_suspect_inventory" ],
