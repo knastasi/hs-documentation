@@ -1,5 +1,5 @@
 <map id="Headspace.Network.Utility.ClientNetworkTransform" name="Headspace.Network.Utility.ClientNetworkTransform">
-<area shape="rect" id="Node000001" title="Used for syncing a transform with client side changes. This includes host. Pure server as owner isn&#39;t..." alt="" coords="5,80,187,123"/>
+<area shape="rect" id="Node000001" title="Used for syncing a transform with client side changes." alt="" coords="5,80,187,123"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="31,5,161,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,48,99,80,93,80,93,48"/>
 </map>

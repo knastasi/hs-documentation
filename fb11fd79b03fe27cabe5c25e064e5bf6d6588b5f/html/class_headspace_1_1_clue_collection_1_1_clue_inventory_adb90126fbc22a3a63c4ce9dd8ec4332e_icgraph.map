@@ -1,8 +1,8 @@
 <map id="Headspace.ClueCollection.ClueInventory.ClueDialogue" name="Headspace.ClueCollection.ClueInventory.ClueDialogue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="966,5,1149,48"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#aee9ffe8cd123649af3022e80c8002a6b" title=" " alt="" coords="737,5,918,48"/>
+<area shape="rect" id="Node000001" title="Handles triggering the conversation for a clue when it&#39;s picked up." alt="" coords="966,5,1149,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#aee9ffe8cd123649af3022e80c8002a6b" title="Called from RayCastSelect when a clue is clicked, triggers conversation, adds clue to inventory,..." alt="" coords="737,5,918,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="950,29,918,29,918,24,950,24"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="498,5,689,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="498,5,689,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="721,29,690,29,690,24,721,24"/>
 <area shape="rect" id="Node000004" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,5,450,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="482,29,451,29,451,24,482,24"/>

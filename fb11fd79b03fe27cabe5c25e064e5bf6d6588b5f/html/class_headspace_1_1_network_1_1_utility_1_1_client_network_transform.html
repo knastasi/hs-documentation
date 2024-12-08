@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.Network.Utility.ClientNetworkTransform Class Reference</title>
+<title>HeadspacePrototype: Headspace.Network.Utility.ClientNetworkTransform Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -105,14 +105,14 @@ $(function(){initNavTree('class_headspace_1_1_network_1_1_utility_1_1_client_net
 </div><!--header-->
 <div class="contents">
 
-<p>Used for syncing a transform with client side changes. This includes host. Pure server as owner isn't supported by this. Please use NetworkTransform for transforms that'll always be owned by the server.  
+<p>Used for syncing a transform with client side changes.  
  <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Headspace.Network.Utility.ClientNetworkTransform:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_network_1_1_utility_1_1_client_network_transform__inherit__graph.png" border="0" usemap="#a_headspace_8_network_8_utility_8_client_network_transform_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_headspace_8_network_8_utility_8_client_network_transform_inherit__map" id="a_headspace_8_network_8_utility_8_client_network_transform_inherit__map">
-<area shape="rect" title="Used for syncing a transform with client side changes. This includes host. Pure server as owner isn&#39;t..." alt="" coords="5,80,187,123"/>
+<area shape="rect" title="Used for syncing a transform with client side changes." alt="" coords="5,80,187,123"/>
 <area shape="rect" title=" " alt="" coords="31,5,161,32"/>
 <area shape="poly" title=" " alt="" coords="99,48,99,80,93,80,93,48"/>
 </map>
@@ -122,7 +122,7 @@ Collaboration diagram for Headspace.Network.Utility.ClientNetworkTransform:</div
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_network_1_1_utility_1_1_client_network_transform__coll__graph.png" border="0" usemap="#a_headspace_8_network_8_utility_8_client_network_transform_coll__map" alt="Collaboration graph"/></div>
 <map name="a_headspace_8_network_8_utility_8_client_network_transform_coll__map" id="a_headspace_8_network_8_utility_8_client_network_transform_coll__map">
-<area shape="rect" title="Used for syncing a transform with client side changes. This includes host. Pure server as owner isn&#39;t..." alt="" coords="5,80,187,123"/>
+<area shape="rect" title="Used for syncing a transform with client side changes." alt="" coords="5,80,187,123"/>
 <area shape="rect" title=" " alt="" coords="31,5,161,32"/>
 <area shape="poly" title=" " alt="" coords="99,48,99,80,93,80,93,48"/>
 </map>
@@ -131,11 +131,12 @@ Collaboration diagram for Headspace.Network.Utility.ClientNetworkTransform:</div
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a28e13602ba7f4c9e43492922f6285a23" id="r_a28e13602ba7f4c9e43492922f6285a23"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28e13602ba7f4c9e43492922f6285a23">OnIsServerAuthoritative</a> ()</td></tr>
-<tr class="memdesc:a28e13602ba7f4c9e43492922f6285a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to determine who can write to this transform. Owner client only. This imposes state to the server. This is putting trust on your clients. Make sure no security-sensitive features use this transform.  <br /></td></tr>
+<tr class="memdesc:a28e13602ba7f4c9e43492922f6285a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to determine who can write to this transform.  <br /></td></tr>
 <tr class="separator:a28e13602ba7f4c9e43492922f6285a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Used for syncing a transform with client side changes. This includes host. Pure server as owner isn't supported by this. Please use NetworkTransform for transforms that'll always be owned by the server. </p>
+<div class="textblock"><p>Used for syncing a transform with client side changes. </p>
+<p>This includes host. Pure server as owner isn't supported by this. Please use NetworkTransform for transforms that'll always be owned by the server. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a28e13602ba7f4c9e43492922f6285a23" name="a28e13602ba7f4c9e43492922f6285a23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28e13602ba7f4c9e43492922f6285a23">&#9670;&#160;</a></span>OnIsServerAuthoritative()</h2>
@@ -160,7 +161,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Used to determine who can write to this transform. Owner client only. This imposes state to the server. This is putting trust on your clients. Make sure no security-sensitive features use this transform. </p>
+<p>Used to determine who can write to this transform. </p>
+<p>Owner client only. This imposes state to the server. This is putting trust on your clients. Make sure no security-sensitive features use this transform. </p>
 
 </div>
 </div>

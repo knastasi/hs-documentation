@@ -1,15 +1,15 @@
 <map id="Headspace.Dialogue.DialogueQuestions.OnBack" name="Headspace.Dialogue.DialogueQuestions.OnBack">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,76,203,119"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#aa244c543dcc9e2500855bc02899fd566" title=" " alt="" coords="268,47,465,89"/>
+<area shape="rect" id="Node000001" title="closes questions and returns the NPC sprite to visible." alt="" coords="5,76,203,119"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#aa244c543dcc9e2500855bc02899fd566" title="Closes questions panel when done with questions." alt="" coords="268,47,465,89"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,84,252,78,253,83,203,89"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a19dec13a55a1d81d93a940819f2ac2e6" title=" " alt="" coords="251,113,482,140"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a19dec13a55a1d81d93a940819f2ac2e6" title="Called when exiting conversation with NPC." alt="" coords="251,113,482,140"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,106,235,109,235,115,203,111"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a13c124a5da1145627754713e5a4c0a33" title=" " alt="" coords="534,5,731,48"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a13c124a5da1145627754713e5a4c0a33" title="Closes clues panel." alt="" coords="534,5,731,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="452,110,481,99,495,89,504,79,514,69,529,58,539,52,542,57,531,62,517,72,508,83,498,94,483,104,454,115"/>
-<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ac8d2da094b84ec43e354d7f8ddc756e7" title=" " alt="" coords="534,72,731,115"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ac8d2da094b84ec43e354d7f8ddc756e7" title="This method is called when the Dialogue Panel opens on DialogUISuspect layout AND by NPCExit on NPC...." alt="" coords="534,72,731,115"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="478,110,518,105,519,110,479,115"/>
 <area shape="rect" id="Node000006" href="$class_headspace_1_1_global_state_runner.html#ad1c3ae5b5ed07107c838c4a55d47ef6c" title=" " alt="" coords="530,139,735,181"/>
 <area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="479,138,515,143,514,148,478,143"/>
-<area shape="rect" id="Node000007" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ad069fd3071f75ca3c10e86fdc34f22c6" title=" " alt="" coords="534,205,731,248"/>
+<area shape="rect" id="Node000007" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ad069fd3071f75ca3c10e86fdc34f22c6" title="Closes suspect panel." alt="" coords="534,205,731,248"/>
 <area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="401,138,531,191,549,197,547,202,529,196,399,143"/>
 </map>

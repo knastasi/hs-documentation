@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="called from Accuse button" alt="" coords="5,64,227,107"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_vars.html#aeb9d8f3a912a161eef76f9f9abcaab7e" title=" " alt="" coords="285,5,506,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,61,275,49,276,54,221,66"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title=" " alt="" coords="275,72,516,99"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title="This is called by the continue buttons and can be called directly from gamerunner." alt="" coords="275,72,516,99"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,83,259,83,259,88,227,88"/>
 <area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ae6d30c4c3de89bdee0f859bee1268d60" title=" " alt="" coords="285,123,506,165"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,105,276,116,275,122,220,110"/>

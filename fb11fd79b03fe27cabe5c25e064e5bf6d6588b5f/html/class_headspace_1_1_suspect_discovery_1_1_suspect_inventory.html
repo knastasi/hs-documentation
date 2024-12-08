@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.SuspectDiscovery.SuspectInventory Class Reference</title>
+<title>HeadspacePrototype: Headspace.SuspectDiscovery.SuspectInventory Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -133,8 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ded3c1229ec70a09cf0ae932d60b333" id="r_a9ded3c1229ec70a09cf0ae932d60b333"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ded3c1229ec70a09cf0ae932d60b333">loadSuspects</a> ()</td></tr>
 <tr class="separator:a9ded3c1229ec70a09cf0ae932d60b333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea5d5cc963d5618801232584a2236e5" id="r_a5ea5d5cc963d5618801232584a2236e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea5d5cc963d5618801232584a2236e5">addSuspect</a> (string key)</td></tr>
+<tr class="memdesc:a5ea5d5cc963d5618801232584a2236e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC.  <br /></td></tr>
 <tr class="separator:a5ea5d5cc963d5618801232584a2236e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04dbadd97b61f359bac603faf86639ac" id="r_a04dbadd97b61f359bac603faf86639ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04dbadd97b61f359bac603faf86639ac">checkSuspect</a> (string key)</td></tr>
+<tr class="memdesc:a04dbadd97b61f359bac603faf86639ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public method for <a class="el" href="namespace_headspace_1_1_u_i.html">UI</a> menus to see if a character is discovered or not.  <br /></td></tr>
 <tr class="separator:a04dbadd97b61f359bac603faf86639ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -159,18 +161,19 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC </p>
+
+<p>Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5_icgraph.png" border="0" usemap="#aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5_icgraph" id="aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a5ea5d5cc963d5618801232584a2236e5_icgraph">
-<area shape="rect" title=" " alt="" coords="1317,5,1518,48"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title=" " alt="" coords="1038,5,1269,48"/>
+<area shape="rect" title="Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC." alt="" coords="1317,5,1518,48"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title="Checks if the character has been marked as discovered in the SuspectInventory, if no,..." alt="" coords="1038,5,1269,48"/>
 <area shape="poly" title=" " alt="" coords="1302,29,1269,29,1269,24,1302,24"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title=" " alt="" coords="737,13,990,40"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title="After NPC is clicked, deactivates NPC sprite and continue button then gets the sprite npc name to loa..." alt="" coords="737,13,990,40"/>
 <area shape="poly" title=" " alt="" coords="1022,29,990,29,990,24,1022,24"/>
-<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="498,5,689,48"/>
+<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="498,5,689,48"/>
 <area shape="poly" title=" " alt="" coords="722,29,690,29,690,24,722,24"/>
 <area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,5,450,48"/>
 <area shape="poly" title=" " alt="" coords="482,29,451,29,451,24,482,24"/>
@@ -212,28 +215,29 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Public method for <a class="el" href="namespace_headspace_1_1_u_i.html">UI</a> menus to see if a character is discovered or not </p>
+
+<p>Public method for <a class="el" href="namespace_headspace_1_1_u_i.html">UI</a> menus to see if a character is discovered or not. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac_icgraph.png" border="0" usemap="#aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac_icgraph" id="aclass_headspace_1_1_suspect_discovery_1_1_suspect_inventory_a04dbadd97b61f359bac603faf86639ac_icgraph">
-<area shape="rect" title=" " alt="" coords="1621,72,1831,115"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title=" " alt="" coords="1039,5,1270,48"/>
+<area shape="rect" title="Public method for UI menus to see if a character is discovered or not." alt="" coords="1621,72,1831,115"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title="Checks if the character has been marked as discovered in the SuspectInventory, if no,..." alt="" coords="1039,5,1270,48"/>
 <area shape="poly" title=" " alt="" coords="1619,71,1573,63,1415,44,1270,34,1271,29,1416,39,1574,57,1620,66"/>
 <area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#af7b177645da2acd0c07c08b827d31c47" title=" " alt="" coords="1344,72,1549,115"/>
 <area shape="poly" title=" " alt="" coords="1606,96,1549,96,1549,91,1606,91"/>
-<area shape="rect" href="class_headspace_1_1_player_briefcase_1_1_briefcase_suspects.html#a17af04ef9e4d37015bfd89e3205b4c18" title=" " alt="" coords="1319,139,1573,181"/>
+<area shape="rect" href="class_headspace_1_1_player_briefcase_1_1_briefcase_suspects.html#a17af04ef9e4d37015bfd89e3205b4c18" title="Triggers on Briefcase enable; updates suspect buttons depending on character discovered status." alt="" coords="1319,139,1573,181"/>
 <area shape="poly" title=" " alt="" coords="1619,121,1539,141,1538,135,1618,116"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title=" " alt="" coords="737,47,990,73"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title="After NPC is clicked, deactivates NPC sprite and continue button then gets the sprite npc name to loa..." alt="" coords="737,47,990,73"/>
 <area shape="poly" title=" " alt="" coords="1023,44,986,49,985,43,1023,39"/>
-<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="498,39,689,81"/>
+<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="498,39,689,81"/>
 <area shape="poly" title=" " alt="" coords="722,63,690,63,690,57,722,57"/>
 <area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,39,450,81"/>
 <area shape="poly" title=" " alt="" coords="482,63,451,63,451,57,482,57"/>
 <area shape="rect" href="class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,39,211,81"/>
 <area shape="poly" title=" " alt="" coords="243,63,211,63,211,57,243,57"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title=" " alt="" coords="1056,72,1253,115"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title="This method is called from the NPC script when an NPC is clicked." alt="" coords="1056,72,1253,115"/>
 <area shape="poly" title=" " alt="" coords="1328,96,1253,96,1253,91,1328,91"/>
 <area shape="poly" title=" " alt="" coords="1040,83,985,77,986,71,1040,78"/>
 <area shape="rect" href="class_headspace_1_1_player_briefcase_1_1_briefcase_controller.html#aaf373f1eb648a1c9268834b37fda8a16" title=" " alt="" coords="1038,139,1271,181"/>

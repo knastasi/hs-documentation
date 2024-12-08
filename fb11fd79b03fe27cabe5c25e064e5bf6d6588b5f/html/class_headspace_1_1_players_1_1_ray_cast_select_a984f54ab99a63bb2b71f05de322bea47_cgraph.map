@@ -1,34 +1,34 @@
 <map id="Headspace.Players.RayCastSelect.UpdateDelegates" name="Headspace.Players.RayCastSelect.UpdateDelegates">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,400,197,443"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a866102f6abf15a485c7aa4260c02e37c" title=" " alt="" coords="245,139,436,181"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a866102f6abf15a485c7aa4260c02e37c" title="OnFirstSelect is only called once when an item is selected, instead of multiple times the entire dura..." alt="" coords="245,139,436,181"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,398,307,191,311,195,124,401"/>
-<area shape="rect" id="Node000012" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="245,568,436,611"/>
+<area shape="rect" id="Node000012" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="245,568,436,611"/>
 <area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="135,441,297,556,294,561,132,445"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a97a202735c9935a8648abb1e7de5f3af" title=" " alt="" coords="490,23,730,65"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a97a202735c9935a8648abb1e7de5f3af" title="Checking if deleted lines are attached to a conclusion to evaluate if the game needs to delete the co..." alt="" coords="490,23,730,65"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,136,483,91,537,69,539,74,485,96,387,141"/>
-<area shape="rect" id="Node000005" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a4ccc8275f27d4e8e1cba7d1ce0d11a19" title=" " alt="" coords="500,105,721,148"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a4ccc8275f27d4e8e1cba7d1ce0d11a19" title="This method is called by RayCastSelect &#45; it checks for duplicates and completes the line when the pla..." alt="" coords="500,105,721,148"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="436,146,484,140,484,145,437,151"/>
-<area shape="rect" id="Node000011" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a0fffd91649cdc861dbe8f07fb7fd9ab1" title=" " alt="" coords="500,172,721,215"/>
+<area shape="rect" id="Node000011" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a0fffd91649cdc861dbe8f07fb7fd9ab1" title="This method is called by RayCastSelect &#45; it instantiates the line when the player selects a starting ..." alt="" coords="500,172,721,215"/>
 <area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="437,169,484,175,484,180,436,174"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ae1c52e7b896d6c923e5e4cb39519f6f0" title=" " alt="" coords="789,5,1011,48"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ae1c52e7b896d6c923e5e4cb39519f6f0" title="Removing the conclusion from the board and its associated lines." alt="" coords="789,5,1011,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="730,34,774,32,774,37,731,39"/>
-<area shape="rect" id="Node000006" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a34283866413ce5b547e90c0d6fa1e245" title=" " alt="" coords="789,72,1011,115"/>
+<area shape="rect" id="Node000006" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a34283866413ce5b547e90c0d6fa1e245" title="This method checks when a player finishes drawing a line if the two objects connected are both a Clue..." alt="" coords="789,72,1011,115"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="721,111,773,105,774,110,722,117"/>
-<area shape="rect" id="Node000010" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a1dc89c589146536c68fb7ce232ae450d" title=" " alt="" coords="789,139,1011,181"/>
+<area shape="rect" id="Node000010" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a1dc89c589146536c68fb7ce232ae450d" title="Resets the player&#39;s drawing progress and line created without removing them from draw mode." alt="" coords="789,139,1011,181"/>
 <area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="722,137,774,143,773,148,721,142"/>
-<area shape="rect" id="Node000007" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ad82b332985ed8e43c3a2477ca72727a1" title=" " alt="" coords="1064,72,1285,115"/>
+<area shape="rect" id="Node000007" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ad82b332985ed8e43c3a2477ca72727a1" title="This method checks for a match with a clue and testimony item and calls the coroutine for the choose ..." alt="" coords="1064,72,1285,115"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1011,91,1048,91,1048,96,1011,96"/>
 <area shape="rect" id="Node000008" href="$class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html#a6ca4f9130de17b6da3d7dbe6710a38ce" title=" " alt="" coords="1333,72,1577,115"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1286,91,1318,91,1318,96,1286,96"/>
-<area shape="rect" id="Node000009" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title=" " alt="" coords="1625,72,1847,115"/>
+<area shape="rect" id="Node000009" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title="This method is called by the Conclusion script on the ConclusionInventoryObject under GameController ..." alt="" coords="1625,72,1847,115"/>
 <area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1578,91,1610,91,1610,96,1578,96"/>
 <area shape="rect" id="Node000013" href="$class_headspace_1_1_title_1_1_character_select.html#a1ea72c788a33ee7266d750d0260f32e6" title=" " alt="" coords="522,339,699,381"/>
 <area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="349,567,368,529,397,481,436,432,482,391,506,378,508,383,486,396,440,436,402,484,373,531,354,569"/>
-<area shape="rect" id="Node000014" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#aee9ffe8cd123649af3022e80c8002a6b" title=" " alt="" coords="520,405,700,448"/>
+<area shape="rect" id="Node000014" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#aee9ffe8cd123649af3022e80c8002a6b" title="Called from RayCastSelect when a clue is clicked, triggers conversation, adds clue to inventory,..." alt="" coords="520,405,700,448"/>
 <area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="376,565,559,454,561,459,379,570"/>
-<area shape="rect" id="Node000021" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title=" " alt="" coords="484,551,736,577"/>
+<area shape="rect" id="Node000021" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#a600a0bfa203179ec4d4ff0a18414e5f9" title="After NPC is clicked, deactivates NPC sprite and continue button then gets the sprite npc name to loa..." alt="" coords="484,551,736,577"/>
 <area shape="poly" id="edge20_Node000012_Node000021" title=" " alt="" coords="436,578,468,575,468,580,437,583"/>
-<area shape="rect" id="Node000028" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title=" " alt="" coords="490,601,731,628"/>
+<area shape="rect" id="Node000028" href="$class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title="This is called by the continue buttons and can be called directly from gamerunner." alt="" coords="490,601,731,628"/>
 <area shape="poly" id="edge29_Node000012_Node000028" title=" " alt="" coords="437,596,474,599,473,605,436,601"/>
 <area shape="rect" id="Node000029" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a59936263970161e8dce2bf18e91d5f0b" title=" " alt="" coords="514,727,706,769"/>
 <area shape="poly" id="edge30_Node000012_Node000029" title=" " alt="" coords="374,609,485,682,551,717,548,722,483,686,371,613"/>
@@ -40,7 +40,7 @@
 <area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="700,412,718,403,735,391,748,376,754,360,758,327,761,292,769,275,782,258,794,249,798,253,786,262,773,278,767,294,763,327,760,361,752,379,738,395,721,408,702,417"/>
 <area shape="rect" id="Node000016" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#a8ac129d860db680110554bd9dfe3895b" title=" " alt="" coords="810,272,990,315"/>
 <area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="700,409,735,391,750,376,758,359,766,342,783,325,794,317,797,322,786,329,771,345,763,361,755,379,738,395,702,413"/>
-<area shape="rect" id="Node000017" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#adb90126fbc22a3a63c4ce9dd8ec4332e" title=" " alt="" coords="808,339,992,381"/>
+<area shape="rect" id="Node000017" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#adb90126fbc22a3a63c4ce9dd8ec4332e" title="Handles triggering the conversation for a clue when it&#39;s picked up." alt="" coords="808,339,992,381"/>
 <area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="700,403,793,382,794,387,701,409"/>
 <area shape="rect" id="Node000019" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#a31a44137a74ed2b35e2d2e0c09c2f13a" title=" " alt="" coords="795,405,1005,448"/>
 <area shape="poly" id="edge18_Node000014_Node000019" title=" " alt="" coords="701,424,780,424,780,429,701,429"/>
@@ -49,15 +49,15 @@
 <area shape="rect" id="Node000018" href="$class_headspace_1_1_global_state_runner.html#ad1c3ae5b5ed07107c838c4a55d47ef6c" title=" " alt="" coords="1072,403,1277,445"/>
 <area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="993,379,1066,396,1064,401,992,384"/>
 <area shape="poly" id="edge28_Node000021_Node000018" title=" " alt="" coords="737,565,802,563,873,556,945,544,1015,524,1048,510,1080,492,1135,453,1138,457,1083,496,1051,515,1017,529,946,549,873,561,802,568,737,570"/>
-<area shape="rect" id="Node000022" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title=" " alt="" coords="784,589,1016,632"/>
+<area shape="rect" id="Node000022" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title="Checks if the character has been marked as discovered in the SuspectInventory, if no,..." alt="" coords="784,589,1016,632"/>
 <area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="698,575,769,587,769,592,697,581"/>
-<area shape="rect" id="Node000025" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title=" " alt="" coords="801,656,999,699"/>
+<area shape="rect" id="Node000025" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title="This method is called from the NPC script when an NPC is clicked." alt="" coords="801,656,999,699"/>
 <area shape="poly" id="edge24_Node000021_Node000025" title=" " alt="" coords="712,576,738,587,754,601,763,615,771,629,786,642,794,647,791,651,783,646,767,632,758,618,750,604,735,592,710,580"/>
-<area shape="rect" id="Node000023" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a5ea5d5cc963d5618801232584a2236e5" title=" " alt="" coords="1074,535,1275,577"/>
+<area shape="rect" id="Node000023" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a5ea5d5cc963d5618801232584a2236e5" title="Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC." alt="" coords="1074,535,1275,577"/>
 <area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="1010,586,1058,576,1059,582,1011,591"/>
-<area shape="rect" id="Node000024" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title=" " alt="" coords="1350,656,1560,699"/>
+<area shape="rect" id="Node000024" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title="Public method for UI menus to see if a character is discovered or not." alt="" coords="1350,656,1560,699"/>
 <area shape="poly" id="edge23_Node000022_Node000024" title=" " alt="" coords="1016,613,1146,621,1285,637,1351,650,1350,655,1285,643,1145,627,1016,618"/>
-<area shape="rect" id="Node000026" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title=" " alt="" coords="1070,652,1279,695"/>
+<area shape="rect" id="Node000026" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title="Displays inventory and items in clue slots." alt="" coords="1070,652,1279,695"/>
 <area shape="poly" id="edge25_Node000025_Node000026" title=" " alt="" coords="999,673,1054,672,1054,678,999,679"/>
 <area shape="rect" id="Node000027" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#af7b177645da2acd0c07c08b827d31c47" title=" " alt="" coords="1072,719,1277,761"/>
 <area shape="poly" id="edge26_Node000025_Node000027" title=" " alt="" coords="997,697,1064,712,1063,717,996,702"/>

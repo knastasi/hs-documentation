@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.PlayerBriefcase.BriefcaseSuspects Class Reference</title>
+<title>HeadspacePrototype: Headspace.PlayerBriefcase.BriefcaseSuspects Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -134,17 +134,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a930bc0e1ddae8d34cf437f48d505210d" id="r_a930bc0e1ddae8d34cf437f48d505210d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a930bc0e1ddae8d34cf437f48d505210d">Awake</a> ()</td></tr>
 <tr class="separator:a930bc0e1ddae8d34cf437f48d505210d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17af04ef9e4d37015bfd89e3205b4c18" id="r_a17af04ef9e4d37015bfd89e3205b4c18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17af04ef9e4d37015bfd89e3205b4c18">UpdateSusInventory</a> ()</td></tr>
+<tr class="memdesc:a17af04ef9e4d37015bfd89e3205b4c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers on Briefcase enable; updates suspect buttons depending on character discovered status.  <br /></td></tr>
 <tr class="separator:a17af04ef9e4d37015bfd89e3205b4c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf0e22873f0c2f890a48ce32a0c02356" id="r_abf0e22873f0c2f890a48ce32a0c02356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf0e22873f0c2f890a48ce32a0c02356">UpdateSidePanel</a> (Button sender)</td></tr>
+<tr class="memdesc:abf0e22873f0c2f890a48ce32a0c02356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the side panel with suspect information when a suspect button is selected.  <br /></td></tr>
 <tr class="separator:abf0e22873f0c2f890a48ce32a0c02356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae58da709a31b1e06ff30ebf7b91adc53" id="r_ae58da709a31b1e06ff30ebf7b91adc53"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae58da709a31b1e06ff30ebf7b91adc53">susPanel</a></td></tr>
+<tr class="memdesc:ae58da709a31b1e06ff30ebf7b91adc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector references for the main panels of this menu.  <br /></td></tr>
 <tr class="separator:ae58da709a31b1e06ff30ebf7b91adc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c518538f9203b396a04b9c90545dc1c" id="r_a8c518538f9203b396a04b9c90545dc1c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c518538f9203b396a04b9c90545dc1c">sidePanel</a></td></tr>
 <tr class="separator:a8c518538f9203b396a04b9c90545dc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbdd25207f810de41d84fa11dc3d9999" id="r_adbdd25207f810de41d84fa11dc3d9999"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbdd25207f810de41d84fa11dc3d9999">susView</a></td></tr>
+<tr class="memdesc:adbdd25207f810de41d84fa11dc3d9999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector references for the elements of the SusView section of the SidePanel.  <br /></td></tr>
 <tr class="separator:adbdd25207f810de41d84fa11dc3d9999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac403d17bb41bcc7180347caab3a4d885" id="r_ac403d17bb41bcc7180347caab3a4d885"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac403d17bb41bcc7180347caab3a4d885">susThe</a></td></tr>
 <tr class="separator:ac403d17bb41bcc7180347caab3a4d885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +161,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a311723135445ebf69553f26212c7c89c" id="r_a311723135445ebf69553f26212c7c89c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a311723135445ebf69553f26212c7c89c">susImage</a></td></tr>
 <tr class="separator:a311723135445ebf69553f26212c7c89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e0bd95ea935a5b87d99092eafca328" id="r_ad2e0bd95ea935a5b87d99092eafca328"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e0bd95ea935a5b87d99092eafca328">susNote</a></td></tr>
+<tr class="memdesc:ad2e0bd95ea935a5b87d99092eafca328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector references for the elements of the SusNote section of the SidePanel.  <br /></td></tr>
 <tr class="separator:ad2e0bd95ea935a5b87d99092eafca328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794651dc9072f1c628b143d28bfd3dae" id="r_a794651dc9072f1c628b143d28bfd3dae"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794651dc9072f1c628b143d28bfd3dae">susName</a></td></tr>
 <tr class="separator:a794651dc9072f1c628b143d28bfd3dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +204,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Updates the side panel with suspect information when a suspect button is selected </p>
+
+<p>Updates the side panel with suspect information when a suspect button is selected. </p>
 <p>"The" is turned off by default, so when we first display a suspect we turn it on</p>
 
 </div>
@@ -218,14 +224,15 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Triggers on Briefcase enable; updates suspect buttons depending on character discovered status </p>
+
+<p>Triggers on Briefcase enable; updates suspect buttons depending on character discovered status. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_cgraph.png" border="0" usemap="#aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_cgraph" id="aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,260,48"/>
-<area shape="rect" href="class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title=" " alt="" coords="308,5,517,48"/>
+<area shape="rect" title="Triggers on Briefcase enable; updates suspect buttons depending on character discovered status." alt="" coords="5,5,260,48"/>
+<area shape="rect" href="class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title="Public method for UI menus to see if a character is discovered or not." alt="" coords="308,5,517,48"/>
 <area shape="poly" title=" " alt="" coords="260,24,292,24,292,29,260,29"/>
 </map>
 </div>
@@ -234,7 +241,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_icgraph.png" border="0" usemap="#aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_icgraph" id="aclass_headspace_1_1_player_briefcase_1_1_briefcase_suspects_a17af04ef9e4d37015bfd89e3205b4c18_icgraph">
-<area shape="rect" title=" " alt="" coords="287,5,541,48"/>
+<area shape="rect" title="Triggers on Briefcase enable; updates suspect buttons depending on character discovered status." alt="" coords="287,5,541,48"/>
 <area shape="rect" href="class_headspace_1_1_player_briefcase_1_1_briefcase_controller.html#aaf373f1eb648a1c9268834b37fda8a16" title=" " alt="" coords="5,5,239,48"/>
 <area shape="poly" title=" " alt="" coords="271,29,239,29,239,24,271,24"/>
 </map>
@@ -352,7 +359,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Inspector references for the elements of the SusNote section of the SidePanel </p>
+
+<p>Inspector references for the elements of the SusNote section of the SidePanel. </p>
 
 </div>
 </div>
@@ -381,7 +389,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Inspector references for the main panels of this menu </p>
+
+<p>Inspector references for the main panels of this menu. </p>
 
 </div>
 </div>
@@ -424,7 +433,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Inspector references for the elements of the SusView section of the SidePanel </p>
+
+<p>Inspector references for the elements of the SusView section of the SidePanel. </p>
 
 </div>
 </div>

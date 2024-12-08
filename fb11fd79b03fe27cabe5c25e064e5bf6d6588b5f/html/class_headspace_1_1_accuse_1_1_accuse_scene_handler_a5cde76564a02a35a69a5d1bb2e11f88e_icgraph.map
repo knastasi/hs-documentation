@@ -1,5 +1,5 @@
 <map id="Headspace.Accuse.AccuseSceneHandler.ShowTable" name="Headspace.Accuse.AccuseSceneHandler.ShowTable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="330,13,550,56"/>
+<area shape="rect" id="Node000001" title="This method will check if the table is already showing, if it is not it will turn on the table view o..." alt="" coords="330,13,550,56"/>
 <area shape="rect" id="Node000002" href="$class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_show_table.html#a68f0e3427a10694bcdd7538730fc29d2" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
 </map>

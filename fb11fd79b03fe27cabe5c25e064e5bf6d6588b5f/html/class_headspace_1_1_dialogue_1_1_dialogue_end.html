@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.Dialogue.DialogueEnd Class Reference</title>
+<title>HeadspacePrototype: Headspace.Dialogue.DialogueEnd Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -131,17 +131,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa91273a66346d7893e50abe185a541f6" id="r_aa91273a66346d7893e50abe185a541f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91273a66346d7893e50abe185a541f6">Awake</a> ()</td></tr>
 <tr class="separator:aa91273a66346d7893e50abe185a541f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea42a3eda781b11e16d09e55c59f89f7" id="r_aea42a3eda781b11e16d09e55c59f89f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea42a3eda781b11e16d09e55c59f89f7">OnDialogueEnd</a> ()</td></tr>
+<tr class="memdesc:aea42a3eda781b11e16d09e55c59f89f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called using an event on the <a class="el" href="namespace_headspace_1_1_dialogue.html">Dialogue</a> Manger everytime a conversation ends.  <br /></td></tr>
 <tr class="separator:aea42a3eda781b11e16d09e55c59f89f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aeeb905c5895cc14a5be4c6888d586424" id="r_aeeb905c5895cc14a5be4c6888d586424"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb905c5895cc14a5be4c6888d586424">questionPanel</a></td></tr>
+<tr class="memdesc:aeeb905c5895cc14a5be4c6888d586424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Question Panel &amp; Question Menu.  <br /></td></tr>
 <tr class="separator:aeeb905c5895cc14a5be4c6888d586424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54417655a6a77519b9c5d9b622b00644" id="r_a54417655a6a77519b9c5d9b622b00644"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54417655a6a77519b9c5d9b622b00644">questionMenu</a></td></tr>
 <tr class="separator:a54417655a6a77519b9c5d9b622b00644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2136534a919f1e8bdfbd3b946406c5b" id="r_aa2136534a919f1e8bdfbd3b946406c5b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2136534a919f1e8bdfbd3b946406c5b">actPlay</a></td></tr>
+<tr class="memdesc:aa2136534a919f1e8bdfbd3b946406c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a string representing the active player.  <br /></td></tr>
 <tr class="separator:aa2136534a919f1e8bdfbd3b946406c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96ec340f319c4feae0cfdc41b8fa6c41" id="r_a96ec340f319c4feae0cfdc41b8fa6c41"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96ec340f319c4feae0cfdc41b8fa6c41">dialogueActionBar</a></td></tr>
+<tr class="memdesc:a96ec340f319c4feae0cfdc41b8fa6c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action Bar for clues &amp; suspects.  <br /></td></tr>
 <tr class="separator:a96ec340f319c4feae0cfdc41b8fa6c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa23b78b8c41a8a243a3cd66ebe0fbc" id="r_a1fa23b78b8c41a8a243a3cd66ebe0fbc"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fa23b78b8c41a8a243a3cd66ebe0fbc">ctnBtn</a></td></tr>
 <tr class="separator:a1fa23b78b8c41a8a243a3cd66ebe0fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,14 +182,15 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is called using an event on the <a class="el" href="namespace_headspace_1_1_dialogue.html">Dialogue</a> Manger everytime a conversation ends </p>
+
+<p>This is called using an event on the <a class="el" href="namespace_headspace_1_1_dialogue.html">Dialogue</a> Manger everytime a conversation ends. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_dialogue_1_1_dialogue_end_aea42a3eda781b11e16d09e55c59f89f7_cgraph.png" border="0" usemap="#aclass_headspace_1_1_dialogue_1_1_dialogue_end_aea42a3eda781b11e16d09e55c59f89f7_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_dialogue_1_1_dialogue_end_aea42a3eda781b11e16d09e55c59f89f7_cgraph" id="aclass_headspace_1_1_dialogue_1_1_dialogue_end_aea42a3eda781b11e16d09e55c59f89f7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,203,48"/>
-<area shape="rect" href="class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title=" " alt="" coords="251,13,492,40"/>
+<area shape="rect" title="This is called using an event on the Dialogue Manger everytime a conversation ends." alt="" coords="5,5,203,48"/>
+<area shape="rect" href="class_headspace_1_1_game_runner.html#abc3d75457fa75549bdaa541fab098ff1" title="This is called by the continue buttons and can be called directly from gamerunner." alt="" coords="251,13,492,40"/>
 <area shape="poly" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
 </map>
 </div>
@@ -204,7 +209,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Holds a string representing the active player </p>
+
+<p>Holds a string representing the active player. </p>
 
 </div>
 </div>
@@ -233,7 +239,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Action Bar for clues &amp; suspects </p>
+
+<p>Action Bar for clues &amp; suspects. </p>
 
 </div>
 </div>
@@ -262,7 +269,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Question Panel &amp; Question Menu </p>
+
+<p>Question Panel &amp; Question Menu. </p>
 
 </div>
 </div>

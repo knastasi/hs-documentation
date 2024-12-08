@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.GameRunner Class Reference</title>
+<title>HeadspacePrototype: Headspace.GameRunner Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -185,12 +185,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add9e47358cc00387e726d737d11b8e38" id="r_add9e47358cc00387e726d737d11b8e38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9e47358cc00387e726d737d11b8e38">OnNetworkStart</a> ()</td></tr>
 <tr class="separator:add9e47358cc00387e726d737d11b8e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3d75457fa75549bdaa541fab098ff1" id="r_abc3d75457fa75549bdaa541fab098ff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc3d75457fa75549bdaa541fab098ff1">OnContinue</a> (string s=&quot;&quot;)</td></tr>
+<tr class="memdesc:abc3d75457fa75549bdaa541fab098ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the continue buttons and can be called directly from gamerunner.  <br /></td></tr>
 <tr class="separator:abc3d75457fa75549bdaa541fab098ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af46c49eb52a8a6850911b295ef79f59c" id="r_af46c49eb52a8a6850911b295ef79f59c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46c49eb52a8a6850911b295ef79f59c">StageEnd</a> (string s=&quot;&quot;)</td></tr>
+<tr class="memdesc:af46c49eb52a8a6850911b295ef79f59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the method that kicks off the game's state machine to advance scenes.  <br /></td></tr>
 <tr class="separator:af46c49eb52a8a6850911b295ef79f59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa983767c6c85ec948a483090f9fffca7" id="r_aa983767c6c85ec948a483090f9fffca7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa983767c6c85ec948a483090f9fffca7">StageBegin</a> (string s=&quot;&quot;)</td></tr>
 <tr class="separator:aa983767c6c85ec948a483090f9fffca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa077554655305239548afe44703f780f" id="r_aa077554655305239548afe44703f780f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa077554655305239548afe44703f780f">UpdatePlayer</a> ()</td></tr>
+<tr class="memdesc:aa077554655305239548afe44703f780f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates players following a roundselect mini game.  <br /></td></tr>
 <tr class="separator:aa077554655305239548afe44703f780f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652d2e6f4ec3752a0f5f8739e0626186" id="r_a652d2e6f4ec3752a0f5f8739e0626186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652d2e6f4ec3752a0f5f8739e0626186">SetActiveCursorsRPC</a> (<a class="el" href="namespace_headspace.html#a80cb794755f7526caed237119bfbffc6">Player</a> activePlayer)</td></tr>
 <tr class="separator:a652d2e6f4ec3752a0f5f8739e0626186"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,18 +205,23 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6392b152e31428f2be47e2f7882e5f5c" id="r_a6392b152e31428f2be47e2f7882e5f5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6392b152e31428f2be47e2f7882e5f5c">loading</a></td></tr>
 <tr class="separator:a6392b152e31428f2be47e2f7882e5f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75bd80d985a12a60689732f6f897dd0b" id="r_a75bd80d985a12a60689732f6f897dd0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_game_vars.html">GameVars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75bd80d985a12a60689732f6f897dd0b">gameVar</a></td></tr>
+<tr class="memdesc:a75bd80d985a12a60689732f6f897dd0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the game variables that hold the game state  <br /></td></tr>
 <tr class="separator:a75bd80d985a12a60689732f6f897dd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e407a5d0c25e60d2de94c4474e2810" id="r_a20e407a5d0c25e60d2de94c4474e2810"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20e407a5d0c25e60d2de94c4474e2810">lPlayer</a></td></tr>
+<tr class="memdesc:a20e407a5d0c25e60d2de94c4474e2810"><td class="mdescLeft">&#160;</td><td class="mdescRight">these will be used to hand off the player objects to the game vars object  <br /></td></tr>
 <tr class="separator:a20e407a5d0c25e60d2de94c4474e2810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab92f29756481854965c52550d3446acf" id="r_ab92f29756481854965c52550d3446acf"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab92f29756481854965c52550d3446acf">rPlayer</a></td></tr>
 <tr class="separator:ab92f29756481854965c52550d3446acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a513f316e0efb6f98b88362b38d46760f" id="r_a513f316e0efb6f98b88362b38d46760f"><td class="memItemLeft" align="right" valign="top">NetworkVariable&lt; <a class="el" href="namespace_headspace.html#a80cb794755f7526caed237119bfbffc6">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513f316e0efb6f98b88362b38d46760f">roundSelectWinner</a></td></tr>
+<tr class="memdesc:a513f316e0efb6f98b88362b38d46760f"><td class="mdescLeft">&#160;</td><td class="mdescRight">which player won the last round selection faceoff  <br /></td></tr>
 <tr class="separator:a513f316e0efb6f98b88362b38d46760f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb97d4ad3d809b75ac2a7bb13199b80" id="r_a9cb97d4ad3d809b75ac2a7bb13199b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_global_state_runner.html">GlobalStateRunner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb97d4ad3d809b75ac2a7bb13199b80">globalStateRunner</a></td></tr>
 <tr class="separator:a9cb97d4ad3d809b75ac2a7bb13199b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3117ec218933ed64f20fe5c172e344a" id="r_ad3117ec218933ed64f20fe5c172e344a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_players_1_1_player_manager.html">PlayerManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3117ec218933ed64f20fe5c172e344a">playerManager</a></td></tr>
+<tr class="memdesc:ad3117ec218933ed64f20fe5c172e344a"><td class="mdescLeft">&#160;</td><td class="mdescRight">used for getting player character selections  <br /></td></tr>
 <tr class="separator:ad3117ec218933ed64f20fe5c172e344a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad046bf92859ca31cdfa08ac386cf3abf" id="r_ad046bf92859ca31cdfa08ac386cf3abf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_players_1_1_player_input_handler.html">PlayerInputHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad046bf92859ca31cdfa08ac386cf3abf">playerInputHandler</a></td></tr>
+<tr class="memdesc:ad046bf92859ca31cdfa08ac386cf3abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">player input handler object reference  <br /></td></tr>
 <tr class="separator:ad046bf92859ca31cdfa08ac386cf3abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affaabda24e4ea04f39e7742b6a9ce947" id="r_affaabda24e4ea04f39e7742b6a9ce947"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affaabda24e4ea04f39e7742b6a9ce947">persistantElements</a></td></tr>
 <tr class="separator:affaabda24e4ea04f39e7742b6a9ce947"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,39 +245,34 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is called by the continue buttons and can be called directly from gamerunner </p>
+
+<p>This is called by the continue buttons and can be called directly from gamerunner. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1_icgraph.png" border="0" usemap="#aclass_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1_icgraph" id="aclass_headspace_1_1_game_runner_abc3d75457fa75549bdaa541fab098ff1_icgraph">
-<area shape="rect" title=" " alt="" coords="796,180,1038,207"/>
+<area shape="rect" title="This is called by the continue buttons and can be called directly from gamerunner." alt="" coords="796,180,1038,207"/>
 <area shape="rect" href="class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a7cc595d868e9b8842f06ca0407db1c6b" title="called from Accuse button" alt="" coords="522,5,744,48"/>
 <area shape="poly" title=" " alt="" coords="890,171,828,116,789,87,747,62,721,51,723,46,750,58,792,83,831,112,893,167"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_end.html#aea42a3eda781b11e16d09e55c59f89f7" title=" " alt="" coords="534,72,732,115"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_end.html#aea42a3eda781b11e16d09e55c59f89f7" title="This is called using an event on the Dialogue Manger everytime a conversation ends." alt="" coords="534,72,732,115"/>
 <area shape="poly" title=" " alt="" coords="868,176,747,129,712,118,714,113,749,124,870,171"/>
 <area shape="rect" href="class_headspace_1_1_title_1_1_connect_handler.html#ac9fc78b587df654f285d472aea7824e6" title=" " alt="" coords="524,139,742,181"/>
 <area shape="poly" title=" " alt="" coords="782,180,742,175,743,170,783,175"/>
 <area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#ada7e95839a577bb21a96d59b80eed608" title=" " alt="" coords="538,205,728,248"/>
 <area shape="poly" title=" " alt="" coords="783,212,729,218,728,213,782,206"/>
-<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="538,272,729,315"/>
+<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="538,272,729,315"/>
 <area shape="poly" title=" " alt="" coords="870,216,749,263,714,274,712,269,747,257,868,211"/>
 <area shape="rect" href="class_headspace_1_1_u_i_1_1_pause_menu.html#a7890e4b8108e669a4243455f056b4ee8" title=" " alt="" coords="518,339,748,365"/>
 <area shape="poly" title=" " alt="" coords="894,220,832,275,792,305,749,329,719,341,717,336,747,324,789,300,829,271,890,216"/>
 <area shape="rect" href="class_headspace_1_1_caseboard_1_1_compare_handler.html#a600dc71ab0002e7363dc9e59badea4ae" title=" " alt="" coords="259,5,470,48"/>
 <area shape="poly" title=" " alt="" coords="507,29,471,29,471,24,507,24"/>
-<area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade" title=" " alt="" coords="269,196,460,239"/>
-<area shape="poly" title=" " alt="" coords="523,226,460,223,460,218,523,220"/>
-<area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a0eefcad087a75e619310318ed9540592" title=" " alt="" coords="13,113,203,156"/>
-<area shape="poly" title=" " alt="" coords="281,193,176,159,177,154,282,188"/>
-<area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05eb4bdcc9ea797501317c72ab9cf08f" title=" " alt="" coords="13,180,203,223"/>
-<area shape="poly" title=" " alt="" coords="253,213,203,210,204,205,254,208"/>
-<area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05826ac283b0ebe4d43a2cd790c1a237" title=" " alt="" coords="13,247,203,289"/>
-<area shape="poly" title=" " alt="" coords="254,242,204,252,203,247,253,237"/>
-<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="269,280,460,323"/>
-<area shape="poly" title=" " alt="" coords="522,299,461,301,461,296,521,294"/>
-<area shape="rect" href="class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,313,211,356"/>
-<area shape="poly" title=" " alt="" coords="254,318,212,324,211,319,253,313"/>
+<area shape="rect" href="class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade" title=" " alt="" coords="269,205,460,248"/>
+<area shape="poly" title=" " alt="" coords="523,229,460,229,460,224,523,224"/>
+<area shape="rect" href="class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="269,272,460,315"/>
+<area shape="poly" title=" " alt="" coords="522,296,461,296,461,291,522,291"/>
+<area shape="rect" href="class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,272,211,315"/>
+<area shape="poly" title=" " alt="" coords="253,296,211,296,211,291,253,291"/>
 </map>
 </div>
 
@@ -343,7 +346,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7_icgraph.png" border="0" usemap="#aclass_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7_icgraph" id="aclass_headspace_1_1_game_runner_aa983767c6c85ec948a483090f9fffca7_icgraph">
 <area shape="rect" title=" " alt="" coords="283,5,489,48"/>
-<area shape="rect" href="class_headspace_1_1_game_runner.html#af46c49eb52a8a6850911b295ef79f59c" title=" " alt="" coords="5,13,235,40"/>
+<area shape="rect" href="class_headspace_1_1_game_runner.html#af46c49eb52a8a6850911b295ef79f59c" title="This is the method that kicks off the game&#39;s state machine to advance scenes." alt="" coords="5,13,235,40"/>
 <area shape="poly" title=" " alt="" coords="267,29,235,29,235,24,267,24"/>
 </map>
 </div>
@@ -364,13 +367,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is the method that kicks off the game's state machine to advance scenes </p>
+
+<p>This is the method that kicks off the game's state machine to advance scenes. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c_cgraph.png" border="0" usemap="#aclass_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c_cgraph" id="aclass_headspace_1_1_game_runner_af46c49eb52a8a6850911b295ef79f59c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,235,40"/>
+<area shape="rect" title="This is the method that kicks off the game&#39;s state machine to advance scenes." alt="" coords="5,13,235,40"/>
 <area shape="rect" href="class_headspace_1_1_game_runner.html#aa983767c6c85ec948a483090f9fffca7" title=" " alt="" coords="283,5,489,48"/>
 <area shape="poly" title=" " alt="" coords="235,24,267,24,267,29,235,29"/>
 </map>
@@ -392,7 +396,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Updates players following a roundselect mini game </p>
+
+<p>Updates players following a roundselect mini game. </p>
 
 </div>
 </div>
@@ -422,6 +427,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>the game variables that hold the game state </p>
 
 </div>
@@ -479,6 +485,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>these will be used to hand off the player objects to the game vars object </p>
 
 </div>
@@ -522,6 +529,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>player input handler object reference </p>
 
 </div>
@@ -537,6 +545,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>used for getting player character selections </p>
 
 </div>
@@ -552,6 +561,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>which player won the last round selection faceoff </p>
 
 </div>

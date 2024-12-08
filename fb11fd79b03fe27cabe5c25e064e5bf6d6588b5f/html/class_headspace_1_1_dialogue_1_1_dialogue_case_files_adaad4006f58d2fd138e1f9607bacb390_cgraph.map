@@ -1,9 +1,9 @@
 <map id="Headspace.Dialogue.DialogueCaseFiles.EnterSusDialogue" name="Headspace.Dialogue.DialogueCaseFiles.EnterSusDialogue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,203,81"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title=" " alt="" coords="251,5,460,48"/>
+<area shape="rect" id="Node000001" title="This method is called from the NPC script when an NPC is clicked." alt="" coords="5,39,203,81"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title="Displays inventory and items in clue slots." alt="" coords="251,5,460,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,44,235,40,235,45,204,50"/>
 <area shape="rect" id="Node000003" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#af7b177645da2acd0c07c08b827d31c47" title=" " alt="" coords="253,72,458,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,70,238,75,237,80,203,76"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title=" " alt="" coords="508,72,717,115"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title="Public method for UI menus to see if a character is discovered or not." alt="" coords="508,72,717,115"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="458,91,493,91,493,96,458,96"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.Dialogue.DialogueSlotManager Class Reference</title>
+<title>HeadspacePrototype: Headspace.Dialogue.DialogueSlotManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -131,6 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb87cc24ee41c92cc1ca07197c17ccc0" id="r_afb87cc24ee41c92cc1ca07197c17ccc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb87cc24ee41c92cc1ca07197c17ccc0">BuildCurrentConvo</a> ()</td></tr>
 <tr class="separator:afb87cc24ee41c92cc1ca07197c17ccc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48cb2f435708ba0b98dce4ca89acfec5" id="r_a48cb2f435708ba0b98dce4ca89acfec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48cb2f435708ba0b98dce4ca89acfec5">FireConversation</a> ()</td></tr>
+<tr class="memdesc:a48cb2f435708ba0b98dce4ca89acfec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the current saved conversation in the dialogue manager.  <br /></td></tr>
 <tr class="separator:a48cb2f435708ba0b98dce4ca89acfec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -138,12 +139,16 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a20a530367976467dfc6c3ab4856e59ef" id="r_a20a530367976467dfc6c3ab4856e59ef"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20a530367976467dfc6c3ab4856e59ef">parentPanel</a></td></tr>
 <tr class="separator:a20a530367976467dfc6c3ab4856e59ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b901cb916324f10ce2e7122b493251" id="r_a82b901cb916324f10ce2e7122b493251"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b901cb916324f10ce2e7122b493251">questionMenu</a></td></tr>
+<tr class="memdesc:a82b901cb916324f10ce2e7122b493251"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect to the panel where questions are displayed  <br /></td></tr>
 <tr class="separator:a82b901cb916324f10ce2e7122b493251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3566479ea4fd1c3f19413a22d191e93c" id="r_a3566479ea4fd1c3f19413a22d191e93c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3566479ea4fd1c3f19413a22d191e93c">slotName</a></td></tr>
+<tr class="memdesc:a3566479ea4fd1c3f19413a22d191e93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">this MUST BE CONFIGURED when the slot is created in the inspector  <br /></td></tr>
 <tr class="separator:a3566479ea4fd1c3f19413a22d191e93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f96156c4e38735e0fb2cf584d567601" id="r_a4f96156c4e38735e0fb2cf584d567601"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_headspace_1_1_dialogue.html#a01668c5b3f6587d1e90c1aebed4d1cc7">CaseFile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f96156c4e38735e0fb2cf584d567601">myType</a></td></tr>
+<tr class="memdesc:a4f96156c4e38735e0fb2cf584d567601"><td class="mdescLeft">&#160;</td><td class="mdescRight">this will hold the case type for the slot  <br /></td></tr>
 <tr class="separator:a4f96156c4e38735e0fb2cf584d567601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab562ca4c3e2fad620aa06c8d40f80501" id="r_ab562ca4c3e2fad620aa06c8d40f80501"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab562ca4c3e2fad620aa06c8d40f80501">convoName</a></td></tr>
+<tr class="memdesc:ab562ca4c3e2fad620aa06c8d40f80501"><td class="mdescLeft">&#160;</td><td class="mdescRight">an identifier string that will be built and rebuilt for conversation use  <br /></td></tr>
 <tr class="separator:ab562ca4c3e2fad620aa06c8d40f80501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -167,7 +172,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_headspace_1_1_dialogue_1_1_dialogue_slot_manager_afb87cc24ee41c92cc1ca07197c17ccc0_icgraph.png" border="0" usemap="#aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_afb87cc24ee41c92cc1ca07197c17ccc0_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_afb87cc24ee41c92cc1ca07197c17ccc0_icgraph" id="aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_afb87cc24ee41c92cc1ca07197c17ccc0_icgraph">
 <area shape="rect" title=" " alt="" coords="251,5,459,48"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a48cb2f435708ba0b98dce4ca89acfec5" title=" " alt="" coords="5,5,203,48"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#a48cb2f435708ba0b98dce4ca89acfec5" title="Trigger the current saved conversation in the dialogue manager." alt="" coords="5,5,203,48"/>
 <area shape="poly" title=" " alt="" coords="235,29,203,29,203,24,235,24"/>
 </map>
 </div>
@@ -188,18 +193,19 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Trigger the current saved conversation in the dialogue manager </p>
+
+<p>Trigger the current saved conversation in the dialogue manager. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_dialogue_1_1_dialogue_slot_manager_a48cb2f435708ba0b98dce4ca89acfec5_cgraph.png" border="0" usemap="#aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_a48cb2f435708ba0b98dce4ca89acfec5_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_a48cb2f435708ba0b98dce4ca89acfec5_cgraph" id="aclass_headspace_1_1_dialogue_1_1_dialogue_slot_manager_a48cb2f435708ba0b98dce4ca89acfec5_cgraph">
-<area shape="rect" title=" " alt="" coords="5,72,203,115"/>
+<area shape="rect" title="Trigger the current saved conversation in the dialogue manager." alt="" coords="5,72,203,115"/>
 <area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_slot_manager.html#afb87cc24ee41c92cc1ca07197c17ccc0" title=" " alt="" coords="251,5,459,48"/>
 <area shape="poly" title=" " alt="" coords="186,69,257,50,258,55,188,74"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a13c124a5da1145627754713e5a4c0a33" title=" " alt="" coords="256,72,454,115"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a13c124a5da1145627754713e5a4c0a33" title="Closes clues panel." alt="" coords="256,72,454,115"/>
 <area shape="poly" title=" " alt="" coords="203,91,241,91,241,96,203,96"/>
-<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ad069fd3071f75ca3c10e86fdc34f22c6" title=" " alt="" coords="256,139,454,181"/>
+<area shape="rect" href="class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#ad069fd3071f75ca3c10e86fdc34f22c6" title="Closes suspect panel." alt="" coords="256,139,454,181"/>
 <area shape="poly" title=" " alt="" coords="188,113,258,132,257,137,186,118"/>
 </map>
 </div>
@@ -218,6 +224,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>an identifier string that will be built and rebuilt for conversation use </p>
 
 </div>
@@ -233,6 +240,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>this will hold the case type for the slot </p>
 
 </div>
@@ -262,6 +270,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>connect to the panel where questions are displayed </p>
 
 </div>
@@ -277,6 +286,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>this MUST BE CONFIGURED when the slot is created in the inspector </p>
 
 </div>

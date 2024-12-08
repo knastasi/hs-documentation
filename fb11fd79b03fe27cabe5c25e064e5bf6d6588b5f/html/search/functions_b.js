@@ -28,8 +28,7 @@ var searchData=
   ['ontabl_25',['OnTabL',['../class_headspace_1_1_player_briefcase_1_1_briefcase_controller.html#a1b6dd6af0968f473b9c0954f66e7f1e7',1,'Headspace::PlayerBriefcase::BriefcaseController']]],
   ['ontabr_26',['OnTabR',['../class_headspace_1_1_player_briefcase_1_1_briefcase_controller.html#ab0e5178c8aa1b1c139d061a2c3bfa2a8',1,'Headspace::PlayerBriefcase::BriefcaseController']]],
   ['ontriggerenter2d_27',['OnTriggerEnter2D',['../class_headspace_1_1_minigames_1_1_prototypes_1_1_table_vars.html#a3f45ba242ccdd62b0766303a5fb590b0',1,'Headspace::Minigames::Prototypes::TableVars']]],
-  ['onwinpress_28',['OnWinPress',['../class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05826ac283b0ebe4d43a2cd790c1a237',1,'Headspace::Minigames::RPS::RPSRunner']]],
-  ['onzoomin_29',['OnZoomIn',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#acaa7fc0e48fcd7b59001dbc31f863eab',1,'Headspace::Caseboard::CaseboardInputHandler']]],
-  ['onzoomout_30',['OnZoomOut',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a4c0580c49885c0d462c4d1470f487894',1,'Headspace::Caseboard::CaseboardInputHandler']]],
-  ['optionsbtn_31',['OptionsBtn',['../class_headspace_1_1_u_i_1_1_pause_menu.html#adaaa42881ff0093506c4aff305075100',1,'Headspace::UI::PauseMenu']]]
+  ['onzoomin_28',['OnZoomIn',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#acaa7fc0e48fcd7b59001dbc31f863eab',1,'Headspace::Caseboard::CaseboardInputHandler']]],
+  ['onzoomout_29',['OnZoomOut',['../class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a4c0580c49885c0d462c4d1470f487894',1,'Headspace::Caseboard::CaseboardInputHandler']]],
+  ['optionsbtn_30',['OptionsBtn',['../class_headspace_1_1_u_i_1_1_pause_menu.html#adaaa42881ff0093506c4aff305075100',1,'Headspace::UI::PauseMenu']]]
 ];

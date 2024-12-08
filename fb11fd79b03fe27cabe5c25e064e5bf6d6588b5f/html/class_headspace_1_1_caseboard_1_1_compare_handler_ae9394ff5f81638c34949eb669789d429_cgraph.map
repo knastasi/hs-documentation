@@ -1,5 +1,5 @@
 <map id="Headspace.Caseboard.CompareHandler.EnterCaseboard" name="Headspace.Caseboard.CompareHandler.EnterCaseboard">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,217,48"/>
+<area shape="rect" id="Node000001" title="This method is called on the Caseboard button available upon first entering COMPARE." alt="" coords="5,5,217,48"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a5af031ab33475de8039e6a465fd3d601" title=" " alt="" coords="265,5,486,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,24,249,24,249,29,217,29"/>
 </map>

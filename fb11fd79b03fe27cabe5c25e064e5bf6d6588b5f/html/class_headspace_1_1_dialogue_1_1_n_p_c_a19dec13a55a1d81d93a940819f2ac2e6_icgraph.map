@@ -1,5 +1,5 @@
 <map id="Headspace.Dialogue.NPC.NPCExit" name="Headspace.Dialogue.NPC.NPCExit">
-<area shape="rect" id="Node000001" title=" " alt="" coords="251,13,482,40"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#af390c339a2e631f167d576f5a6f3b347" title=" " alt="" coords="5,5,203,48"/>
+<area shape="rect" id="Node000001" title="Called when exiting conversation with NPC." alt="" coords="251,13,482,40"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#af390c339a2e631f167d576f5a6f3b347" title="closes questions and returns the NPC sprite to visible." alt="" coords="5,5,203,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,29,203,29,203,24,235,24"/>
 </map>

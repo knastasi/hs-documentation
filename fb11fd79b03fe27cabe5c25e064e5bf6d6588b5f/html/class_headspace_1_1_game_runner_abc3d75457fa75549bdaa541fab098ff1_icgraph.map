@@ -1,29 +1,23 @@
 <map id="Headspace.GameRunner.OnContinue" name="Headspace.GameRunner.OnContinue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="796,180,1038,207"/>
+<area shape="rect" id="Node000001" title="This is called by the continue buttons and can be called directly from gamerunner." alt="" coords="796,180,1038,207"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a7cc595d868e9b8842f06ca0407db1c6b" title="called from Accuse button" alt="" coords="522,5,744,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="890,171,828,116,789,87,747,62,721,51,723,46,750,58,792,83,831,112,893,167"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_dialogue_end.html#aea42a3eda781b11e16d09e55c59f89f7" title=" " alt="" coords="534,72,732,115"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_dialogue_1_1_dialogue_end.html#aea42a3eda781b11e16d09e55c59f89f7" title="This is called using an event on the Dialogue Manger everytime a conversation ends." alt="" coords="534,72,732,115"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="868,176,747,129,712,118,714,113,749,124,870,171"/>
 <area shape="rect" id="Node000005" href="$class_headspace_1_1_title_1_1_connect_handler.html#ac9fc78b587df654f285d472aea7824e6" title=" " alt="" coords="524,139,742,181"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="782,180,742,175,743,170,783,175"/>
 <area shape="rect" id="Node000006" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#ada7e95839a577bb21a96d59b80eed608" title=" " alt="" coords="538,205,728,248"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="783,212,729,218,728,213,782,206"/>
-<area shape="rect" id="Node000011" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title=" " alt="" coords="538,272,729,315"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="870,216,749,263,714,274,712,269,747,257,868,211"/>
-<area shape="rect" id="Node000014" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a7890e4b8108e669a4243455f056b4ee8" title=" " alt="" coords="518,339,748,365"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="894,220,832,275,792,305,749,329,719,341,717,336,747,324,789,300,829,271,890,216"/>
+<area shape="rect" id="Node000008" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a4000131e16e25b1ee49d97339b2e20e4" title="OnSelect is called multiple times for every frame a button is pressed." alt="" coords="538,272,729,315"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="870,216,749,263,714,274,712,269,747,257,868,211"/>
+<area shape="rect" id="Node000011" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a7890e4b8108e669a4243455f056b4ee8" title=" " alt="" coords="518,339,748,365"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="894,220,832,275,792,305,749,329,719,341,717,336,747,324,789,300,829,271,890,216"/>
 <area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_compare_handler.html#a600dc71ab0002e7363dc9e59badea4ae" title=" " alt="" coords="259,5,470,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="507,29,471,29,471,24,507,24"/>
-<area shape="rect" id="Node000007" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade" title=" " alt="" coords="269,196,460,239"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="523,226,460,223,460,218,523,220"/>
-<area shape="rect" id="Node000008" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a0eefcad087a75e619310318ed9540592" title=" " alt="" coords="13,113,203,156"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="281,193,176,159,177,154,282,188"/>
-<area shape="rect" id="Node000009" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05eb4bdcc9ea797501317c72ab9cf08f" title=" " alt="" coords="13,180,203,223"/>
-<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="253,213,203,210,204,205,254,208"/>
-<area shape="rect" id="Node000010" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05826ac283b0ebe4d43a2cd790c1a237" title=" " alt="" coords="13,247,203,289"/>
-<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="254,242,204,252,203,247,253,237"/>
-<area shape="rect" id="Node000012" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="269,280,460,323"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="522,299,461,301,461,296,521,294"/>
-<area shape="rect" id="Node000013" href="$class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,313,211,356"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="254,318,212,324,211,319,253,313"/>
+<area shape="rect" id="Node000007" href="$class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade" title=" " alt="" coords="269,205,460,248"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="523,229,460,229,460,224,523,224"/>
+<area shape="rect" id="Node000009" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="269,272,460,315"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="522,296,461,296,461,291,522,291"/>
+<area shape="rect" id="Node000010" href="$class_headspace_1_1_global_state_runner.html#ad8dda90718dbc56fb674ebbf513ca854" title=" " alt="" coords="5,272,211,315"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="253,296,211,296,211,291,253,291"/>
 </map>

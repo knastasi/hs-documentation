@@ -1,10 +1,10 @@
 <map id="Headspace.Caseboard.CompareHandler.LeaveCaseboard" name="Headspace.Caseboard.CompareHandler.LeaveCaseboard">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,217,181"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a23ab6e33ab1e56fe8e48c1b78e36b2b0" title=" " alt="" coords="265,72,486,115"/>
+<area shape="rect" id="Node000001" title="This method is called on the Back button when leaving the Caseboard." alt="" coords="5,139,217,181"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a23ab6e33ab1e56fe8e48c1b78e36b2b0" title="If the player is in the middle of drawing a line and turns off draw mode, reset our raycast vars and ..." alt="" coords="265,72,486,115"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,135,273,116,274,122,199,141"/>
 <area shape="rect" id="Node000005" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ae6d30c4c3de89bdee0f859bee1268d60" title=" " alt="" coords="265,172,486,215"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="218,171,250,175,249,180,217,176"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a1dc89c589146536c68fb7ce232ae450d" title=" " alt="" coords="534,5,755,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a1dc89c589146536c68fb7ce232ae450d" title="Resets the player&#39;s drawing progress and line created without removing them from draw mode." alt="" coords="534,5,755,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,69,540,50,542,55,465,74"/>
 <area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_input_handler.html#a4fa144ddf08388b7c59bd8afd9e1e8db" title=" " alt="" coords="534,72,755,115"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="486,91,519,91,519,96,486,96"/>

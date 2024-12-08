@@ -1,7 +1,7 @@
 <map id="Headspace.Caseboard.CaseboardEngine.CheckCombination" name="Headspace.Caseboard.CaseboardEngine.CheckCombination">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,227,48"/>
+<area shape="rect" id="Node000001" title="This method checks for a match with a clue and testimony item and calls the coroutine for the choose ..." alt="" coords="5,5,227,48"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html#a6ca4f9130de17b6da3d7dbe6710a38ce" title=" " alt="" coords="275,5,519,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,24,259,24,259,29,227,29"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title=" " alt="" coords="567,5,788,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title="This method is called by the Conclusion script on the ConclusionInventoryObject under GameController ..." alt="" coords="567,5,788,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="519,24,551,24,551,29,519,29"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="Headspace.Dialogue.DialogueQuestions.CallQuest" name="Headspace.Dialogue.DialogueQuestions.CallQuest">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,48"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#aa244c543dcc9e2500855bc02899fd566" title=" " alt="" coords="251,5,448,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_dialogue_questions.html#aa244c543dcc9e2500855bc02899fd566" title="Closes questions panel when done with questions." alt="" coords="251,5,448,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
 </map>

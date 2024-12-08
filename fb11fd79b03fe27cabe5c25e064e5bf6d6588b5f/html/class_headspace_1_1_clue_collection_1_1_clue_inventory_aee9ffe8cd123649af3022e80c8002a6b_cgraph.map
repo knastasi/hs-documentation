@@ -1,10 +1,10 @@
 <map id="Headspace.ClueCollection.ClueInventory.CollectClue" name="Headspace.ClueCollection.ClueInventory.CollectClue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,186,181"/>
+<area shape="rect" id="Node000001" title="Called from RayCastSelect when a clue is clicked, triggers conversation, adds clue to inventory,..." alt="" coords="5,139,186,181"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#a17a3be14d81840f5e07b3a75356e2f2e" title=" " alt="" coords="248,5,428,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,136,170,97,232,58,244,52,247,57,235,62,173,101,123,140"/>
 <area shape="rect" id="Node000003" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#a8ac129d860db680110554bd9dfe3895b" title=" " alt="" coords="248,72,428,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,136,243,117,244,122,177,141"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#adb90126fbc22a3a63c4ce9dd8ec4332e" title=" " alt="" coords="247,139,430,181"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#adb90126fbc22a3a63c4ce9dd8ec4332e" title="Handles triggering the conversation for a clue when it&#39;s picked up." alt="" coords="247,139,430,181"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,157,231,157,231,163,186,163"/>
 <area shape="rect" id="Node000006" href="$class_headspace_1_1_clue_collection_1_1_clue_inventory.html#a31a44137a74ed2b35e2d2e0c09c2f13a" title=" " alt="" coords="234,205,443,248"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="177,179,244,198,243,203,175,184"/>

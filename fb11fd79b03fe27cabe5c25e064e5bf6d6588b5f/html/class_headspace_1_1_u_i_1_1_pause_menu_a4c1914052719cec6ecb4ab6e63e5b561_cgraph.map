@@ -1,8 +1,8 @@
 <map id="Headspace.UI.PauseMenu.OnPause" name="Headspace.UI.PauseMenu.OnPause">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,48,205,91"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a4a32547fe024385bb7cbf3789f729a5d" title=" " alt="" coords="259,5,498,32"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a4a32547fe024385bb7cbf3789f729a5d" title="Pause button method sets pause menu and time to 0." alt="" coords="259,5,498,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,48,287,33,288,38,206,53"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a5c0bf6464dd91428b4e8036c0c74745a" title=" " alt="" coords="253,56,504,83"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_u_i_1_1_pause_menu.html#a5c0bf6464dd91428b4e8036c0c74745a" title="resume button method" alt="" coords="253,56,504,83"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,67,237,67,237,72,205,72"/>
 <area shape="rect" id="Node000004" href="$class_headspace_1_1_global_state_runner.html#ad1c3ae5b5ed07107c838c4a55d47ef6c" title=" " alt="" coords="276,107,481,149"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,88,261,100,260,105,205,93"/>

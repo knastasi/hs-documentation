@@ -1,9 +1,9 @@
 <map id="Headspace.Caseboard.CaseboardEngine.CheckConnectionTypes" name="Headspace.Caseboard.CaseboardEngine.CheckConnectionTypes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,227,48"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ad82b332985ed8e43c3a2477ca72727a1" title=" " alt="" coords="275,5,496,48"/>
+<area shape="rect" id="Node000001" title="This method checks when a player finishes drawing a line if the two objects connected are both a Clue..." alt="" coords="5,5,227,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#ad82b332985ed8e43c3a2477ca72727a1" title="This method checks for a match with a clue and testimony item and calls the coroutine for the choose ..." alt="" coords="275,5,496,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,24,259,24,259,29,227,29"/>
 <area shape="rect" id="Node000003" href="$class_headspace_1_1_conclusion_collection_1_1_conclusion_inventory.html#a6ca4f9130de17b6da3d7dbe6710a38ce" title=" " alt="" coords="544,5,788,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="497,24,529,24,529,29,497,29"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title=" " alt="" coords="836,5,1058,48"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_caseboard_1_1_caseboard_engine.html#a2ae4e925dc694a816b4398a40a9d7e08" title="This method is called by the Conclusion script on the ConclusionInventoryObject under GameController ..." alt="" coords="836,5,1058,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="789,24,821,24,821,29,789,29"/>
 </map>

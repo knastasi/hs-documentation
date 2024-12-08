@@ -1,5 +1,5 @@
 <map id="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard.Awake" name="PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAccuseFlipCard.Awake">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,282,64"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_accuse_1_1_accuse_runner.html#aa719511dc007808d4f8c9bf9e10ec691" title=" " alt="" coords="330,13,559,56"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_accuse_1_1_accuse_runner.html#aa719511dc007808d4f8c9bf9e10ec691" title="This is called in conversation with a dialogue sequence &#45;&#45;&gt; AccuseFlipCard() Method flips over curren..." alt="" coords="330,13,559,56"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,32,314,32,314,37,282,37"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.Caseboard Namespace Reference</title>
+<title>HeadspacePrototype: Headspace.Caseboard Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -104,6 +104,9 @@ $(function(){initNavTree('namespace_headspace_1_1_caseboard.html',''); initResiz
   <div class="headertitle"><div class="title">Headspace.Caseboard Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This script is attached to all the draggable items in caseboard and informs the combine elements if the item is a Clue or Testimony item type.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -141,6 +144,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a6120fc6471137686a929298f9bbec85ea6f434c508ad901b8667ed22f713e52bb">LABEL</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a6120fc6471137686a929298f9bbec85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declaring the enum used by CaseboardItemVars on the draggable items.  <a href="#a6120fc6471137686a929298f9bbec85e">More...</a><br /></td></tr>
 <tr class="separator:a6120fc6471137686a929298f9bbec85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8348ead1fac13a3929f819f650a21fb" id="r_af8348ead1fac13a3929f819f650a21fb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8348ead1fac13a3929f819f650a21fb">CaseboardLabel</a> { <br />
 &#160;&#160;<a class="el" href="#af8348ead1fac13a3929f819f650a21fbab50339a10e1de285ac99d4c3990b8693">NONE</a>
@@ -156,9 +160,11 @@ Enumerations</h2></td></tr>
 <tr class="separator:af8348ead1fac13a3929f819f650a21fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi, Julia Grammes, Leslyanne Warrington </dd></dl>
+<div class="textblock"><p>This script is attached to all the draggable items in caseboard and informs the combine elements if the item is a Clue or Testimony item type. </p>
+<p>This script is attached to all CaseboardLabel prefabs in COMPARE.</p>
+<dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi, Julia Grammes, Leslyanne Warrington </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 3</dd></dl>
-<p>This script will be the primary engine for the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a> functionality. IMPORTANT: All caseboard items gameobjects begin with the CB prefix to avoid grabbing the inventory objects on the GameController</p>
+<p>This script will be the primary engine for the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a> functionality. IMPORTANT: All caseboard items gameobjects begin with the CB prefix to avoid grabbing the inventory objects on the GameController</p>
 <dl class="section author"><dt>Author</dt><dd>: Julia Grammes, Kathryn Nastasi </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 2</dd></dl>
 <p>This script lives on a GameObject under the GameController and is persistent between scenes. This script will hold caseboard variables that are needed when rebuilding the caseboard upon returning to the COMPARE scene.</p>
@@ -167,19 +173,17 @@ Enumerations</h2></td></tr>
 <p>Primary function of this script is to be a stage handler for the Compare Canvas and it's various elements.</p>
 <dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi, Julia Grammes </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 2</dd></dl>
-<p>This script is attached to Clues object on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a> &gt; Materials in COMPARE. It handles generating slots and populating found Clues for making conclusions with on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a>.</p>
-<p>This script is attached to all the draggable items in caseboard and informs the combine elements if the item is a Clue or Testimony item type</p>
+<p>This script is attached to Clues object on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a> &gt; Materials in COMPARE. It handles generating slots and populating found Clues for making conclusions with on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a>.</p>
 <dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 1</dd></dl>
-<p>This script is attached to all CaseboardLabel prefabs in COMPARE</p>
 <dl class="section author"><dt>Author</dt><dd>: Leslyanne Warrington </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 1</dd></dl>
 <dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 1</dd></dl>
-<p>This script is attached to Suspects gameobject on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a> -&gt; Materials object in COMPARE. It handles generating slots and populating discovered Suspects for use on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a>.</p>
+<p>This script is attached to Suspects gameobject on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a> -&gt; Materials object in COMPARE. It handles generating slots and populating discovered Suspects for use on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a>.</p>
 <dl class="section author"><dt>Author</dt><dd>: Kathryn Nastasi </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>: 2</dd></dl>
-<p>This script is attached to Testimony gameobject on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a> -&gt; Materials object in COMPARE. It handles generating slots and populating found Testimony for making conclusions with on the <a class="el" href="namespace_headspace_1_1_caseboard.html">Caseboard</a>. </p>
+<p>This script is attached to Testimony gameobject on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a> -&gt; Materials object in COMPARE. It handles generating slots and populating found Testimony for making conclusions with on the <a class="el" href="namespace_headspace_1_1_caseboard.html" title="This script is attached to all the draggable items in caseboard and informs the combine elements if t...">Caseboard</a>. </p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a6120fc6471137686a929298f9bbec85e" name="a6120fc6471137686a929298f9bbec85e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6120fc6471137686a929298f9bbec85e">&#9670;&#160;</a></span>CaseboardItem</h2>
@@ -192,7 +196,8 @@ Enumerations</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Declaring the enum used by <a class="el" href="class_headspace_1_1_caseboard_1_1_caseboard_item_vars.html">CaseboardItemVars</a> on the draggable items </p>
+
+<p>Declaring the enum used by <a class="el" href="class_headspace_1_1_caseboard_1_1_caseboard_item_vars.html">CaseboardItemVars</a> on the draggable items. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6120fc6471137686a929298f9bbec85ea6a607fef65c314eae4944d3153169a8e" name="a6120fc6471137686a929298f9bbec85ea6a607fef65c314eae4944d3153169a8e"></a>CLUE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6120fc6471137686a929298f9bbec85ea93a8443e791cf13573173b164ee173d1" name="a6120fc6471137686a929298f9bbec85ea93a8443e791cf13573173b164ee173d1"></a>TESTIMONY&#160;</td><td class="fielddoc"></td></tr>

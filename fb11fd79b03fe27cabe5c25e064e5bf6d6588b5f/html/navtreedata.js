@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Headspace", "index.html", [
+  [ "HeadspacePrototype", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
@@ -56,9 +56,9 @@ var NAVTREEINDEX =
 "class_headspace_1_1_caseboard_1_1_line_handler.html",
 "class_headspace_1_1_game_runner.html#a9cb97d4ad3d809b75ac2a7bb13199b80",
 "class_headspace_1_1_minigames_1_1_prototypes_1_1_roulette_runner.html#ad9de78c645b6f194140ecf8aaf787a1aab89de3b4b81c4facfac906edf29aec8c",
-"class_headspace_1_1_players_1_1_player_input_handler.html#ad7a6175b6d6aa71383871fc4d11a298d",
-"class_headspace_1_1_title_1_1_title_handler.html#a8888e564b1e850e760a70d18ac8565c1",
-"namespace_headspace.html#a118268e7a1c769ae8b84dfea40771104acc8392a882b2c538c75a726036053aec"
+"class_headspace_1_1_players_1_1_player_input_handler.html#aefa214ba383c1a55955e4c698181b2bb",
+"class_headspace_1_1_title_1_1_title_handler.html#af39959a87c76f687554cbb73aa9b3c31",
+"namespace_headspace.html#a118268e7a1c769ae8b84dfea40771104afee1f202df8193b3ba65f00ad61efcef"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

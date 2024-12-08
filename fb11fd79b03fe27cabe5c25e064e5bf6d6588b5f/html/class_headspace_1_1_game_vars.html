@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.GameVars Class Reference</title>
+<title>HeadspacePrototype: Headspace.GameVars Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -132,18 +132,23 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a84a50fb89bbd894715e17bd22c6a175b" id="r_a84a50fb89bbd894715e17bd22c6a175b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a50fb89bbd894715e17bd22c6a175b">rPlayer</a></td></tr>
 <tr class="separator:a84a50fb89bbd894715e17bd22c6a175b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5038aa94846b2bcf9bc5b88ed3d2eca" id="r_ad5038aa94846b2bcf9bc5b88ed3d2eca"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5038aa94846b2bcf9bc5b88ed3d2eca">activePlayerObject</a></td></tr>
+<tr class="memdesc:ad5038aa94846b2bcf9bc5b88ed3d2eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to store whichever player game object is the active player object  <br /></td></tr>
 <tr class="separator:ad5038aa94846b2bcf9bc5b88ed3d2eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad52240ce9b35ecbdae0ad75dc06fe5e5" id="r_ad52240ce9b35ecbdae0ad75dc06fe5e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_headspace.html#acd113d3765ab08bd7fec5374d3a4d028">RoomID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad52240ce9b35ecbdae0ad75dc06fe5e5">LeftSelection</a></td></tr>
+<tr class="memdesc:ad52240ce9b35ecbdae0ad75dc06fe5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">what room did left player select? used to prevent the second player from visiting the same room.  <br /></td></tr>
 <tr class="separator:ad52240ce9b35ecbdae0ad75dc06fe5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8895eeeab0d3c82348a73d92471dae7" id="r_aa8895eeeab0d3c82348a73d92471dae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_headspace.html#acd113d3765ab08bd7fec5374d3a4d028">RoomID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8895eeeab0d3c82348a73d92471dae7">RightSelection</a></td></tr>
+<tr class="memdesc:aa8895eeeab0d3c82348a73d92471dae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">what room did the right player select? used to prevent the second player from visiting the same room: currently not in use  <br /></td></tr>
 <tr class="separator:aa8895eeeab0d3c82348a73d92471dae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38ea45b633e30317849c841d82ba3aa0" id="r_a38ea45b633e30317849c841d82ba3aa0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38ea45b633e30317849c841d82ba3aa0">accuseCount</a></td></tr>
+<tr class="memdesc:a38ea45b633e30317849c841d82ba3aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many accusation attempts have been made? there is a limit of false accusations.  <br /></td></tr>
 <tr class="separator:a38ea45b633e30317849c841d82ba3aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a483f5cd6df1f7f7c3bb1ec21825df191" id="r_a483f5cd6df1f7f7c3bb1ec21825df191"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a483f5cd6df1f7f7c3bb1ec21825df191">rpsTutorial</a> = false</td></tr>
 <tr class="separator:a483f5cd6df1f7f7c3bb1ec21825df191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65a260bc22c982d0dda3bf45f4361146" id="r_a65a260bc22c982d0dda3bf45f4361146"><td class="memItemLeft" align="right" valign="top">NetworkVariable&lt; <a class="el" href="namespace_headspace.html#a80cb794755f7526caed237119bfbffc6">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a260bc22c982d0dda3bf45f4361146">activePlayer</a></td></tr>
 <tr class="separator:a65a260bc22c982d0dda3bf45f4361146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fcfbdeb60fbab82d6395d40942b72da" id="r_a0fcfbdeb60fbab82d6395d40942b72da"><td class="memItemLeft" align="right" valign="top">NetworkVariable&lt; <a class="el" href="namespace_headspace.html#a80cb794755f7526caed237119bfbffc6">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fcfbdeb60fbab82d6395d40942b72da">firstPlayer</a></td></tr>
+<tr class="memdesc:a0fcfbdeb60fbab82d6395d40942b72da"><td class="mdescLeft">&#160;</td><td class="mdescRight">which player is first to move in this round?  <br /></td></tr>
 <tr class="separator:a0fcfbdeb60fbab82d6395d40942b72da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -158,6 +163,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>how many accusation attempts have been made? there is a limit of false accusations. </p>
 
 </div>
@@ -187,6 +193,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>used to store whichever player game object is the active player object </p>
 
 </div>
@@ -202,6 +209,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>which player is first to move in this round? </p>
 
 </div>
@@ -217,7 +225,9 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>what room did left player select? used to prevent the second player from visiting the same room. currently not in use. </p>
+
+<p>what room did left player select? used to prevent the second player from visiting the same room. </p>
+<p>currently not in use. </p>
 
 </div>
 </div>
@@ -246,6 +256,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>what room did the right player select? used to prevent the second player from visiting the same room: currently not in use </p>
 
 </div>

@@ -1,16 +1,16 @@
 <map id="Headspace.Dialogue.NPC.NPCClicked" name="Headspace.Dialogue.NPC.NPCClicked">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,135,258,161"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title=" " alt="" coords="306,60,537,103"/>
+<area shape="rect" id="Node000001" title="After NPC is clicked, deactivates NPC sprite and continue button then gets the sprite npc name to loa..." alt="" coords="5,135,258,161"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_dialogue_1_1_n_p_c.html#addca0516d297c6a7c06e72d0c1dbd6ab" title="Checks if the character has been marked as discovered in the SuspectInventory, if no,..." alt="" coords="306,60,537,103"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,131,310,104,311,109,194,137"/>
-<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title=" " alt="" coords="323,127,520,169"/>
+<area shape="rect" id="Node000005" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#adaad4006f58d2fd138e1f9607bacb390" title="This method is called from the NPC script when an NPC is clicked." alt="" coords="323,127,520,169"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="258,145,307,145,307,151,258,151"/>
 <area shape="rect" id="Node000008" href="$class_headspace_1_1_global_state_runner.html#ad1c3ae5b5ed07107c838c4a55d47ef6c" title=" " alt="" coords="319,193,524,236"/>
 <area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="194,159,311,187,310,192,192,165"/>
-<area shape="rect" id="Node000003" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a5ea5d5cc963d5618801232584a2236e5" title=" " alt="" coords="589,5,790,48"/>
+<area shape="rect" id="Node000003" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a5ea5d5cc963d5618801232584a2236e5" title="Called by NPC script, marks the suspect as discovered if the dictionary contains a key for that NPC." alt="" coords="589,5,790,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="529,57,573,48,574,53,530,62"/>
-<area shape="rect" id="Node000004" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title=" " alt="" coords="842,127,1052,169"/>
+<area shape="rect" id="Node000004" href="$class_headspace_1_1_suspect_discovery_1_1_suspect_inventory.html#a04dbadd97b61f359bac603faf86639ac" title="Public method for UI menus to see if a character is discovered or not." alt="" coords="842,127,1052,169"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="538,83,662,92,795,108,853,120,852,125,794,113,661,97,537,88"/>
-<area shape="rect" id="Node000006" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title=" " alt="" coords="585,123,794,165"/>
+<area shape="rect" id="Node000006" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#a00b318572df5ab752c8a9dca0c78c2df" title="Displays inventory and items in clue slots." alt="" coords="585,123,794,165"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="520,144,570,143,570,148,520,149"/>
 <area shape="rect" id="Node000007" href="$class_headspace_1_1_dialogue_1_1_dialogue_case_files.html#af7b177645da2acd0c07c08b827d31c47" title=" " alt="" coords="587,189,792,232"/>
 <area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="516,167,581,183,580,188,515,173"/>

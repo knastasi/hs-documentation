@@ -1,6 +1,6 @@
 <map id="Headspace.Caseboard.CaseboardEngine.EndLine" name="Headspace.Caseboard.CaseboardEngine.EndLine">
-<area shape="rect" id="Node000001" title=" " alt="" coords="737,5,959,48"/>
-<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a866102f6abf15a485c7aa4260c02e37c" title=" " alt="" coords="498,5,689,48"/>
+<area shape="rect" id="Node000001" title="This method is called by RayCastSelect &#45; it checks for duplicates and completes the line when the pla..." alt="" coords="737,5,959,48"/>
+<area shape="rect" id="Node000002" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a866102f6abf15a485c7aa4260c02e37c" title="OnFirstSelect is only called once when an item is selected, instead of multiple times the entire dura..." alt="" coords="498,5,689,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="722,29,690,29,690,24,722,24"/>
 <area shape="rect" id="Node000003" href="$class_headspace_1_1_players_1_1_ray_cast_select.html#a984f54ab99a63bb2b71f05de322bea47" title=" " alt="" coords="259,5,450,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="482,29,451,29,451,24,482,24"/>

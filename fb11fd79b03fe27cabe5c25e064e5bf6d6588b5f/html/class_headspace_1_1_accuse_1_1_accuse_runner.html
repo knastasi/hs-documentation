@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Headspace: Headspace.Accuse.AccuseRunner Class Reference</title>
+<title>HeadspacePrototype: Headspace.Accuse.AccuseRunner Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HeadspaceLogo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Headspace<span id="projectnumber">&#160;Updated 12/1/2024</span>
+   <div id="projectname">HeadspacePrototype<span id="projectnumber">&#160;Last Updated 12/8/2024</span>
    </div>
    <div id="projectbrief">OnlineMultiplayer Branch</div>
   </td>
@@ -187,16 +187,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d6963bc4be7f1548c19a986bd36e2b2" id="r_a2d6963bc4be7f1548c19a986bd36e2b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6963bc4be7f1548c19a986bd36e2b2">PopulateAccuseDbVars</a> ()</td></tr>
 <tr class="separator:a2d6963bc4be7f1548c19a986bd36e2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa081fad60fc53cffb041ba1bdc3cdd5d" id="r_aa081fad60fc53cffb041ba1bdc3cdd5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa081fad60fc53cffb041ba1bdc3cdd5d">UpdateCurState</a> (string s=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa081fad60fc53cffb041ba1bdc3cdd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this updates the scene's variables based on what the current state is  <br /></td></tr>
 <tr class="separator:aa081fad60fc53cffb041ba1bdc3cdd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ffcda912720c056d79cb4276e66c4b1" id="r_a4ffcda912720c056d79cb4276e66c4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ffcda912720c056d79cb4276e66c4b1">UpdateRound</a> ()</td></tr>
 <tr class="separator:a4ffcda912720c056d79cb4276e66c4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ab731c06df6eac6e8153ad14a3b218" id="r_aa3ab731c06df6eac6e8153ad14a3b218"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ab731c06df6eac6e8153ad14a3b218">GetSectionConversationName</a> ()</td></tr>
 <tr class="separator:aa3ab731c06df6eac6e8153ad14a3b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7460387dc649a3861724a08ced7b2ca" id="r_af7460387dc649a3861724a08ced7b2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7460387dc649a3861724a08ced7b2ca">GenerateDefenseCards</a> (string[] cards)</td></tr>
+<tr class="memdesc:af7460387dc649a3861724a08ced7b2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called in conversation with a dialogue sequence --&gt; AccuseSusDefense() Method generates the suspect defense cards based on parameters narrative put in convo.  <br /></td></tr>
 <tr class="separator:af7460387dc649a3861724a08ced7b2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa719511dc007808d4f8c9bf9e10ec691" id="r_aa719511dc007808d4f8c9bf9e10ec691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa719511dc007808d4f8c9bf9e10ec691">FlipDefenseCard</a> (string cardNumber)</td></tr>
+<tr class="memdesc:aa719511dc007808d4f8c9bf9e10ec691"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called in conversation with a dialogue sequence --&gt; AccuseFlipCard() Method flips over current card that matches the dialog line based on parameter narrative gives.  <br /></td></tr>
 <tr class="separator:aa719511dc007808d4f8c9bf9e10ec691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed69fb34441ccc4ee188a9646d19fa24" id="r_aed69fb34441ccc4ee188a9646d19fa24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed69fb34441ccc4ee188a9646d19fa24">DestroyDefenseCards</a> ()</td></tr>
+<tr class="memdesc:aed69fb34441ccc4ee188a9646d19fa24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys existing cards to prevent duplicates or cleanup for new cards spawned.  <br /></td></tr>
 <tr class="separator:aed69fb34441ccc4ee188a9646d19fa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -204,12 +208,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acc5d822e6c4f5bd539ea4590ea047050" id="r_acc5d822e6c4f5bd539ea4590ea047050"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc5d822e6c4f5bd539ea4590ea047050">statementNum</a></td></tr>
 <tr class="separator:acc5d822e6c4f5bd539ea4590ea047050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accea2c18fab806fb4deb77ccb5f4c06a" id="r_accea2c18fab806fb4deb77ccb5f4c06a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_game_runner.html">GameRunner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accea2c18fab806fb4deb77ccb5f4c06a">gr</a></td></tr>
+<tr class="memdesc:accea2c18fab806fb4deb77ccb5f4c06a"><td class="mdescLeft">&#160;</td><td class="mdescRight">what is the current statement we are looking at?  <br /></td></tr>
 <tr class="separator:accea2c18fab806fb4deb77ccb5f4c06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66d3e2326c2783836c7548823e96c64e" id="r_a66d3e2326c2783836c7548823e96c64e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_headspace_1_1_game_vars.html">GameVars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66d3e2326c2783836c7548823e96c64e">gameVars</a></td></tr>
 <tr class="separator:a66d3e2326c2783836c7548823e96c64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab57b1044dff3f0ac8b29c14017c2bd3c" id="r_ab57b1044dff3f0ac8b29c14017c2bd3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_headspace_1_1_accuse.html#ab7f31d58a2f1a90b18859f0b08e73f9e">AccuseStage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab57b1044dff3f0ac8b29c14017c2bd3c">curStage</a></td></tr>
 <tr class="separator:ab57b1044dff3f0ac8b29c14017c2bd3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5991b7aeb99cb9fb0197c6babb1b990" id="r_ae5991b7aeb99cb9fb0197c6babb1b990"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5991b7aeb99cb9fb0197c6babb1b990">subState1</a></td></tr>
+<tr class="memdesc:ae5991b7aeb99cb9fb0197c6babb1b990"><td class="mdescLeft">&#160;</td><td class="mdescRight">what is the current stage of the accuse sequence?  <br /></td></tr>
 <tr class="separator:ae5991b7aeb99cb9fb0197c6babb1b990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af17c7d5cb0fd5ebe7a919367190a1f2f" id="r_af17c7d5cb0fd5ebe7a919367190a1f2f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17c7d5cb0fd5ebe7a919367190a1f2f">subState2</a></td></tr>
 <tr class="separator:af17c7d5cb0fd5ebe7a919367190a1f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,8 +224,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0b1b48916a1762e6639d126bd6301974" id="r_a0b1b48916a1762e6639d126bd6301974"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b1b48916a1762e6639d126bd6301974">subStateSkip</a></td></tr>
 <tr class="separator:a0b1b48916a1762e6639d126bd6301974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebbe22c2e90eafeb5b4628628e50ff75" id="r_aebbe22c2e90eafeb5b4628628e50ff75"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebbe22c2e90eafeb5b4628628e50ff75">stateDisplay</a></td></tr>
+<tr class="memdesc:aebbe22c2e90eafeb5b4628628e50ff75"><td class="mdescLeft">&#160;</td><td class="mdescRight">game objects for statements 1, 2, and 3 as well as the skip if you do not see inconsistancy in this particular statement  <br /></td></tr>
 <tr class="separator:aebbe22c2e90eafeb5b4628628e50ff75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca6b6467cb53689bb7e97a23e456a65b" id="r_aca6b6467cb53689bb7e97a23e456a65b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca6b6467cb53689bb7e97a23e456a65b">attack1</a></td></tr>
+<tr class="memdesc:aca6b6467cb53689bb7e97a23e456a65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">object to display the state during testing  <br /></td></tr>
 <tr class="separator:aca6b6467cb53689bb7e97a23e456a65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a958c1be6fae08db5199aa7aaa3633de6" id="r_a958c1be6fae08db5199aa7aaa3633de6"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958c1be6fae08db5199aa7aaa3633de6">attack2</a></td></tr>
 <tr class="separator:a958c1be6fae08db5199aa7aaa3633de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,12 +236,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1c8a5f05a06da473557b9bafd82beabc" id="r_a1c8a5f05a06da473557b9bafd82beabc"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8a5f05a06da473557b9bafd82beabc">attack4</a></td></tr>
 <tr class="separator:a1c8a5f05a06da473557b9bafd82beabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f8c664d2f6bb8fdf57ecd78f9bb0810" id="r_a3f8c664d2f6bb8fdf57ecd78f9bb0810"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f8c664d2f6bb8fdf57ecd78f9bb0810">selectedAttackId</a></td></tr>
+<tr class="memdesc:a3f8c664d2f6bb8fdf57ecd78f9bb0810"><td class="mdescLeft">&#160;</td><td class="mdescRight">the 4 possiuble attack statements.  <br /></td></tr>
 <tr class="separator:a3f8c664d2f6bb8fdf57ecd78f9bb0810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ceedf97906bf7a057f24937873df4a1" id="r_a4ceedf97906bf7a057f24937873df4a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ceedf97906bf7a057f24937873df4a1">playerHealth</a></td></tr>
+<tr class="memdesc:a4ceedf97906bf7a057f24937873df4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">which attack has been selected??  <br /></td></tr>
 <tr class="separator:a4ceedf97906bf7a057f24937873df4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46684b782b95f55290c776857057e035" id="r_a46684b782b95f55290c776857057e035"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46684b782b95f55290c776857057e035">suspectHealth</a></td></tr>
 <tr class="separator:a46684b782b95f55290c776857057e035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bdb9599eed27d49a87f5266e27eddb1" id="r_a9bdb9599eed27d49a87f5266e27eddb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bdb9599eed27d49a87f5266e27eddb1">concRound</a></td></tr>
+<tr class="memdesc:a9bdb9599eed27d49a87f5266e27eddb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">player health and suspect health  <br /></td></tr>
 <tr class="separator:a9bdb9599eed27d49a87f5266e27eddb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dfa21580ce579794269d691b9c86a5e" id="r_a7dfa21580ce579794269d691b9c86a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_headspace_1_1_accuse.html#a78cbdba7767c43d4f9e8c24fa26250b3">AccuseSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dfa21580ce579794269d691b9c86a5e">currectSection</a></td></tr>
 <tr class="separator:a7dfa21580ce579794269d691b9c86a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,14 +290,15 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Destroys existing cards to prevent duplicates or cleanup for new cards spawned </p>
+
+<p>Destroys existing cards to prevent duplicates or cleanup for new cards spawned. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_aed69fb34441ccc4ee188a9646d19fa24_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_aed69fb34441ccc4ee188a9646d19fa24_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_aed69fb34441ccc4ee188a9646d19fa24_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_aed69fb34441ccc4ee188a9646d19fa24_icgraph">
-<area shape="rect" title=" " alt="" coords="607,13,836,56"/>
-<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#af7460387dc649a3861724a08ced7b2ca" title=" " alt="" coords="330,13,559,56"/>
+<area shape="rect" title="Destroys existing cards to prevent duplicates or cleanup for new cards spawned." alt="" coords="607,13,836,56"/>
+<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#af7460387dc649a3861724a08ced7b2ca" title="This is called in conversation with a dialogue sequence &#45;&#45;&gt; AccuseSusDefense() Method generates the s..." alt="" coords="330,13,559,56"/>
 <area shape="poly" title=" " alt="" coords="591,37,559,37,559,32,591,32"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_sus_defense.html#a40291a3933d1181d7d0a5461bc8d6a6c" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
@@ -309,13 +321,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is called in conversation with a dialogue sequence --&gt; AccuseFlipCard() Method flips over current card that matches the dialog line based on parameter narrative gives </p>
+
+<p>This is called in conversation with a dialogue sequence --&gt; AccuseFlipCard() Method flips over current card that matches the dialog line based on parameter narrative gives. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_aa719511dc007808d4f8c9bf9e10ec691_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_aa719511dc007808d4f8c9bf9e10ec691_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa719511dc007808d4f8c9bf9e10ec691_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa719511dc007808d4f8c9bf9e10ec691_icgraph">
-<area shape="rect" title=" " alt="" coords="330,13,559,56"/>
+<area shape="rect" title="This is called in conversation with a dialogue sequence &#45;&#45;&gt; AccuseFlipCard() Method flips over curren..." alt="" coords="330,13,559,56"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_flip_card.html#a177db4fd86f2df00c948115125507187" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
 </map>
@@ -337,14 +350,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is called in conversation with a dialogue sequence --&gt; AccuseSusDefense() Method generates the suspect defense cards based on parameters narrative put in convo </p>
+
+<p>This is called in conversation with a dialogue sequence --&gt; AccuseSusDefense() Method generates the suspect defense cards based on parameters narrative put in convo. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_cgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_cgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,235,48"/>
-<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aed69fb34441ccc4ee188a9646d19fa24" title=" " alt="" coords="283,5,512,48"/>
+<area shape="rect" title="This is called in conversation with a dialogue sequence &#45;&#45;&gt; AccuseSusDefense() Method generates the s..." alt="" coords="5,5,235,48"/>
+<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aed69fb34441ccc4ee188a9646d19fa24" title="Destroys existing cards to prevent duplicates or cleanup for new cards spawned." alt="" coords="283,5,512,48"/>
 <area shape="poly" title=" " alt="" coords="235,24,267,24,267,29,235,29"/>
 </map>
 </div>
@@ -353,7 +367,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_af7460387dc649a3861724a08ced7b2ca_icgraph">
-<area shape="rect" title=" " alt="" coords="330,13,559,56"/>
+<area shape="rect" title="This is called in conversation with a dialogue sequence &#45;&#45;&gt; AccuseSusDefense() Method generates the s..." alt="" coords="330,13,559,56"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_sus_defense.html#a40291a3933d1181d7d0a5461bc8d6a6c" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,37,282,37,282,32,314,32"/>
 </map>
@@ -381,7 +395,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_aa3ab731c06df6eac6e8153ad14a3b218_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_aa3ab731c06df6eac6e8153ad14a3b218_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa3ab731c06df6eac6e8153ad14a3b218_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa3ab731c06df6eac6e8153ad14a3b218_icgraph">
 <area shape="rect" title=" " alt="" coords="607,55,836,97"/>
-<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aa081fad60fc53cffb041ba1bdc3cdd5d" title=" " alt="" coords="330,55,559,97"/>
+<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aa081fad60fc53cffb041ba1bdc3cdd5d" title="this updates the scene&#39;s variables based on what the current state is" alt="" coords="330,55,559,97"/>
 <area shape="poly" title=" " alt="" coords="591,79,559,79,559,73,591,73"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html#a61d74d9a7488ea641a503c3cafba7c83" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,61,282,56,282,51,315,56"/>
@@ -423,13 +437,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>this updates the scene's variables based on what the current state is </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_cgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_cgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_cgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,81"/>
+<area shape="rect" title="this updates the scene&#39;s variables based on what the current state is" alt="" coords="5,39,235,81"/>
 <area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aa3ab731c06df6eac6e8153ad14a3b218" title=" " alt="" coords="283,5,512,48"/>
 <area shape="poly" title=" " alt="" coords="235,44,267,40,268,45,235,49"/>
 <area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#a4ffcda912720c056d79cb4276e66c4b1" title=" " alt="" coords="283,72,512,115"/>
@@ -441,7 +456,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_aa081fad60fc53cffb041ba1bdc3cdd5d_icgraph">
-<area shape="rect" title=" " alt="" coords="330,55,559,97"/>
+<area shape="rect" title="this updates the scene&#39;s variables based on what the current state is" alt="" coords="330,55,559,97"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html#a61d74d9a7488ea641a503c3cafba7c83" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,61,282,56,282,51,315,56"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_update_state.html#a8a50d1c899af10a8a7b51ed079726411" title=" " alt="" coords="5,88,282,147"/>
@@ -471,7 +486,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_headspace_1_1_accuse_1_1_accuse_runner_a4ffcda912720c056d79cb4276e66c4b1_icgraph.png" border="0" usemap="#aclass_headspace_1_1_accuse_1_1_accuse_runner_a4ffcda912720c056d79cb4276e66c4b1_icgraph" alt=""/></div>
 <map name="aclass_headspace_1_1_accuse_1_1_accuse_runner_a4ffcda912720c056d79cb4276e66c4b1_icgraph" id="aclass_headspace_1_1_accuse_1_1_accuse_runner_a4ffcda912720c056d79cb4276e66c4b1_icgraph">
 <area shape="rect" title=" " alt="" coords="607,55,836,97"/>
-<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aa081fad60fc53cffb041ba1bdc3cdd5d" title=" " alt="" coords="330,55,559,97"/>
+<area shape="rect" href="class_headspace_1_1_accuse_1_1_accuse_runner.html#aa081fad60fc53cffb041ba1bdc3cdd5d" title="this updates the scene&#39;s variables based on what the current state is" alt="" coords="330,55,559,97"/>
 <area shape="poly" title=" " alt="" coords="591,79,559,79,559,73,591,73"/>
 <area shape="rect" href="class_pixel_crushers_1_1_dialogue_system_1_1_sequencer_commands_1_1_sequencer_command_accuse_no_match.html#a61d74d9a7488ea641a503c3cafba7c83" title=" " alt="" coords="5,5,282,64"/>
 <area shape="poly" title=" " alt="" coords="314,61,282,56,282,51,315,56"/>
@@ -564,6 +579,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>object to display the state during testing </p>
 
 </div>
@@ -663,6 +679,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>player health and suspect health </p>
 
 </div>
@@ -762,6 +779,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>what is the current statement we are looking at? </p>
 
 </div>
@@ -791,6 +809,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>which attack has been selected?? </p>
 
 </div>
@@ -806,7 +825,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the 4 possiuble attack statements. the aim is these are generated in the future </p>
+
+<p>the 4 possiuble attack statements. </p>
+<p>the aim is these are generated in the future </p>
 
 </div>
 </div>
@@ -821,6 +842,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>game objects for statements 1, 2, and 3 as well as the skip if you do not see inconsistancy in this particular statement </p>
 
 </div>
@@ -850,6 +872,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>what is the current stage of the accuse sequence? </p>
 
 </div>

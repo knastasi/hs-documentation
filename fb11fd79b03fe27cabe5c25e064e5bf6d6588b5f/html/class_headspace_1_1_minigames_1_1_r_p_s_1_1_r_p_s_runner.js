@@ -20,7 +20,6 @@ var class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner =
     [ "OnMindPress", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#abc87a6352c848f49415f564ece47bf57", null ],
     [ "OnRWinPress", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05eb4bdcc9ea797501317c72ab9cf08f", null ],
     [ "OnSelect", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#ada7e95839a577bb21a96d59b80eed608", null ],
-    [ "OnWinPress", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a05826ac283b0ebe4d43a2cd790c1a237", null ],
     [ "SetStrings", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#aea71f98139b1127ab158a8044b9f391c", null ],
     [ "UpdateState", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a35310ef0340aea2286d94aaccb38bade", null ],
     [ "curState", "class_headspace_1_1_minigames_1_1_r_p_s_1_1_r_p_s_runner.html#a908c9fd289a10cbe374f45e6768990e7", null ],

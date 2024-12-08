@@ -1,5 +1,5 @@
 <map id="Headspace.GameRunner.StageEnd" name="Headspace.GameRunner.StageEnd">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,235,40"/>
+<area shape="rect" id="Node000001" title="This is the method that kicks off the game&#39;s state machine to advance scenes." alt="" coords="5,13,235,40"/>
 <area shape="rect" id="Node000002" href="$class_headspace_1_1_game_runner.html#aa983767c6c85ec948a483090f9fffca7" title=" " alt="" coords="283,5,489,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,24,267,24,267,29,235,29"/>
 </map>
